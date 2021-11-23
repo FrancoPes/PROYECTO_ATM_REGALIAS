@@ -1,0 +1,11 @@
+{fecha: requerido,
+ hora: requerido,
+ instalacion: requerido,
+ medidor: requerido,
+ temperatura: requerido,
+ presion: requerido,
+ caudal_instantaneo_gross: opcional,
+ acumulador_gross_no_reseteable: opcional,
+ acumulador_pulsos_brutos_no_reseteable: requerido,
+ factor_k_del_medidor: opcional
+}

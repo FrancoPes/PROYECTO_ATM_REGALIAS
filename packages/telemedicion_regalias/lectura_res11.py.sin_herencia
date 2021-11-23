@@ -1,0 +1,236 @@
+
+import logging
+
+from sqlalchemy import Column, DateTime, ForeignKey, Index, text, inspect, func, Integer, Sequence, FetchedValue
+from sqlalchemy.dialects.oracle import NUMBER, VARCHAR
+from sqlalchemy.orm import relationship
+
+from .base import Base
+from sqlalchemy.ext.hybrid import hybrid_property
+
+from datetime import datetime
+import re
+from csv import reader, DictReader
+from abc import abstractstaticmethod
+
+
+
+
+class ArchivoLecturaRes11(Base):
+    __tablename__ = 'tlm_archivos_lectura_res11_cab'
+    __table_args__ = (
+        Index('un_nom_fec_baj', 'alc_nombre', 'alc_fecha_baja', unique=True),
+        {'schema': 'regalias'}
+    )
+
+    id = Column('alc_id', Integer, Sequence('seq_tlm_archivos_cab', schema='regalias'), primary_key=True)
+    medidor_id = Column('alc_mds_id', ForeignKey('regalias.tlm_medidores.mds_id'), comment='ID del medidor que genero el archivo')
+    _nombre = Column('alc_nombre', VARCHAR(80), nullable=False, comment='Nombre del archivo')
+    tamanio = Column('alc_tamanio', NUMBER(15, 2, True), server_default=text("0"), comment='Tamaño del archivo en bytes')
+    fecha_creacion = Column('alc_fecha_creacion', DateTime, comment='Fecha de creación del archivo por el medidor')
+    cantidad_registros = Column('alc_cantidad_registros', NUMBER(9, 0, False), server_default=text("0"), comment='Cantidad total de registros que contiene el archivo')
+    cantidad_registros_ok = Column('alc_cantidad_registros_ok', NUMBER(9, 0, False), server_default=text("0"), comment='Cantidad de registros procesados OK')
+    cantidad_registros_err = Column('alc_cantidad_registros_err', NUMBER(9, 0, False), server_default=text("0"), comment='Cantidad de registros procesados con ERROR')
+    hash = Column('alc_hash', VARCHAR(32), comment='Hash MD5 para verificar la integridad del archivo')
+    usuario_alta = Column('alc_usuario_alta', VARCHAR(128), nullable=False, server_default=FetchedValue())
+    fecha_alta = Column('alc_fecha_alta', DateTime, nullable=False, server_default=FetchedValue())
+    usuario_ult_mod = Column('alc_usuario_ult_mod', VARCHAR(128), nullable=False, server_default=FetchedValue(), server_onupdate=FetchedValue())
+    fecha_ult_mod = Column('alc_fecha_ult_mod', DateTime, nullable=False, server_default=FetchedValue(), server_onupdate=FetchedValue())
+    usuario_baja = Column('alc_usuario_baja', VARCHAR(128))
+    fecha_baja = Column('alc_fecha_baja', DateTime)
+    #Relaciones
+    medidor = relationship('Medidor')
+    Lecturas = relationship('DetalleLecturaRes11', back_populates='archivo')#, order_by='fecha_hora')
+    Errores = relationship('ErrorLecturaRes11', back_populates='archivo')
+
+
+    def __repr__(self):
+        return f"LineItems(id={self.id}, " \
+               f"_medidor_id={self._medidor_id}, " \
+               f"_nombre={self._nombre}, " \
+               f"_tamanio={self._tamanio})"
+
+   
+    @hybrid_property
+    def nombre(self):
+        return self._nombre
+
+    @nombre.setter
+    def nombre(self, value):
+        #Formato del nombre del archivo:
+        #   {prefijo}_{instalación}_{ramal}_{ddmmyyyy}_res11_dir_regalias.txt
+        if (value == ""):
+            raise ValueError("El nombre del archivo no puede ser vacío")
+        self._nombre = value
+
+   
+    @hybrid_property   
+    def ramal(self):
+        """Devuelve el ramal al que pertenece el archivo obteniéndolo de su nombre, para operaciones a nivel de instancia"""
+        ramal = None
+        if (self._nombre):
+            #La expresión regular parte el nombre en tres grupos, el segundo es el ramal
+            matchRamal = re.match(r"(.+_)([0-9]+)(_[0-9]{8}_res11_dir_regalias.txt)", self.nombre, re.IGNORECASE)
+            if (matchRamal):
+                ramal = matchRamal.group(2)
+        return ramal
+    
+    @ramal.expression
+    def ramal(cls):
+        """Devuelve el ramal al que pertenece el archivo obteniéndolo de su nombre, para operaciones a nivel de clase"""
+        return func.regexp_substr(cls.nombre, '(.+_)([0-9]+)(_[0-9]{8}_res11_dir_regalias.txt)', 1, 1, 'i', 2)
+        
+    
+    def getUltimaLectura(self):
+        """Retorna la fecha y hora de la mayor lectura para de este archivo, si no hay ninguna devuelve None"""
+        #TODO: Revisar la recuperacion de la última fecha desde la tabla de lecturas
+        session = inspect(self).session
+        ultimaLectura = session.query(func.max(DetalleLecturaRes11.fecha_hora)).filter(DetalleLecturaRes11.cabecera_id == self.id,
+                                                                                       DetalleLecturaRes11.fecha_baja == None
+                                      ).scalar()
+        return ultimaLectura
+
+
+    def getFechaProximaLectura(self):
+        pass
+     
+     
+    def parsearLinea(self):
+        pass
+        
+    def importarLecturas(self, archivo):
+        """ """
+        tupleFieldnames = ('fecha', 'hora', 'instalacion', 'medidor', 'temperatura', 'presion', 'caudal_instantaneo_gross', 
+                           'acumulador_gross_no_resete', 'acumulador_pusos_brutos_no', 'factor_k_del_medidor', 'altura_liquida', 
+                           'acumulador_masa_no_resete', 'volumen_acumulado_24_hs', 'volumen_acumulado_hoy', 'sh2', 'n2', 
+                           'c6_mas', 'nc5', 'densidad_relativa', 'co2', 'caudal_instantaneo_a_9300', 'c1', 'c2', 'c3', 'ic4', 
+                           'nc4', 'ic5', 'poder_calorifico')
+        
+           
+        ultimaLectura = self.getUltimaLectura()
+#       with open(localFilename, mode='r', encoding='iso-8859-1') as f:
+        with archivo.open(mode='r', errors='replace') as csvFile:
+            #Saltear la cabecera
+            next(csvFile)
+            lecturasReader = DictReader(csvFile, fieldnames=tupleFieldnames, restval='', delimiter=';')
+            #La variable siguenMayores indica que a partir de que se encontró un valor posterior, todo lo que sigue debería ser posterior
+            siguenMayores = False
+            for row in lecturasReader:
+                fecha_hora = datetime.strptime(f"{row['fecha']} {row['hora']}", f"{self.medidor.formatoFecha} {self.medidor.formatoHora}")
+                if (not ultimaLectura) or (fecha_hora > ultimaLectura):
+                    #A parir de ahora todas las lecturas deberían ser posteriores a la última lectura
+                    siguenMayores = True
+                    print(';'.join(row.values()))
+                    logging.debug(f"Parseando lectura {row}")
+                    #TODO: parsear la fila del archivo
+                    logging.debug(f"fecha: {row['fecha']}")
+                    logging.debug(f"hora: {row['hora']}")
+                    logging.debug(f"instalacion: {row['instalacion']}")
+                    logging.debug(f"medidor: {row['medidor']}")
+                    logging.debug(f"temperatura: {row['temperatura']}")
+                    logging.debug(f"presion: {row['presion']}")
+                    logging.debug(f"caudal_instantaneo_gross: {row['caudal_instantaneo_gross']}")
+                    logging.debug(f"acumulador_gross_no_resete: {row['acumulador_gross_no_resete']}")
+                    logging.debug(f"acumulador_pusos_brutos_no: {row['acumulador_pusos_brutos_no']}")
+                    logging.debug(f"factor_k_del_medidor: {row['factor_k_del_medidor']}")
+                    logging.debug(f"altura_liquida: {row['altura_liquida']}")
+                    logging.debug(f"acumulador_masa_no_resete: {row['acumulador_masa_no_resete']}")
+                    logging.debug(f"volumen_acumulado_24_hs: {row['volumen_acumulado_24_hs']}")
+                    logging.debug(f"volumen_acumulado_hoy: {row['volumen_acumulado_hoy']}")
+                    logging.debug(f"sh2: {row['sh2']}")
+                    logging.debug(f"poder_calorifico: {row['poder_calorifico']}")
+                    
+#                    logging.debug(f"Insertando lectura en la DB...")
+                    #TODO:Insertar en la DB        
+                    
+                    ultimaLectura = fecha_hora
+                else:
+                    if siguenMayores:
+                        logging.error('La fecha y hora de esta línea debería ser posterior que la anterior')
+
+
+
+
+
+
+class DetalleLecturaRes11(Base):
+    __tablename__ = 'tlm_archivos_lectura_res11_det'
+    __table_args__ = (
+        Index('un_alc_fecha_hora_fec_baj', 'ald_alc_id', 'ald_fecha_hora', 'ald_fecha_baja', unique=True),
+        Index('un_inst_med_fecha_hora_fec_baj', 'ald_instalacion', 'ald_medidor', 'ald_fecha_hora', 'ald_fecha_baja', unique=True),
+        {'schema': 'regalias'}
+    )
+
+    id = Column('ald_id', Integer, Sequence('seq_tlm_archivos_det', schema='regalias'),primary_key=True)
+    cabecera_id = Column('ald_alc_id', ForeignKey('regalias.tlm_archivos_lectura_res11_cab.alc_id'), nullable=False)
+    fecha_hora = Column('ald_fecha_hora', DateTime, nullable=False)
+    instalacion = Column('ald_instalacion', VARCHAR(20), nullable=False, comment='Verificar la existencia en la tabla TLM_MEDIDORES_FISCALES')
+    medidor = Column('ald_medidor', VARCHAR(10), nullable=False)
+    temperatura = Column('ald_temperatura', NUMBER(9, 2, True))
+    presion = Column('ald_presion', NUMBER(9, 2, True))
+    caudal_instantaneo_gross = Column('ald_caudal_instantaneo_gross', NUMBER(9, 0, False))
+    acumulador_gross_no_resete = Column('ald_acumulador_gross_no_resete', NUMBER(9, 0, False))
+    acumulador_pusos_brutos_no = Column('ald_acumulador_pusos_brutos_no', NUMBER(9, 0, False))
+    factor_k_del_medidor = Column('ald_factor_k_del_medidor', NUMBER(9, 0, False))
+    altura_liquida = Column('ald_altura_liquida', NUMBER(9, 2, True))
+    acumulador_masa_no_resete = Column('ald_acumulador_masa_no_resete', NUMBER(9, 0, False))
+    volumen_acumulado_24_hs = Column('ald_volumen_acumulado_24_hs', NUMBER(9, 3, True))
+    volumen_acumulado_hoy = Column('ald_volumen_acumulado_hoy', NUMBER(9, 3, True))
+    sh2 = Column('ald_sh2', NUMBER(9, 2, True))
+    n2 = Column('ald_n2', NUMBER(9, 2, True))
+    c6_mas = Column('ald_c6_mas', NUMBER(9, 2, True))
+    nc5 = Column('ald_nc5', NUMBER(9, 2, True))
+    densidad_relativa = Column('ald_densidad_relativa', NUMBER(12, 5, True))
+    co2 = Column('ald_co2', NUMBER(9, 2, True))
+    caudal_instantaneo_a_9300 = Column('ald_caudal_instantaneo_a_9300', NUMBER(9, 0, False))
+    c1 = Column('ald_c1', NUMBER(9, 2, True))
+    c2 = Column('ald_c2', NUMBER(9, 2, True))
+    c3 = Column('ald_c3', NUMBER(9, 2, True))
+    ic4 = Column('ald_ic4', NUMBER(9, 2, True))
+    nc4 = Column('ald_nc4', NUMBER(9, 2, True))
+    ic5 = Column('ald_ic5', NUMBER(9, 0, False))
+    poder_calorifico = Column('ald_poder_calorifico', NUMBER(9, 0, False))
+    usuario_alta = Column('ald_usuario_alta', VARCHAR(128), nullable=False, server_default=FetchedValue())
+    fecha_alta = Column('ald_fecha_alta', DateTime, nullable=False, server_default=FetchedValue())
+    usuario_ult_mod = Column('ald_usuario_ult_mod', VARCHAR(128), nullable=False, server_default=FetchedValue(), server_onupdate=FetchedValue())
+    fecha_ult_mod = Column('ald_fecha_ult_mod', DateTime, nullable=False, server_default=FetchedValue(), server_onupdate=FetchedValue())
+    usuario_baja = Column('ald_usuario_baja', VARCHAR(128))
+    fecha_baja = Column('ald_fecha_baja', DateTime)
+    #Relaciones
+    archivo = relationship('ArchivoLecturaRes11', back_populates='Lecturas')
+
+    @staticmethod
+    def getTupleFieldnames(self):
+        """Retorna una tupla con los nombres de campos del registro que contienen los archivos de lectura"""
+        tupleFieldnames = ('fecha_hora', 'instalacion', 'medidor', 'temperatura', 'presion', 'caudal_instantaneo_gross', 
+                           'acumulador_gross_no_resete', 'acumulador_pusos_brutos_no', 'factor_k_del_medidor', 'altura_liquida', 
+                           'acumulador_masa_no_resete', 'volumen_acumulado_24_hs', 'volumen_acumulado_hoy', 'sh2', 'n2', 
+                           'c6_mas', 'nc5', 'densidad_relativa', 'co2', 'caudal_instantaneo_a_9300', 'c1', 'c2', 'c3', 'ic4', 
+                           'nc4', 'ic5', 'poder_calorifico')
+        return tupleFieldnames
+    
+    
+
+
+
+
+    
+
+class ErrorLecturaRes11(Base):
+    __tablename__ = 'tlm_archivos_lectura_res11_err'
+    __table_args__ = {'schema': 'regalias'}
+
+    id = Column('ale_id', Integer, Sequence('seq_tlm_archivos_err', schema='regalias'),primary_key=True)
+    cabecera_id = Column('ale_alc_id', ForeignKey('regalias.tlm_archivos_lectura_res11_cab.alc_id'), nullable=False, index=True)
+    registro = Column('ale_registro', VARCHAR(1000), nullable=False)
+    nro_linea_error = Column('ale_nro_linea_error', NUMBER(9, 0, False), nullable=False)
+    mensaje_error = Column('ale_mensaje_error', VARCHAR(1000), nullable=False)
+    usuario_alta = Column('ale_usuario_alta', VARCHAR(128), nullable=False, server_default=FetchedValue())
+    fecha_alta = Column('ale_fecha_alta', DateTime, nullable=False, server_default=FetchedValue())
+    usuario_ult_mod = Column('ale_usuario_ult_mod', VARCHAR(128), nullable=False, server_default=FetchedValue(), server_onupdate=FetchedValue())
+    fecha_ult_mod = Column('ale_fecha_ult_mod', DateTime, nullable=False, server_default=FetchedValue(), server_onupdate=FetchedValue())
+    usuario_baja = Column('ale_usuario_baja', VARCHAR(128))
+    fecha_baja = Column('ale_fecha_baja', DateTime)
+    #Relaciones
+    archivo = relationship('ArchivoLecturaRes11', back_populates='Errores')
+

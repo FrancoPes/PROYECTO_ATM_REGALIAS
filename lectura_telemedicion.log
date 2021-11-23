@@ -1,0 +1,1805 @@
+16/11/21 08:30 INFO     Proceso de lecturas del Sistema de Telemedición
+16/11/21 08:30 INFO     Cantidad de archivos a procesar: 58
+16/11/21 08:30 INFO     ------------------------------------------------------------------------------------------
+16/11/21 08:30 INFO     Procesando Empresa CHAÑARES HERRADOS SA                                                            
+16/11/21 08:30 INFO     skipping
+16/11/21 08:30 INFO     ------------------------------------------------------------------------------------------
+16/11/21 08:30 INFO     Procesando Empresa G Y G INGENIERÍA Y MEDIO AMBIENTE S.A.                                          
+16/11/21 08:30 WARNING  No existe conexión definida
+16/11/21 08:30 INFO     ------------------------------------------------------------------------------------------
+16/11/21 08:30 INFO     Procesando Empresa GRECOIL Y CIA SRL                                                               
+16/11/21 08:30 WARNING  No existe conexión definida
+16/11/21 08:30 INFO     ------------------------------------------------------------------------------------------
+16/11/21 08:30 INFO     Procesando Empresa PETROLERA EL TREBOL SA                                                          
+16/11/21 08:30 DEBUG    Estableciendo conexión SFTP (host:201.234.99.146, port:22, user:regalias, pass:********)
+16/11/21 08:33 ERROR    Error al establecer la conexión SFTP (error: Unable to connect to 201.234.99.146: [Errno 110] Connection timed out)
+16/11/21 09:34 INFO     Proceso de lecturas del Sistema de Telemedición
+16/11/21 09:35 INFO     Cantidad de archivos a procesar: 58
+16/11/21 09:35 INFO     ------------------------------------------------------------------------------------------
+16/11/21 09:35 INFO     Procesando Empresa CHAÑARES HERRADOS SA                                                            
+16/11/21 09:35 INFO     skipping
+16/11/21 09:35 INFO     ------------------------------------------------------------------------------------------
+16/11/21 09:35 INFO     Procesando Empresa G Y G INGENIERÍA Y MEDIO AMBIENTE S.A.                                          
+16/11/21 09:35 WARNING  No existe conexión definida
+16/11/21 09:35 INFO     ------------------------------------------------------------------------------------------
+16/11/21 09:35 INFO     Procesando Empresa GRECOIL Y CIA SRL                                                               
+16/11/21 09:35 WARNING  No existe conexión definida
+16/11/21 09:35 INFO     ------------------------------------------------------------------------------------------
+16/11/21 09:35 INFO     Procesando Empresa PETROLERA EL TREBOL SA                                                          
+16/11/21 09:35 DEBUG    Estableciendo conexión SFTP (host:201.234.99.146, port:22, user:regalias, pass:********)
+16/11/21 09:37 ERROR    Error al establecer la conexión SFTP (error: Unable to connect to 201.234.99.146: [Errno 110] Connection timed out)
+16/11/21 11:18 INFO     Proceso de lecturas del Sistema de Telemedición
+16/11/21 11:18 INFO     Cantidad de archivos a procesar: 58
+16/11/21 11:18 INFO     ------------------------------------------------------------------------------------------
+16/11/21 11:18 INFO     Procesando Empresa CHAÑARES HERRADOS SA                                                            
+16/11/21 11:18 INFO     skipping
+16/11/21 11:18 INFO     ------------------------------------------------------------------------------------------
+16/11/21 11:18 INFO     Procesando Empresa G Y G INGENIERÍA Y MEDIO AMBIENTE S.A.                                          
+16/11/21 11:18 WARNING  No existe conexión definida
+16/11/21 11:18 INFO     ------------------------------------------------------------------------------------------
+16/11/21 11:18 INFO     Procesando Empresa GRECOIL Y CIA SRL                                                               
+16/11/21 11:18 WARNING  No existe conexión definida
+16/11/21 11:18 INFO     ------------------------------------------------------------------------------------------
+16/11/21 11:18 INFO     Procesando Empresa PETROLERA EL TREBOL SA                                                          
+16/11/21 11:18 INFO     ------------------------------------------------------------------------------------------
+16/11/21 11:18 INFO     Procesando Empresa PETROQUIMICA COMODORO RIVADAVIA SA                                              
+16/11/21 11:18 INFO     ------------------------------------------------------------------------------------------
+16/11/21 11:18 INFO     Procesando Empresa PLUSPETROL S.A                                                                  
+16/11/21 11:18 INFO     ------------------------------------------------------------------------------------------
+16/11/21 11:18 INFO     Procesando Empresa ROCH S.A                                                                        
+16/11/21 11:18 INFO     ------------------------------------------------------------------------------------------
+16/11/21 11:18 INFO     Procesando Empresa SAN JORGE PETROLEUM S.A                                                         
+16/11/21 11:18 INFO     ------------------------------------------------------------------------------------------
+16/11/21 11:18 INFO     Procesando Empresa SINOPEC ARGENTINA EXPLORATION AND PRODUCTION INC                                
+16/11/21 11:18 INFO     ------------------------------------------------------------------------------------------
+16/11/21 11:18 INFO     Procesando Empresa YPF SA                                                                          
+16/11/21 12:06 INFO     Proceso de lecturas del Sistema de Telemedición
+16/11/21 12:06 INFO     Cantidad de archivos a procesar: 58
+16/11/21 12:06 INFO     ------------------------------------------------------------------------------------------
+16/11/21 12:06 INFO     Procesando Empresa CHAÑARES HERRADOS SA                                                            
+16/11/21 12:06 DEBUG    Empresa con conexion
+16/11/21 12:06 DEBUG    skipping
+16/11/21 12:06 INFO     ------------------------------------------------------------------------------------------
+16/11/21 12:06 INFO     Procesando Empresa G Y G INGENIERÍA Y MEDIO AMBIENTE S.A.                                          
+16/11/21 12:06 WARNING  No existe conexión definida
+16/11/21 12:06 INFO     ------------------------------------------------------------------------------------------
+16/11/21 12:06 INFO     Procesando Empresa GRECOIL Y CIA SRL                                                               
+16/11/21 12:06 WARNING  No existe conexión definida
+16/11/21 12:06 INFO     ------------------------------------------------------------------------------------------
+16/11/21 12:06 INFO     Procesando Empresa PETROLERA EL TREBOL SA                                                          
+16/11/21 12:06 DEBUG    Empresa con conexion
+16/11/21 12:06 DEBUG    Se descarta ya que el protocolo es: SFTP
+16/11/21 12:06 INFO     ------------------------------------------------------------------------------------------
+16/11/21 12:06 INFO     Procesando Empresa PETROQUIMICA COMODORO RIVADAVIA SA                                              
+16/11/21 12:06 DEBUG    Empresa con conexion
+16/11/21 12:06 DEBUG    Se descarta ya que el protocolo es: FTPS
+16/11/21 12:06 INFO     ------------------------------------------------------------------------------------------
+16/11/21 12:06 INFO     Procesando Empresa PLUSPETROL S.A                                                                  
+16/11/21 12:06 DEBUG    Empresa con conexion
+16/11/21 12:06 DEBUG    Se descarta ya que el protocolo es: SFTP
+16/11/21 12:06 INFO     ------------------------------------------------------------------------------------------
+16/11/21 12:06 INFO     Procesando Empresa ROCH S.A                                                                        
+16/11/21 12:06 DEBUG    Empresa con conexion
+16/11/21 12:06 DEBUG    Se descarta ya que el protocolo es: SFTP
+16/11/21 12:06 INFO     ------------------------------------------------------------------------------------------
+16/11/21 12:06 INFO     Procesando Empresa SAN JORGE PETROLEUM S.A                                                         
+16/11/21 12:06 DEBUG    Empresa con conexion
+16/11/21 12:06 DEBUG    Se descarta ya que el protocolo es: SFTP
+16/11/21 12:06 INFO     ------------------------------------------------------------------------------------------
+16/11/21 12:06 INFO     Procesando Empresa SINOPEC ARGENTINA EXPLORATION AND PRODUCTION INC                                
+16/11/21 12:06 DEBUG    Empresa con conexion
+16/11/21 12:06 DEBUG    Se descarta ya que el protocolo es: FTPES
+16/11/21 12:06 INFO     ------------------------------------------------------------------------------------------
+16/11/21 12:06 INFO     Procesando Empresa YPF SA                                                                          
+16/11/21 12:06 DEBUG    Empresa con conexion
+16/11/21 12:06 DEBUG    Se descarta ya que el protocolo es: SFTP
+16/11/21 12:06 INFO     Proceso de lecturas del Sistema de Telemedición
+16/11/21 12:06 INFO     Cantidad de archivos a procesar: 58
+16/11/21 12:06 INFO     ------------------------------------------------------------------------------------------
+16/11/21 12:06 INFO     Procesando Empresa CHAÑARES HERRADOS SA                                                            
+16/11/21 12:06 DEBUG    Empresa con conexion
+16/11/21 12:06 DEBUG    skipping
+16/11/21 12:06 INFO     ------------------------------------------------------------------------------------------
+16/11/21 12:06 INFO     Procesando Empresa G Y G INGENIERÍA Y MEDIO AMBIENTE S.A.                                          
+16/11/21 12:06 WARNING  No existe conexión definida
+16/11/21 12:06 INFO     ------------------------------------------------------------------------------------------
+16/11/21 12:06 INFO     Procesando Empresa GRECOIL Y CIA SRL                                                               
+16/11/21 12:06 WARNING  No existe conexión definida
+16/11/21 12:06 INFO     ------------------------------------------------------------------------------------------
+16/11/21 12:06 INFO     Procesando Empresa PETROLERA EL TREBOL SA                                                          
+16/11/21 12:06 DEBUG    Empresa con conexion
+16/11/21 12:06 DEBUG    Se descarta ya que el protocolo es: SFTP
+16/11/21 12:06 INFO     ------------------------------------------------------------------------------------------
+16/11/21 12:06 INFO     Procesando Empresa PETROQUIMICA COMODORO RIVADAVIA SA                                              
+16/11/21 12:06 DEBUG    Empresa con conexion
+16/11/21 12:06 DEBUG    Se descarta ya que el protocolo es: FTPS
+16/11/21 12:06 INFO     ------------------------------------------------------------------------------------------
+16/11/21 12:06 INFO     Procesando Empresa PLUSPETROL S.A                                                                  
+16/11/21 12:06 DEBUG    Empresa con conexion
+16/11/21 12:06 DEBUG    Se descarta ya que el protocolo es: SFTP
+16/11/21 12:06 INFO     ------------------------------------------------------------------------------------------
+16/11/21 12:06 INFO     Procesando Empresa ROCH S.A                                                                        
+16/11/21 12:06 DEBUG    Empresa con conexion
+16/11/21 12:06 DEBUG    Se descarta ya que el protocolo es: SFTP
+16/11/21 12:06 INFO     ------------------------------------------------------------------------------------------
+16/11/21 12:06 INFO     Procesando Empresa SAN JORGE PETROLEUM S.A                                                         
+16/11/21 12:06 DEBUG    Empresa con conexion
+16/11/21 12:06 DEBUG    Se descarta ya que el protocolo es: SFTP
+16/11/21 12:06 INFO     ------------------------------------------------------------------------------------------
+16/11/21 12:06 INFO     Procesando Empresa SINOPEC ARGENTINA EXPLORATION AND PRODUCTION INC                                
+16/11/21 12:06 DEBUG    Empresa con conexion
+16/11/21 12:06 DEBUG    Se descarta ya que el protocolo es: FTPES
+16/11/21 12:06 INFO     ------------------------------------------------------------------------------------------
+16/11/21 12:06 INFO     Procesando Empresa YPF SA                                                                          
+16/11/21 12:06 DEBUG    Empresa con conexion
+16/11/21 12:06 DEBUG    Se descarta ya que el protocolo es: SFTP
+16/11/21 12:07 INFO     Proceso de lecturas del Sistema de Telemedición
+16/11/21 12:07 INFO     Cantidad de archivos a procesar: 58
+16/11/21 12:07 INFO     ------------------------------------------------------------------------------------------
+16/11/21 12:07 INFO     Procesando Empresa CHAÑARES HERRADOS SA                                                            
+16/11/21 12:07 DEBUG    Empresa con conexion
+16/11/21 12:07 DEBUG    Estableciendo conexión FTP (host:167.114.150.232, port:21, user:reg11_17@chasa.com.ar, pass:********)
+16/11/21 12:07 ERROR    530 Login authentication failed
+17/11/21 12:20 INFO     Proceso de lecturas del Sistema de Telemedición
+17/11/21 12:20 INFO     Cantidad de archivos a procesar: None
+17/11/21 12:21 INFO     Proceso de lecturas del Sistema de Telemedición
+17/11/21 12:21 INFO     Cantidad de archivos a procesar: None
+17/11/21 12:22 INFO     Proceso de lecturas del Sistema de Telemedición
+17/11/21 12:22 INFO     Cantidad de archivos a procesar: None
+17/11/21 12:23 INFO     Proceso de lecturas del Sistema de Telemedición
+17/11/21 12:23 INFO     Cantidad de archivos a procesar: None
+17/11/21 12:25 INFO     Proceso de lecturas del Sistema de Telemedición
+17/11/21 12:25 INFO     Cantidad de archivos a procesar: None
+17/11/21 12:28 INFO     Proceso de lecturas del Sistema de Telemedición
+17/11/21 12:28 INFO     Cantidad de archivos a procesar: None
+17/11/21 12:31 INFO     Proceso de lecturas del Sistema de Telemedición
+17/11/21 12:31 INFO     Cantidad de archivos a procesar: None
+17/11/21 12:34 INFO     Proceso de lecturas del Sistema de Telemedición
+17/11/21 12:34 INFO     Cantidad de archivos a procesar: None
+17/11/21 12:35 INFO     Proceso de lecturas del Sistema de Telemedición
+17/11/21 12:35 INFO     Cantidad de archivos a procesar: None
+17/11/21 13:39 INFO     Proceso de lecturas del Sistema de Telemedición
+17/11/21 13:39 INFO     Cantidad de archivos a procesar: None
+17/11/21 13:40 INFO     Proceso de lecturas del Sistema de Telemedición
+17/11/21 13:40 INFO     SELECT USER FROM DUAL
+17/11/21 13:40 INFO     {}
+17/11/21 13:40 DEBUG    Col ('USER',)
+17/11/21 13:40 DEBUG    Row ('DBATTEZZATI',)
+17/11/21 13:40 INFO     SELECT CAST('test plain returns' AS VARCHAR(60 CHAR)) AS anon_1 FROM DUAL
+17/11/21 13:40 INFO     {}
+17/11/21 13:40 INFO     SELECT CAST('test unicode returns' AS VARCHAR2(60 CHAR)) AS anon_1 FROM DUAL
+17/11/21 13:40 INFO     {}
+17/11/21 13:40 INFO     SELECT CAST('test nvarchar2 returns' AS NVARCHAR2(60)) AS anon_1 FROM DUAL
+17/11/21 13:40 INFO     {}
+17/11/21 13:40 INFO     SELECT value FROM v$parameter WHERE name = 'compatible'
+17/11/21 13:40 INFO     {}
+17/11/21 13:40 INFO     select value from nls_session_parameters where parameter = 'NLS_NUMERIC_CHARACTERS'
+17/11/21 13:40 INFO     {}
+17/11/21 13:40 DEBUG    Col ('VALUE',)
+17/11/21 13:40 DEBUG    Row ('.,',)
+17/11/21 13:40 INFO     BEGIN (implicit)
+17/11/21 13:40 INFO     SELECT sum(regalias.tremedfiscal.remedfiscntramal) AS sum_1 
+FROM regalias.tremedfiscal 
+WHERE regalias.tremedfiscal.remedfisfecbaj IS NULL
+17/11/21 13:40 INFO     {}
+17/11/21 13:40 DEBUG    Col ('SUM_1',)
+17/11/21 13:40 DEBUG    Row (None,)
+17/11/21 13:40 INFO     Cantidad de archivos a procesar: None
+17/11/21 13:40 INFO     SELECT regalias.treempresa.reempid AS regalias_treempresa_reem_1, regalias.treempresa.reempcuit AS regalias_treempresa_reem_2, regalias.treempresa.reempcod AS regalias_treempresa_reem_3, regalias.treempresa.reempnom AS regalias_treempresa_reem_4, regalias.treempresa.reemptel AS regalias_treempresa_reem_5, regalias.treempresa.reempmai AS regalias_treempresa_reem_6, regalias.treempresa.reempsit AS regalias_treempresa_reem_7, regalias.treempresa.reempobs AS regalias_treempresa_reem_8, regalias.treempresa.reempfchalt AS regalias_treempresa_reem_9, regalias.treempresa.reempusualt AS regalias_treempresa_reem_a, regalias.treempresa.reempfchmod AS regalias_treempresa_reem_b, regalias.treempresa.reempusumod AS regalias_treempresa_reem_c, regalias.treempresa.reempfchbaj AS regalias_treempresa_reem_d, regalias.treempresa.reempusubaj AS regalias_treempresa_reem_e, regalias.treempresa.retipempid AS regalias_treempresa_reti_f, regalias.treempresa.reempcartel AS regalias_treempresa_reem_10, regalias.treempresa.reempultlin AS regalias_treempresa_reem_11, regalias.treempresa.reempvighas AS regalias_treempresa_reem_12, regalias.treempresa.reempvigdes AS regalias_treempresa_reem_13, regalias.treempresa.reempdespag AS regalias_treempresa_reem_14 
+FROM regalias.treempresa 
+WHERE EXISTS (SELECT 1 
+FROM regalias.tremedfiscal 
+WHERE regalias.treempresa.reempid = regalias.tremedfiscal.reempresaid) ORDER BY regalias.treempresa.reempnom
+17/11/21 13:40 INFO     {}
+17/11/21 13:40 DEBUG    Col ('REGALIAS_TREEMPRESA_REEM_1', 'REGALIAS_TREEMPRESA_REEM_2', 'REGALIAS_TREEMPRESA_REEM_3', 'REGALIAS_TREEMPRESA_REEM_4', 'REGALIAS_TREEMPRESA_REEM_5', 'REGALIAS_TREEMPRESA_REEM_6', 'REGALIAS_TREEMPRESA_REEM_7', 'REGALIAS_TREEMPRESA_REEM_8', 'REGALIAS_TREEMPRESA_REEM_9', 'REGALIAS_TREEMPRESA_REEM_A', 'REGALIAS_TREEMPRESA_REEM_B', 'REGALIAS_TREEMPRESA_REEM_C', 'REGALIAS_TREEMPRESA_REEM_D', 'REGALIAS_TREEMPRESA_REEM_E', 'REGALIAS_TREEMPRESA_RETI_F', 'REGALIAS_TREEMPRESA_REEM_10', 'REGALIAS_TREEMPRESA_REEM_11', 'REGALIAS_TREEMPRESA_REEM_12', 'REGALIAS_TREEMPRESA_REEM_13', 'REGALIAS_TREEMPRESA_REEM_14')
+17/11/21 14:03 INFO     Proceso de lecturas del Sistema de Telemedición
+17/11/21 14:03 INFO     SELECT USER FROM DUAL
+17/11/21 14:03 INFO     {}
+17/11/21 14:03 DEBUG    Col ('USER',)
+17/11/21 14:03 DEBUG    Row ('DBATTEZZATI',)
+17/11/21 14:03 INFO     SELECT CAST('test plain returns' AS VARCHAR(60 CHAR)) AS anon_1 FROM DUAL
+17/11/21 14:03 INFO     {}
+17/11/21 14:03 INFO     SELECT CAST('test unicode returns' AS VARCHAR2(60 CHAR)) AS anon_1 FROM DUAL
+17/11/21 14:03 INFO     {}
+17/11/21 14:03 INFO     SELECT CAST('test nvarchar2 returns' AS NVARCHAR2(60)) AS anon_1 FROM DUAL
+17/11/21 14:03 INFO     {}
+17/11/21 14:03 INFO     SELECT value FROM v$parameter WHERE name = 'compatible'
+17/11/21 14:03 INFO     {}
+17/11/21 14:03 INFO     select value from nls_session_parameters where parameter = 'NLS_NUMERIC_CHARACTERS'
+17/11/21 14:03 INFO     {}
+17/11/21 14:03 DEBUG    Col ('VALUE',)
+17/11/21 14:03 DEBUG    Row ('.,',)
+17/11/21 14:03 INFO     BEGIN (implicit)
+17/11/21 14:03 INFO     SELECT sum(regalias.tremedfiscal.remedfiscntramal) AS sum_1 
+FROM regalias.tremedfiscal 
+WHERE regalias.tremedfiscal.remedfisfecbaj IS NULL
+17/11/21 14:03 INFO     {}
+17/11/21 14:03 DEBUG    Col ('SUM_1',)
+17/11/21 14:03 DEBUG    Row (None,)
+17/11/21 14:03 INFO     Cantidad de archivos a procesar: None
+17/11/21 14:03 INFO     SELECT regalias.treempresa.reempid AS regalias_treempresa_reem_1, regalias.treempresa.reempcuit AS regalias_treempresa_reem_2, regalias.treempresa.reempcod AS regalias_treempresa_reem_3, regalias.treempresa.reempnom AS regalias_treempresa_reem_4, regalias.treempresa.reemptel AS regalias_treempresa_reem_5, regalias.treempresa.reempmai AS regalias_treempresa_reem_6, regalias.treempresa.reempsit AS regalias_treempresa_reem_7, regalias.treempresa.reempobs AS regalias_treempresa_reem_8, regalias.treempresa.reempfchalt AS regalias_treempresa_reem_9, regalias.treempresa.reempusualt AS regalias_treempresa_reem_a, regalias.treempresa.reempfchmod AS regalias_treempresa_reem_b, regalias.treempresa.reempusumod AS regalias_treempresa_reem_c, regalias.treempresa.reempfchbaj AS regalias_treempresa_reem_d, regalias.treempresa.reempusubaj AS regalias_treempresa_reem_e, regalias.treempresa.retipempid AS regalias_treempresa_reti_f, regalias.treempresa.reempcartel AS regalias_treempresa_reem_10, regalias.treempresa.reempultlin AS regalias_treempresa_reem_11, regalias.treempresa.reempvighas AS regalias_treempresa_reem_12, regalias.treempresa.reempvigdes AS regalias_treempresa_reem_13, regalias.treempresa.reempdespag AS regalias_treempresa_reem_14 
+FROM regalias.treempresa 
+WHERE EXISTS (SELECT 1 
+FROM regalias.tremedfiscal 
+WHERE regalias.treempresa.reempid = regalias.tremedfiscal.reempresaid) ORDER BY regalias.treempresa.reempnom
+17/11/21 14:03 INFO     {}
+17/11/21 14:03 DEBUG    Col ('REGALIAS_TREEMPRESA_REEM_1', 'REGALIAS_TREEMPRESA_REEM_2', 'REGALIAS_TREEMPRESA_REEM_3', 'REGALIAS_TREEMPRESA_REEM_4', 'REGALIAS_TREEMPRESA_REEM_5', 'REGALIAS_TREEMPRESA_REEM_6', 'REGALIAS_TREEMPRESA_REEM_7', 'REGALIAS_TREEMPRESA_REEM_8', 'REGALIAS_TREEMPRESA_REEM_9', 'REGALIAS_TREEMPRESA_REEM_A', 'REGALIAS_TREEMPRESA_REEM_B', 'REGALIAS_TREEMPRESA_REEM_C', 'REGALIAS_TREEMPRESA_REEM_D', 'REGALIAS_TREEMPRESA_REEM_E', 'REGALIAS_TREEMPRESA_RETI_F', 'REGALIAS_TREEMPRESA_REEM_10', 'REGALIAS_TREEMPRESA_REEM_11', 'REGALIAS_TREEMPRESA_REEM_12', 'REGALIAS_TREEMPRESA_REEM_13', 'REGALIAS_TREEMPRESA_REEM_14')
+17/11/21 14:04 INFO     Proceso de lecturas del Sistema de Telemedición
+17/11/21 14:04 INFO     Cantidad de archivos a procesar: None
+17/11/21 14:07 INFO     Proceso de lecturas del Sistema de Telemedición
+17/11/21 14:07 INFO     SELECT USER FROM DUAL
+17/11/21 14:07 INFO     {}
+17/11/21 14:07 DEBUG    Col ('USER',)
+17/11/21 14:07 DEBUG    Row ('DBATTEZZATI',)
+17/11/21 14:07 INFO     SELECT CAST('test plain returns' AS VARCHAR(60 CHAR)) AS anon_1 FROM DUAL
+17/11/21 14:07 INFO     {}
+17/11/21 14:07 INFO     SELECT CAST('test unicode returns' AS VARCHAR2(60 CHAR)) AS anon_1 FROM DUAL
+17/11/21 14:07 INFO     {}
+17/11/21 14:07 INFO     SELECT CAST('test nvarchar2 returns' AS NVARCHAR2(60)) AS anon_1 FROM DUAL
+17/11/21 14:07 INFO     {}
+17/11/21 14:07 INFO     SELECT value FROM v$parameter WHERE name = 'compatible'
+17/11/21 14:07 INFO     {}
+17/11/21 14:07 INFO     select value from nls_session_parameters where parameter = 'NLS_NUMERIC_CHARACTERS'
+17/11/21 14:07 INFO     {}
+17/11/21 14:07 DEBUG    Col ('VALUE',)
+17/11/21 14:07 DEBUG    Row ('.,',)
+17/11/21 14:07 INFO     BEGIN (implicit)
+17/11/21 14:07 INFO     SELECT sum(regalias.tremedfiscal.remedfiscntramal) AS sum_1 
+FROM regalias.tremedfiscal 
+WHERE regalias.tremedfiscal.remedfisfecbaj IS NULL
+17/11/21 14:07 INFO     {}
+17/11/21 14:07 DEBUG    Col ('SUM_1',)
+17/11/21 14:07 DEBUG    Row (None,)
+17/11/21 14:07 INFO     Cantidad de archivos a procesar: None
+17/11/21 14:07 INFO     SELECT regalias.treempresa.reempid AS regalias_treempresa_reem_1, regalias.treempresa.reempcuit AS regalias_treempresa_reem_2, regalias.treempresa.reempcod AS regalias_treempresa_reem_3, regalias.treempresa.reempnom AS regalias_treempresa_reem_4, regalias.treempresa.reemptel AS regalias_treempresa_reem_5, regalias.treempresa.reempmai AS regalias_treempresa_reem_6, regalias.treempresa.reempsit AS regalias_treempresa_reem_7, regalias.treempresa.reempobs AS regalias_treempresa_reem_8, regalias.treempresa.reempfchalt AS regalias_treempresa_reem_9, regalias.treempresa.reempusualt AS regalias_treempresa_reem_a, regalias.treempresa.reempfchmod AS regalias_treempresa_reem_b, regalias.treempresa.reempusumod AS regalias_treempresa_reem_c, regalias.treempresa.reempfchbaj AS regalias_treempresa_reem_d, regalias.treempresa.reempusubaj AS regalias_treempresa_reem_e, regalias.treempresa.retipempid AS regalias_treempresa_reti_f, regalias.treempresa.reempcartel AS regalias_treempresa_reem_10, regalias.treempresa.reempultlin AS regalias_treempresa_reem_11, regalias.treempresa.reempvighas AS regalias_treempresa_reem_12, regalias.treempresa.reempvigdes AS regalias_treempresa_reem_13, regalias.treempresa.reempdespag AS regalias_treempresa_reem_14 
+FROM regalias.treempresa 
+WHERE EXISTS (SELECT 1 
+FROM regalias.tremedfiscal 
+WHERE regalias.treempresa.reempid = regalias.tremedfiscal.reempresaid) ORDER BY regalias.treempresa.reempnom
+17/11/21 14:07 INFO     {}
+17/11/21 14:07 DEBUG    Col ('REGALIAS_TREEMPRESA_REEM_1', 'REGALIAS_TREEMPRESA_REEM_2', 'REGALIAS_TREEMPRESA_REEM_3', 'REGALIAS_TREEMPRESA_REEM_4', 'REGALIAS_TREEMPRESA_REEM_5', 'REGALIAS_TREEMPRESA_REEM_6', 'REGALIAS_TREEMPRESA_REEM_7', 'REGALIAS_TREEMPRESA_REEM_8', 'REGALIAS_TREEMPRESA_REEM_9', 'REGALIAS_TREEMPRESA_REEM_A', 'REGALIAS_TREEMPRESA_REEM_B', 'REGALIAS_TREEMPRESA_REEM_C', 'REGALIAS_TREEMPRESA_REEM_D', 'REGALIAS_TREEMPRESA_REEM_E', 'REGALIAS_TREEMPRESA_RETI_F', 'REGALIAS_TREEMPRESA_REEM_10', 'REGALIAS_TREEMPRESA_REEM_11', 'REGALIAS_TREEMPRESA_REEM_12', 'REGALIAS_TREEMPRESA_REEM_13', 'REGALIAS_TREEMPRESA_REEM_14')
+17/11/21 14:13 INFO     Proceso de lecturas del Sistema de Telemedición
+17/11/21 14:13 INFO     SELECT USER FROM DUAL
+17/11/21 14:13 INFO     {}
+17/11/21 14:13 DEBUG    Col ('USER',)
+17/11/21 14:13 DEBUG    Row ('DBATTEZZATI',)
+17/11/21 14:13 INFO     SELECT CAST('test plain returns' AS VARCHAR(60 CHAR)) AS anon_1 FROM DUAL
+17/11/21 14:13 INFO     {}
+17/11/21 14:13 INFO     SELECT CAST('test unicode returns' AS VARCHAR2(60 CHAR)) AS anon_1 FROM DUAL
+17/11/21 14:13 INFO     {}
+17/11/21 14:13 INFO     SELECT CAST('test nvarchar2 returns' AS NVARCHAR2(60)) AS anon_1 FROM DUAL
+17/11/21 14:13 INFO     {}
+17/11/21 14:13 INFO     SELECT value FROM v$parameter WHERE name = 'compatible'
+17/11/21 14:13 INFO     {}
+17/11/21 14:13 INFO     select value from nls_session_parameters where parameter = 'NLS_NUMERIC_CHARACTERS'
+17/11/21 14:13 INFO     {}
+17/11/21 14:13 DEBUG    Col ('VALUE',)
+17/11/21 14:13 DEBUG    Row ('.,',)
+17/11/21 14:13 INFO     BEGIN (implicit)
+17/11/21 14:13 INFO     SELECT sum(regalias.tremedfiscal.remedfiscntramal) AS sum_1 
+FROM regalias.tremedfiscal 
+WHERE regalias.tremedfiscal.remedfisfecbaj IS NULL
+17/11/21 14:13 INFO     {}
+17/11/21 14:13 DEBUG    Col ('SUM_1',)
+17/11/21 14:13 DEBUG    Row (None,)
+17/11/21 14:13 INFO     Cantidad de archivos a procesar: None
+17/11/21 14:13 INFO     SELECT regalias.treempresa.reempid AS regalias_treempresa_reem_1, regalias.treempresa.reempcuit AS regalias_treempresa_reem_2, regalias.treempresa.reempcod AS regalias_treempresa_reem_3, regalias.treempresa.reempnom AS regalias_treempresa_reem_4, regalias.treempresa.reemptel AS regalias_treempresa_reem_5, regalias.treempresa.reempmai AS regalias_treempresa_reem_6, regalias.treempresa.reempsit AS regalias_treempresa_reem_7, regalias.treempresa.reempobs AS regalias_treempresa_reem_8, regalias.treempresa.reempfchalt AS regalias_treempresa_reem_9, regalias.treempresa.reempusualt AS regalias_treempresa_reem_a, regalias.treempresa.reempfchmod AS regalias_treempresa_reem_b, regalias.treempresa.reempusumod AS regalias_treempresa_reem_c, regalias.treempresa.reempfchbaj AS regalias_treempresa_reem_d, regalias.treempresa.reempusubaj AS regalias_treempresa_reem_e, regalias.treempresa.retipempid AS regalias_treempresa_reti_f, regalias.treempresa.reempcartel AS regalias_treempresa_reem_10, regalias.treempresa.reempultlin AS regalias_treempresa_reem_11, regalias.treempresa.reempvighas AS regalias_treempresa_reem_12, regalias.treempresa.reempvigdes AS regalias_treempresa_reem_13, regalias.treempresa.reempdespag AS regalias_treempresa_reem_14 
+FROM regalias.treempresa 
+WHERE EXISTS (SELECT 1 
+FROM regalias.tremedfiscal 
+WHERE regalias.treempresa.reempid = regalias.tremedfiscal.reempresaid) ORDER BY regalias.treempresa.reempnom
+17/11/21 14:13 INFO     {}
+17/11/21 14:13 DEBUG    Col ('REGALIAS_TREEMPRESA_REEM_1', 'REGALIAS_TREEMPRESA_REEM_2', 'REGALIAS_TREEMPRESA_REEM_3', 'REGALIAS_TREEMPRESA_REEM_4', 'REGALIAS_TREEMPRESA_REEM_5', 'REGALIAS_TREEMPRESA_REEM_6', 'REGALIAS_TREEMPRESA_REEM_7', 'REGALIAS_TREEMPRESA_REEM_8', 'REGALIAS_TREEMPRESA_REEM_9', 'REGALIAS_TREEMPRESA_REEM_A', 'REGALIAS_TREEMPRESA_REEM_B', 'REGALIAS_TREEMPRESA_REEM_C', 'REGALIAS_TREEMPRESA_REEM_D', 'REGALIAS_TREEMPRESA_REEM_E', 'REGALIAS_TREEMPRESA_RETI_F', 'REGALIAS_TREEMPRESA_REEM_10', 'REGALIAS_TREEMPRESA_REEM_11', 'REGALIAS_TREEMPRESA_REEM_12', 'REGALIAS_TREEMPRESA_REEM_13', 'REGALIAS_TREEMPRESA_REEM_14')
+17/11/21 14:15 INFO     Proceso de lecturas del Sistema de Telemedición
+17/11/21 14:15 INFO     SELECT USER FROM DUAL
+17/11/21 14:15 INFO     {}
+17/11/21 14:15 DEBUG    Col ('USER',)
+17/11/21 14:15 DEBUG    Row ('DBATTEZZATI',)
+17/11/21 14:15 INFO     SELECT CAST('test plain returns' AS VARCHAR(60 CHAR)) AS anon_1 FROM DUAL
+17/11/21 14:15 INFO     {}
+17/11/21 14:15 INFO     SELECT CAST('test unicode returns' AS VARCHAR2(60 CHAR)) AS anon_1 FROM DUAL
+17/11/21 14:15 INFO     {}
+17/11/21 14:15 INFO     SELECT CAST('test nvarchar2 returns' AS NVARCHAR2(60)) AS anon_1 FROM DUAL
+17/11/21 14:15 INFO     {}
+17/11/21 14:15 INFO     SELECT value FROM v$parameter WHERE name = 'compatible'
+17/11/21 14:15 INFO     {}
+17/11/21 14:15 INFO     select value from nls_session_parameters where parameter = 'NLS_NUMERIC_CHARACTERS'
+17/11/21 14:15 INFO     {}
+17/11/21 14:15 DEBUG    Col ('VALUE',)
+17/11/21 14:15 DEBUG    Row ('.,',)
+17/11/21 14:15 INFO     BEGIN (implicit)
+17/11/21 14:15 INFO     SELECT sum(regalias.tremedfiscal.remedfiscntramal) AS sum_1 
+FROM regalias.tremedfiscal 
+WHERE regalias.tremedfiscal.remedfisfecbaj IS NULL
+17/11/21 14:15 INFO     {}
+17/11/21 14:15 DEBUG    Col ('SUM_1',)
+17/11/21 14:15 DEBUG    Row (None,)
+17/11/21 14:15 INFO     Cantidad de archivos a procesar: None
+17/11/21 14:15 INFO     SELECT regalias.treempresa.reempid AS regalias_treempresa_reem_1, regalias.treempresa.reempcuit AS regalias_treempresa_reem_2, regalias.treempresa.reempcod AS regalias_treempresa_reem_3, regalias.treempresa.reempnom AS regalias_treempresa_reem_4, regalias.treempresa.reemptel AS regalias_treempresa_reem_5, regalias.treempresa.reempmai AS regalias_treempresa_reem_6, regalias.treempresa.reempsit AS regalias_treempresa_reem_7, regalias.treempresa.reempobs AS regalias_treempresa_reem_8, regalias.treempresa.reempfchalt AS regalias_treempresa_reem_9, regalias.treempresa.reempusualt AS regalias_treempresa_reem_a, regalias.treempresa.reempfchmod AS regalias_treempresa_reem_b, regalias.treempresa.reempusumod AS regalias_treempresa_reem_c, regalias.treempresa.reempfchbaj AS regalias_treempresa_reem_d, regalias.treempresa.reempusubaj AS regalias_treempresa_reem_e, regalias.treempresa.retipempid AS regalias_treempresa_reti_f, regalias.treempresa.reempcartel AS regalias_treempresa_reem_10, regalias.treempresa.reempultlin AS regalias_treempresa_reem_11, regalias.treempresa.reempvighas AS regalias_treempresa_reem_12, regalias.treempresa.reempvigdes AS regalias_treempresa_reem_13, regalias.treempresa.reempdespag AS regalias_treempresa_reem_14 
+FROM regalias.treempresa 
+WHERE EXISTS (SELECT 1 
+FROM regalias.tremedfiscal 
+WHERE regalias.treempresa.reempid = regalias.tremedfiscal.reempresaid) ORDER BY regalias.treempresa.reempnom
+17/11/21 14:15 INFO     {}
+17/11/21 14:15 DEBUG    Col ('REGALIAS_TREEMPRESA_REEM_1', 'REGALIAS_TREEMPRESA_REEM_2', 'REGALIAS_TREEMPRESA_REEM_3', 'REGALIAS_TREEMPRESA_REEM_4', 'REGALIAS_TREEMPRESA_REEM_5', 'REGALIAS_TREEMPRESA_REEM_6', 'REGALIAS_TREEMPRESA_REEM_7', 'REGALIAS_TREEMPRESA_REEM_8', 'REGALIAS_TREEMPRESA_REEM_9', 'REGALIAS_TREEMPRESA_REEM_A', 'REGALIAS_TREEMPRESA_REEM_B', 'REGALIAS_TREEMPRESA_REEM_C', 'REGALIAS_TREEMPRESA_REEM_D', 'REGALIAS_TREEMPRESA_REEM_E', 'REGALIAS_TREEMPRESA_RETI_F', 'REGALIAS_TREEMPRESA_REEM_10', 'REGALIAS_TREEMPRESA_REEM_11', 'REGALIAS_TREEMPRESA_REEM_12', 'REGALIAS_TREEMPRESA_REEM_13', 'REGALIAS_TREEMPRESA_REEM_14')
+17/11/21 14:15 INFO     Proceso de lecturas del Sistema de Telemedición
+17/11/21 14:15 INFO     SELECT USER FROM DUAL
+17/11/21 14:15 INFO     {}
+17/11/21 14:15 DEBUG    Col ('USER',)
+17/11/21 14:15 DEBUG    Row ('DBATTEZZATI',)
+17/11/21 14:15 INFO     SELECT CAST('test plain returns' AS VARCHAR(60 CHAR)) AS anon_1 FROM DUAL
+17/11/21 14:15 INFO     {}
+17/11/21 14:15 INFO     SELECT CAST('test unicode returns' AS VARCHAR2(60 CHAR)) AS anon_1 FROM DUAL
+17/11/21 14:15 INFO     {}
+17/11/21 14:15 INFO     SELECT CAST('test nvarchar2 returns' AS NVARCHAR2(60)) AS anon_1 FROM DUAL
+17/11/21 14:15 INFO     {}
+17/11/21 14:15 INFO     SELECT value FROM v$parameter WHERE name = 'compatible'
+17/11/21 14:15 INFO     {}
+17/11/21 14:15 INFO     select value from nls_session_parameters where parameter = 'NLS_NUMERIC_CHARACTERS'
+17/11/21 14:15 INFO     {}
+17/11/21 14:15 DEBUG    Col ('VALUE',)
+17/11/21 14:15 DEBUG    Row ('.,',)
+17/11/21 14:15 INFO     BEGIN (implicit)
+17/11/21 14:15 INFO     SELECT sum(regalias.tremedfiscal.remedfiscntramal) AS sum_1 
+FROM regalias.tremedfiscal 
+WHERE regalias.tremedfiscal.remedfisfecbaj IS NULL
+17/11/21 14:15 INFO     {}
+17/11/21 14:15 DEBUG    Col ('SUM_1',)
+17/11/21 14:15 DEBUG    Row (None,)
+17/11/21 14:15 INFO     Cantidad de archivos a procesar : None del dia
+17/11/21 14:15 INFO     SELECT regalias.treempresa.reempid AS regalias_treempresa_reem_1, regalias.treempresa.reempcuit AS regalias_treempresa_reem_2, regalias.treempresa.reempcod AS regalias_treempresa_reem_3, regalias.treempresa.reempnom AS regalias_treempresa_reem_4, regalias.treempresa.reemptel AS regalias_treempresa_reem_5, regalias.treempresa.reempmai AS regalias_treempresa_reem_6, regalias.treempresa.reempsit AS regalias_treempresa_reem_7, regalias.treempresa.reempobs AS regalias_treempresa_reem_8, regalias.treempresa.reempfchalt AS regalias_treempresa_reem_9, regalias.treempresa.reempusualt AS regalias_treempresa_reem_a, regalias.treempresa.reempfchmod AS regalias_treempresa_reem_b, regalias.treempresa.reempusumod AS regalias_treempresa_reem_c, regalias.treempresa.reempfchbaj AS regalias_treempresa_reem_d, regalias.treempresa.reempusubaj AS regalias_treempresa_reem_e, regalias.treempresa.retipempid AS regalias_treempresa_reti_f, regalias.treempresa.reempcartel AS regalias_treempresa_reem_10, regalias.treempresa.reempultlin AS regalias_treempresa_reem_11, regalias.treempresa.reempvighas AS regalias_treempresa_reem_12, regalias.treempresa.reempvigdes AS regalias_treempresa_reem_13, regalias.treempresa.reempdespag AS regalias_treempresa_reem_14 
+FROM regalias.treempresa 
+WHERE EXISTS (SELECT 1 
+FROM regalias.tremedfiscal 
+WHERE regalias.treempresa.reempid = regalias.tremedfiscal.reempresaid) ORDER BY regalias.treempresa.reempnom
+17/11/21 14:15 INFO     {}
+17/11/21 14:15 DEBUG    Col ('REGALIAS_TREEMPRESA_REEM_1', 'REGALIAS_TREEMPRESA_REEM_2', 'REGALIAS_TREEMPRESA_REEM_3', 'REGALIAS_TREEMPRESA_REEM_4', 'REGALIAS_TREEMPRESA_REEM_5', 'REGALIAS_TREEMPRESA_REEM_6', 'REGALIAS_TREEMPRESA_REEM_7', 'REGALIAS_TREEMPRESA_REEM_8', 'REGALIAS_TREEMPRESA_REEM_9', 'REGALIAS_TREEMPRESA_REEM_A', 'REGALIAS_TREEMPRESA_REEM_B', 'REGALIAS_TREEMPRESA_REEM_C', 'REGALIAS_TREEMPRESA_REEM_D', 'REGALIAS_TREEMPRESA_REEM_E', 'REGALIAS_TREEMPRESA_RETI_F', 'REGALIAS_TREEMPRESA_REEM_10', 'REGALIAS_TREEMPRESA_REEM_11', 'REGALIAS_TREEMPRESA_REEM_12', 'REGALIAS_TREEMPRESA_REEM_13', 'REGALIAS_TREEMPRESA_REEM_14')
+17/11/21 14:17 INFO     Proceso de lecturas del Sistema de Telemedición
+17/11/21 14:17 INFO     Cantidad de archivos a procesar : None del dia
+17/11/21 14:20 INFO     Proceso de lecturas del Sistema de Telemedición
+17/11/21 14:20 INFO     SELECT USER FROM DUAL
+17/11/21 14:20 INFO     {}
+17/11/21 14:20 DEBUG    Col ('USER',)
+17/11/21 14:20 DEBUG    Row ('DBATTEZZATI',)
+17/11/21 14:20 INFO     SELECT CAST('test plain returns' AS VARCHAR(60 CHAR)) AS anon_1 FROM DUAL
+17/11/21 14:20 INFO     {}
+17/11/21 14:20 INFO     SELECT CAST('test unicode returns' AS VARCHAR2(60 CHAR)) AS anon_1 FROM DUAL
+17/11/21 14:20 INFO     {}
+17/11/21 14:20 INFO     SELECT CAST('test nvarchar2 returns' AS NVARCHAR2(60)) AS anon_1 FROM DUAL
+17/11/21 14:20 INFO     {}
+17/11/21 14:20 INFO     SELECT value FROM v$parameter WHERE name = 'compatible'
+17/11/21 14:20 INFO     {}
+17/11/21 14:20 INFO     select value from nls_session_parameters where parameter = 'NLS_NUMERIC_CHARACTERS'
+17/11/21 14:20 INFO     {}
+17/11/21 14:20 DEBUG    Col ('VALUE',)
+17/11/21 14:20 DEBUG    Row ('.,',)
+17/11/21 14:20 INFO     BEGIN (implicit)
+17/11/21 14:20 INFO     SELECT sum(regalias.tremedfiscal.remedfiscntramal) AS sum_1 
+FROM regalias.tremedfiscal 
+WHERE regalias.tremedfiscal.remedfisfecbaj IS NULL
+17/11/21 14:20 INFO     {}
+17/11/21 14:20 DEBUG    Col ('SUM_1',)
+17/11/21 14:20 DEBUG    Row (None,)
+17/11/21 14:20 INFO     Cantidad de archivos a procesar : None del dia
+17/11/21 14:20 INFO     SELECT regalias.treempresa.reempid AS regalias_treempresa_reem_1, regalias.treempresa.reempcuit AS regalias_treempresa_reem_2, regalias.treempresa.reempcod AS regalias_treempresa_reem_3, regalias.treempresa.reempnom AS regalias_treempresa_reem_4, regalias.treempresa.reemptel AS regalias_treempresa_reem_5, regalias.treempresa.reempmai AS regalias_treempresa_reem_6, regalias.treempresa.reempsit AS regalias_treempresa_reem_7, regalias.treempresa.reempobs AS regalias_treempresa_reem_8, regalias.treempresa.reempfchalt AS regalias_treempresa_reem_9, regalias.treempresa.reempusualt AS regalias_treempresa_reem_a, regalias.treempresa.reempfchmod AS regalias_treempresa_reem_b, regalias.treempresa.reempusumod AS regalias_treempresa_reem_c, regalias.treempresa.reempfchbaj AS regalias_treempresa_reem_d, regalias.treempresa.reempusubaj AS regalias_treempresa_reem_e, regalias.treempresa.retipempid AS regalias_treempresa_reti_f, regalias.treempresa.reempcartel AS regalias_treempresa_reem_10, regalias.treempresa.reempultlin AS regalias_treempresa_reem_11, regalias.treempresa.reempvighas AS regalias_treempresa_reem_12, regalias.treempresa.reempvigdes AS regalias_treempresa_reem_13, regalias.treempresa.reempdespag AS regalias_treempresa_reem_14 
+FROM regalias.treempresa 
+WHERE EXISTS (SELECT 1 
+FROM regalias.tremedfiscal 
+WHERE regalias.treempresa.reempid = regalias.tremedfiscal.reempresaid) ORDER BY regalias.treempresa.reempnom
+17/11/21 14:20 INFO     {}
+17/11/21 14:20 DEBUG    Col ('REGALIAS_TREEMPRESA_REEM_1', 'REGALIAS_TREEMPRESA_REEM_2', 'REGALIAS_TREEMPRESA_REEM_3', 'REGALIAS_TREEMPRESA_REEM_4', 'REGALIAS_TREEMPRESA_REEM_5', 'REGALIAS_TREEMPRESA_REEM_6', 'REGALIAS_TREEMPRESA_REEM_7', 'REGALIAS_TREEMPRESA_REEM_8', 'REGALIAS_TREEMPRESA_REEM_9', 'REGALIAS_TREEMPRESA_REEM_A', 'REGALIAS_TREEMPRESA_REEM_B', 'REGALIAS_TREEMPRESA_REEM_C', 'REGALIAS_TREEMPRESA_REEM_D', 'REGALIAS_TREEMPRESA_REEM_E', 'REGALIAS_TREEMPRESA_RETI_F', 'REGALIAS_TREEMPRESA_REEM_10', 'REGALIAS_TREEMPRESA_REEM_11', 'REGALIAS_TREEMPRESA_REEM_12', 'REGALIAS_TREEMPRESA_REEM_13', 'REGALIAS_TREEMPRESA_REEM_14')
+17/11/21 14:22 INFO     Proceso de lecturas del Sistema de Telemedición
+17/11/21 14:22 INFO     SELECT USER FROM DUAL
+17/11/21 14:22 INFO     {}
+17/11/21 14:22 DEBUG    Col ('USER',)
+17/11/21 14:22 DEBUG    Row ('REGALIAS',)
+17/11/21 14:22 INFO     SELECT CAST('test plain returns' AS VARCHAR(60 CHAR)) AS anon_1 FROM DUAL
+17/11/21 14:22 INFO     {}
+17/11/21 14:22 INFO     SELECT CAST('test unicode returns' AS VARCHAR2(60 CHAR)) AS anon_1 FROM DUAL
+17/11/21 14:22 INFO     {}
+17/11/21 14:22 INFO     SELECT CAST('test nvarchar2 returns' AS NVARCHAR2(60)) AS anon_1 FROM DUAL
+17/11/21 14:22 INFO     {}
+17/11/21 14:22 INFO     SELECT value FROM v$parameter WHERE name = 'compatible'
+17/11/21 14:22 INFO     {}
+17/11/21 14:22 INFO     select value from nls_session_parameters where parameter = 'NLS_NUMERIC_CHARACTERS'
+17/11/21 14:22 INFO     {}
+17/11/21 14:22 DEBUG    Col ('VALUE',)
+17/11/21 14:22 DEBUG    Row ('.,',)
+17/11/21 14:22 INFO     BEGIN (implicit)
+17/11/21 14:22 INFO     SELECT sum(regalias.tremedfiscal.remedfiscntramal) AS sum_1 
+FROM regalias.tremedfiscal 
+WHERE regalias.tremedfiscal.remedfisfecbaj IS NULL
+17/11/21 14:22 INFO     {}
+17/11/21 14:22 DEBUG    Col ('SUM_1',)
+17/11/21 14:22 DEBUG    Row (None,)
+17/11/21 14:22 INFO     Cantidad de archivos a procesar : None del dia
+17/11/21 14:22 INFO     SELECT regalias.treempresa.reempid AS regalias_treempresa_reem_1, regalias.treempresa.reempcuit AS regalias_treempresa_reem_2, regalias.treempresa.reempcod AS regalias_treempresa_reem_3, regalias.treempresa.reempnom AS regalias_treempresa_reem_4, regalias.treempresa.reemptel AS regalias_treempresa_reem_5, regalias.treempresa.reempmai AS regalias_treempresa_reem_6, regalias.treempresa.reempsit AS regalias_treempresa_reem_7, regalias.treempresa.reempobs AS regalias_treempresa_reem_8, regalias.treempresa.reempfchalt AS regalias_treempresa_reem_9, regalias.treempresa.reempusualt AS regalias_treempresa_reem_a, regalias.treempresa.reempfchmod AS regalias_treempresa_reem_b, regalias.treempresa.reempusumod AS regalias_treempresa_reem_c, regalias.treempresa.reempfchbaj AS regalias_treempresa_reem_d, regalias.treempresa.reempusubaj AS regalias_treempresa_reem_e, regalias.treempresa.retipempid AS regalias_treempresa_reti_f, regalias.treempresa.reempcartel AS regalias_treempresa_reem_10, regalias.treempresa.reempultlin AS regalias_treempresa_reem_11, regalias.treempresa.reempvighas AS regalias_treempresa_reem_12, regalias.treempresa.reempvigdes AS regalias_treempresa_reem_13, regalias.treempresa.reempdespag AS regalias_treempresa_reem_14 
+FROM regalias.treempresa 
+WHERE EXISTS (SELECT 1 
+FROM regalias.tremedfiscal 
+WHERE regalias.treempresa.reempid = regalias.tremedfiscal.reempresaid) ORDER BY regalias.treempresa.reempnom
+17/11/21 14:22 INFO     {}
+17/11/21 14:22 DEBUG    Col ('REGALIAS_TREEMPRESA_REEM_1', 'REGALIAS_TREEMPRESA_REEM_2', 'REGALIAS_TREEMPRESA_REEM_3', 'REGALIAS_TREEMPRESA_REEM_4', 'REGALIAS_TREEMPRESA_REEM_5', 'REGALIAS_TREEMPRESA_REEM_6', 'REGALIAS_TREEMPRESA_REEM_7', 'REGALIAS_TREEMPRESA_REEM_8', 'REGALIAS_TREEMPRESA_REEM_9', 'REGALIAS_TREEMPRESA_REEM_A', 'REGALIAS_TREEMPRESA_REEM_B', 'REGALIAS_TREEMPRESA_REEM_C', 'REGALIAS_TREEMPRESA_REEM_D', 'REGALIAS_TREEMPRESA_REEM_E', 'REGALIAS_TREEMPRESA_RETI_F', 'REGALIAS_TREEMPRESA_REEM_10', 'REGALIAS_TREEMPRESA_REEM_11', 'REGALIAS_TREEMPRESA_REEM_12', 'REGALIAS_TREEMPRESA_REEM_13', 'REGALIAS_TREEMPRESA_REEM_14')
+17/11/21 14:25 INFO     Proceso de lecturas del Sistema de Telemedición
+17/11/21 14:25 INFO     SELECT USER FROM DUAL
+17/11/21 14:25 INFO     {}
+17/11/21 14:25 DEBUG    Col ('USER',)
+17/11/21 14:25 DEBUG    Row ('REGALIAS',)
+17/11/21 14:25 INFO     SELECT CAST('test plain returns' AS VARCHAR(60 CHAR)) AS anon_1 FROM DUAL
+17/11/21 14:25 INFO     {}
+17/11/21 14:25 INFO     SELECT CAST('test unicode returns' AS VARCHAR2(60 CHAR)) AS anon_1 FROM DUAL
+17/11/21 14:25 INFO     {}
+17/11/21 14:25 INFO     SELECT CAST('test nvarchar2 returns' AS NVARCHAR2(60)) AS anon_1 FROM DUAL
+17/11/21 14:25 INFO     {}
+17/11/21 14:25 INFO     SELECT value FROM v$parameter WHERE name = 'compatible'
+17/11/21 14:25 INFO     {}
+17/11/21 14:25 INFO     select value from nls_session_parameters where parameter = 'NLS_NUMERIC_CHARACTERS'
+17/11/21 14:25 INFO     {}
+17/11/21 14:25 DEBUG    Col ('VALUE',)
+17/11/21 14:25 DEBUG    Row ('.,',)
+17/11/21 14:25 INFO     BEGIN (implicit)
+17/11/21 14:25 INFO     SELECT sum(regalias.tremedfiscal.remedfiscntramal) AS sum_1 
+FROM regalias.tremedfiscal 
+WHERE regalias.tremedfiscal.remedfisfecbaj IS NULL
+17/11/21 14:25 INFO     {}
+17/11/21 14:25 DEBUG    Col ('SUM_1',)
+17/11/21 14:25 DEBUG    Row (None,)
+17/11/21 14:25 INFO     Cantidad de archivos a procesar : None del dia
+17/11/21 14:25 INFO     SELECT regalias.tremedfiscal.remedfisid AS regalias_tremedfiscal_re_1, regalias.tremedfiscal.reempresaid AS regalias_tremedfiscal_re_2, regalias.tremedfiscal.retipmedid AS regalias_tremedfiscal_re_3, regalias.tremedfiscal.remedfiscntramal AS regalias_tremedfiscal_re_4, regalias.tremedfiscal.remedfisusualt AS regalias_tremedfiscal_re_5, regalias.tremedfiscal.remedfisfecalt AS regalias_tremedfiscal_re_6, regalias.tremedfiscal.remedfisusumod AS regalias_tremedfiscal_re_7, regalias.tremedfiscal.remedfisfecmod AS regalias_tremedfiscal_re_8, regalias.tremedfiscal.remedfisusubaj AS regalias_tremedfiscal_re_9, regalias.tremedfiscal.remedfisfecbaj AS regalias_tremedfiscal_re_a 
+FROM regalias.tremedfiscal
+17/11/21 14:25 INFO     {}
+17/11/21 14:25 DEBUG    Col ('REGALIAS_TREMEDFISCAL_RE_1', 'REGALIAS_TREMEDFISCAL_RE_2', 'REGALIAS_TREMEDFISCAL_RE_3', 'REGALIAS_TREMEDFISCAL_RE_4', 'REGALIAS_TREMEDFISCAL_RE_5', 'REGALIAS_TREMEDFISCAL_RE_6', 'REGALIAS_TREMEDFISCAL_RE_7', 'REGALIAS_TREMEDFISCAL_RE_8', 'REGALIAS_TREMEDFISCAL_RE_9', 'REGALIAS_TREMEDFISCAL_RE_A')
+17/11/21 14:25 DEBUG    Row (502, None, None, None, 'EGIUNTA', datetime.datetime(2015, 6, 9, 14, 43, 30), None, None, None, None)
+17/11/21 14:25 DEBUG    Row (503, None, None, None, 'DSSANCHEZ', datetime.datetime(2015, 8, 20, 14, 31, 19), None, None, None, None)
+17/11/21 14:25 DEBUG    Row (505, None, None, None, 'EGIUNTA', datetime.datetime(2015, 10, 13, 14, 4, 22), None, None, None, None)
+17/11/21 14:25 DEBUG    Row (504, None, None, None, 'DSSANCHEZ', datetime.datetime(2015, 8, 25, 14, 12, 50), None, None, None, None)
+17/11/21 14:25 DEBUG    Row (499, None, None, None, 'DSSANCHEZ', datetime.datetime(2015, 4, 22, 15, 4, 26), None, None, None, None)
+17/11/21 14:25 DEBUG    Row (500, None, None, None, 'EGIUNTA', datetime.datetime(2015, 5, 28, 13, 56, 2), 'DSSANCHEZ', datetime.datetime(2015, 7, 23, 13, 38, 29), None, None)
+17/11/21 14:25 DEBUG    Row (501, None, None, None, 'EGIUNTA', datetime.datetime(2015, 6, 8, 15, 24, 9), 'DSSANCHEZ', datetime.datetime(2015, 7, 23, 13, 39, 47), None, None)
+17/11/21 14:25 DEBUG    Row (490, None, None, None, 'PRUEBA', datetime.datetime(2014, 12, 9, 15, 28, 7), None, None, None, None)
+17/11/21 14:25 DEBUG    Row (491, None, None, None, 'PRUEBA', datetime.datetime(2014, 12, 9, 15, 28, 58), None, None, None, None)
+17/11/21 14:25 DEBUG    Row (492, None, None, None, 'PRUEBA', datetime.datetime(2014, 12, 9, 15, 56, 18), None, None, None, None)
+17/11/21 14:25 DEBUG    Row (493, None, None, None, 'PRUEBA', datetime.datetime(2014, 12, 9, 16, 0, 27), None, None, None, None)
+17/11/21 14:25 DEBUG    Row (494, None, None, None, 'PRUEBA', datetime.datetime(2014, 12, 9, 16, 40, 26), None, None, None, None)
+17/11/21 14:25 DEBUG    Row (495, None, None, None, 'PRUEBA', datetime.datetime(2014, 12, 11, 10, 27, 48), None, None, None, None)
+17/11/21 14:25 DEBUG    Row (496, None, None, None, 'PRUEBA', datetime.datetime(2014, 12, 11, 10, 33, 4), None, None, None, None)
+17/11/21 14:25 DEBUG    Row (497, None, None, None, 'PRUEBA', datetime.datetime(2015, 2, 2, 15, 55, 1), None, None, None, None)
+17/11/21 14:25 DEBUG    Row (498, None, None, None, 'PRUEBA', datetime.datetime(2015, 2, 2, 15, 55, 36), None, None, None, None)
+17/11/21 14:25 DEBUG    Row (448, None, None, None, 'PRUEBA', datetime.datetime(2014, 11, 6, 8, 25, 41), None, None, None, None)
+17/11/21 14:25 DEBUG    Row (449, None, None, None, 'PRUEBA', datetime.datetime(2014, 11, 6, 8, 26, 42), None, None, None, None)
+17/11/21 14:25 DEBUG    Row (450, None, None, None, 'PRUEBA', datetime.datetime(2014, 11, 6, 8, 27, 29), 'DSSANCHEZ', datetime.datetime(2015, 7, 23, 13, 42, 20), None, None)
+17/11/21 14:25 DEBUG    Row (451, None, None, None, 'PRUEBA', datetime.datetime(2014, 11, 6, 8, 28, 19), 'DSSANCHEZ', datetime.datetime(2015, 11, 23, 16, 8, 29), None, None)
+17/11/21 14:25 DEBUG    Row (452, None, None, None, 'PRUEBA', datetime.datetime(2014, 11, 6, 8, 28, 57), 'PRUEBA', datetime.datetime(2014, 12, 11, 12, 20, 27), None, None)
+17/11/21 14:25 DEBUG    Row (453, None, None, None, 'PRUEBA', datetime.datetime(2014, 11, 6, 8, 29, 57), 'DSSANCHEZ', datetime.datetime(2015, 7, 23, 13, 39, 24), None, None)
+17/11/21 14:25 DEBUG    Row (454, None, None, None, 'PRUEBA', datetime.datetime(2014, 11, 6, 8, 32, 2), None, None, 'DSSANCHEZ', datetime.datetime(2015, 4, 28, 16, 31, 43))
+17/11/21 14:25 DEBUG    Row (455, None, None, None, 'PRUEBA', datetime.datetime(2014, 11, 6, 8, 32, 48), 'PRUEBA', datetime.datetime(2014, 11, 6, 12, 3, 46), 'PRUEBA', datetime.datetime(2014, 11, 6, 12, 4, 23))
+17/11/21 14:25 DEBUG    Row (456, None, None, None, 'PRUEBA', datetime.datetime(2014, 11, 6, 8, 33, 31), 'DSSANCHEZ', datetime.datetime(2015, 7, 23, 13, 40, 47), None, None)
+17/11/21 14:25 DEBUG    Row (457, None, None, None, 'PRUEBA', datetime.datetime(2014, 11, 6, 8, 34, 4), None, None, 'PRUEBA', datetime.datetime(2014, 11, 6, 12, 5, 48))
+17/11/21 14:25 DEBUG    Row (458, None, None, None, 'PRUEBA', datetime.datetime(2014, 11, 6, 8, 34, 39), None, None, None, None)
+17/11/21 14:25 DEBUG    Row (459, None, None, None, 'PRUEBA', datetime.datetime(2014, 11, 6, 8, 36, 42), None, None, 'PRUEBA', datetime.datetime(2014, 11, 6, 8, 38, 20))
+17/11/21 14:25 DEBUG    Row (460, None, None, None, 'PRUEBA', datetime.datetime(2014, 11, 6, 8, 43), None, None, 'PRUEBA', datetime.datetime(2014, 11, 6, 10, 59, 43))
+17/11/21 14:25 DEBUG    Row (461, None, None, None, 'PRUEBA', datetime.datetime(2014, 11, 6, 8, 48, 30), None, None, 'PRUEBA', datetime.datetime(2014, 11, 6, 12, 9, 6))
+17/11/21 14:25 DEBUG    Row (462, None, None, None, 'PRUEBA', datetime.datetime(2014, 11, 6, 8, 49, 53), 'DSSANCHEZ', datetime.datetime(2016, 1, 22, 9, 57, 54), None, None)
+17/11/21 14:25 DEBUG    Row (463, None, None, None, 'PRUEBA', datetime.datetime(2014, 11, 6, 8, 50, 19), 'PRUEBA', datetime.datetime(2014, 11, 6, 9, 54, 42), 'PRUEBA', datetime.datetime(2014, 11, 6, 11, 4, 12))
+17/11/21 14:25 DEBUG    Row (464, None, None, None, 'PRUEBA', datetime.datetime(2014, 11, 6, 8, 51), 'DSSANCHEZ', datetime.datetime(2015, 4, 20, 17, 17, 23), None, None)
+17/11/21 14:25 DEBUG    Row (465, None, None, None, 'PRUEBA', datetime.datetime(2014, 11, 6, 8, 51, 47), 'DSSANCHEZ', datetime.datetime(2015, 4, 20, 17, 13, 8), None, None)
+17/11/21 14:25 DEBUG    Row (466, None, None, None, 'PRUEBA', datetime.datetime(2014, 11, 6, 8, 52, 35), 'DSSANCHEZ', datetime.datetime(2015, 4, 20, 17, 15, 2), None, None)
+17/11/21 14:25 DEBUG    Row (467, None, None, None, 'PRUEBA', datetime.datetime(2014, 11, 6, 8, 53, 20), 'DSSANCHEZ', datetime.datetime(2015, 9, 30, 13, 8, 29), None, None)
+17/11/21 14:25 DEBUG    Row (468, None, None, None, 'PRUEBA', datetime.datetime(2014, 11, 6, 8, 54, 16), 'DSSANCHEZ', datetime.datetime(2015, 9, 30, 13, 5, 22), None, None)
+17/11/21 14:25 DEBUG    Row (469, None, None, None, 'PRUEBA', datetime.datetime(2014, 11, 6, 8, 55, 18), 'DSSANCHEZ', datetime.datetime(2016, 1, 21, 15, 51, 5), None, None)
+17/11/21 14:25 DEBUG    Row (470, None, None, None, 'PRUEBA', datetime.datetime(2014, 11, 6, 8, 57, 44), None, None, None, None)
+17/11/21 14:25 DEBUG    Row (471, None, None, None, 'PRUEBA', datetime.datetime(2014, 11, 6, 9, 0, 29), None, None, None, None)
+17/11/21 14:25 DEBUG    Row (472, None, None, None, 'PRUEBA', datetime.datetime(2014, 11, 6, 9, 1, 40), 'DSSANCHEZ', datetime.datetime(2015, 7, 27, 15, 10, 37), None, None)
+17/11/21 14:25 DEBUG    Row (473, None, None, None, 'PRUEBA', datetime.datetime(2014, 11, 6, 9, 2, 27), 'DSSANCHEZ', datetime.datetime(2015, 7, 27, 15, 10, 53), None, None)
+17/11/21 14:25 DEBUG    Row (474, None, None, None, 'PRUEBA', datetime.datetime(2014, 11, 6, 9, 4, 42), None, None, None, None)
+17/11/21 14:25 DEBUG    Row (475, None, None, None, 'PRUEBA', datetime.datetime(2014, 11, 6, 9, 7, 14), None, None, None, None)
+17/11/21 14:25 DEBUG    Row (476, None, None, None, 'PRUEBA', datetime.datetime(2014, 11, 6, 9, 8, 8), None, None, None, None)
+17/11/21 14:25 DEBUG    Row (477, None, None, None, 'PRUEBA', datetime.datetime(2014, 11, 6, 9, 9, 2), None, None, None, None)
+17/11/21 14:25 DEBUG    Row (478, None, None, None, 'PRUEBA', datetime.datetime(2014, 11, 6, 9, 9, 50), 'DSSANCHEZ', datetime.datetime(2016, 1, 22, 9, 49, 15), None, None)
+17/11/21 14:25 DEBUG    Row (479, None, None, None, 'PRUEBA', datetime.datetime(2014, 11, 6, 9, 11, 55), None, None, None, None)
+17/11/21 14:25 DEBUG    Row (480, None, None, None, 'PRUEBA', datetime.datetime(2014, 11, 6, 9, 35, 24), None, None, None, None)
+17/11/21 14:25 DEBUG    Row (481, None, None, None, 'PRUEBA', datetime.datetime(2014, 11, 6, 9, 46, 29), None, None, None, None)
+17/11/21 14:25 DEBUG    Row (482, None, None, None, 'PRUEBA', datetime.datetime(2014, 11, 6, 9, 48, 22), None, None, None, None)
+17/11/21 14:25 DEBUG    Row (483, None, None, None, 'PRUEBA', datetime.datetime(2014, 11, 6, 11, 2, 8), None, None, 'PRUEBA', datetime.datetime(2014, 12, 9, 15, 19, 47))
+17/11/21 14:25 DEBUG    Row (484, None, None, None, 'PRUEBA', datetime.datetime(2014, 11, 6, 11, 2, 46), None, None, 'PRUEBA', datetime.datetime(2014, 12, 9, 15, 19, 58))
+17/11/21 14:25 DEBUG    Row (485, None, None, None, 'PRUEBA', datetime.datetime(2014, 11, 6, 11, 4, 52), None, None, None, None)
+17/11/21 14:25 DEBUG    Row (486, None, None, None, 'PRUEBA', datetime.datetime(2014, 11, 6, 12, 5, 22), None, None, None, None)
+17/11/21 14:25 DEBUG    Row (487, None, None, None, 'PRUEBA', datetime.datetime(2014, 11, 6, 12, 8, 13), None, None, None, None)
+17/11/21 14:25 DEBUG    Row (488, None, None, None, 'PRUEBA', datetime.datetime(2014, 11, 6, 12, 10, 29), None, None, None, None)
+17/11/21 14:25 DEBUG    Row (489, None, None, None, 'PRUEBA', datetime.datetime(2014, 11, 6, 12, 12, 41), None, None, None, None)
+17/11/21 14:25 INFO     ------------------------------------------------------------------------------------------
+17/11/21 14:26 INFO     Proceso de lecturas del Sistema de Telemedición
+17/11/21 14:26 INFO     SELECT USER FROM DUAL
+17/11/21 14:26 INFO     {}
+17/11/21 14:26 DEBUG    Col ('USER',)
+17/11/21 14:26 DEBUG    Row ('REGALIAS',)
+17/11/21 14:26 INFO     SELECT CAST('test plain returns' AS VARCHAR(60 CHAR)) AS anon_1 FROM DUAL
+17/11/21 14:26 INFO     {}
+17/11/21 14:26 INFO     SELECT CAST('test unicode returns' AS VARCHAR2(60 CHAR)) AS anon_1 FROM DUAL
+17/11/21 14:26 INFO     {}
+17/11/21 14:26 INFO     SELECT CAST('test nvarchar2 returns' AS NVARCHAR2(60)) AS anon_1 FROM DUAL
+17/11/21 14:26 INFO     {}
+17/11/21 14:26 INFO     SELECT value FROM v$parameter WHERE name = 'compatible'
+17/11/21 14:26 INFO     {}
+17/11/21 14:26 INFO     select value from nls_session_parameters where parameter = 'NLS_NUMERIC_CHARACTERS'
+17/11/21 14:26 INFO     {}
+17/11/21 14:26 DEBUG    Col ('VALUE',)
+17/11/21 14:26 DEBUG    Row ('.,',)
+17/11/21 14:26 INFO     BEGIN (implicit)
+17/11/21 14:26 INFO     SELECT sum(regalias.tremedfiscal.remedfiscntramal) AS sum_1 
+FROM regalias.tremedfiscal 
+WHERE regalias.tremedfiscal.remedfisfecbaj IS NULL
+17/11/21 14:26 INFO     {}
+17/11/21 14:26 DEBUG    Col ('SUM_1',)
+17/11/21 14:26 DEBUG    Row (None,)
+17/11/21 14:26 INFO     Cantidad de archivos a procesar : None del dia
+17/11/21 14:26 INFO     SELECT regalias.tremedfiscal.remedfisid AS regalias_tremedfiscal_re_1, regalias.tremedfiscal.reempresaid AS regalias_tremedfiscal_re_2, regalias.tremedfiscal.retipmedid AS regalias_tremedfiscal_re_3, regalias.tremedfiscal.remedfiscntramal AS regalias_tremedfiscal_re_4, regalias.tremedfiscal.remedfisusualt AS regalias_tremedfiscal_re_5, regalias.tremedfiscal.remedfisfecalt AS regalias_tremedfiscal_re_6, regalias.tremedfiscal.remedfisusumod AS regalias_tremedfiscal_re_7, regalias.tremedfiscal.remedfisfecmod AS regalias_tremedfiscal_re_8, regalias.tremedfiscal.remedfisusubaj AS regalias_tremedfiscal_re_9, regalias.tremedfiscal.remedfisfecbaj AS regalias_tremedfiscal_re_a 
+FROM regalias.tremedfiscal 
+WHERE regalias.tremedfiscal.reempresaid IS NOT NULL
+17/11/21 14:26 INFO     {}
+17/11/21 14:26 DEBUG    Col ('REGALIAS_TREMEDFISCAL_RE_1', 'REGALIAS_TREMEDFISCAL_RE_2', 'REGALIAS_TREMEDFISCAL_RE_3', 'REGALIAS_TREMEDFISCAL_RE_4', 'REGALIAS_TREMEDFISCAL_RE_5', 'REGALIAS_TREMEDFISCAL_RE_6', 'REGALIAS_TREMEDFISCAL_RE_7', 'REGALIAS_TREMEDFISCAL_RE_8', 'REGALIAS_TREMEDFISCAL_RE_9', 'REGALIAS_TREMEDFISCAL_RE_A')
+17/11/21 14:29 INFO     Proceso de lecturas del Sistema de Telemedición
+17/11/21 14:29 INFO     SELECT USER FROM DUAL
+17/11/21 14:29 INFO     {}
+17/11/21 14:29 DEBUG    Col ('USER',)
+17/11/21 14:29 DEBUG    Row ('REGALIAS',)
+17/11/21 14:29 INFO     SELECT CAST('test plain returns' AS VARCHAR(60 CHAR)) AS anon_1 FROM DUAL
+17/11/21 14:29 INFO     {}
+17/11/21 14:29 INFO     SELECT CAST('test unicode returns' AS VARCHAR2(60 CHAR)) AS anon_1 FROM DUAL
+17/11/21 14:29 INFO     {}
+17/11/21 14:29 INFO     SELECT CAST('test nvarchar2 returns' AS NVARCHAR2(60)) AS anon_1 FROM DUAL
+17/11/21 14:29 INFO     {}
+17/11/21 14:29 INFO     SELECT value FROM v$parameter WHERE name = 'compatible'
+17/11/21 14:29 INFO     {}
+17/11/21 14:29 INFO     select value from nls_session_parameters where parameter = 'NLS_NUMERIC_CHARACTERS'
+17/11/21 14:29 INFO     {}
+17/11/21 14:29 DEBUG    Col ('VALUE',)
+17/11/21 14:29 DEBUG    Row ('.,',)
+17/11/21 14:29 INFO     BEGIN (implicit)
+17/11/21 14:29 INFO     SELECT sum(regalias.tremedfiscal.remedfiscntramal) AS sum_1 
+FROM regalias.tremedfiscal 
+WHERE regalias.tremedfiscal.remedfisfecbaj IS NULL
+17/11/21 14:29 INFO     {}
+17/11/21 14:29 DEBUG    Col ('SUM_1',)
+17/11/21 14:29 DEBUG    Row (None,)
+17/11/21 14:29 INFO     Cantidad de archivos a procesar : None del dia
+17/11/21 14:29 INFO     SELECT regalias.tremedfiscal.remedfisid AS regalias_tremedfiscal_re_1, regalias.tremedfiscal.reempid AS regalias_tremedfiscal_re_2, regalias.tremedfiscal.retipmedid AS regalias_tremedfiscal_re_3, regalias.tremedfiscal.remedfiscntramal AS regalias_tremedfiscal_re_4, regalias.tremedfiscal.remedfisusualt AS regalias_tremedfiscal_re_5, regalias.tremedfiscal.remedfisfecalt AS regalias_tremedfiscal_re_6, regalias.tremedfiscal.remedfisusumod AS regalias_tremedfiscal_re_7, regalias.tremedfiscal.remedfisfecmod AS regalias_tremedfiscal_re_8, regalias.tremedfiscal.remedfisusubaj AS regalias_tremedfiscal_re_9, regalias.tremedfiscal.remedfisfecbaj AS regalias_tremedfiscal_re_a 
+FROM regalias.tremedfiscal 
+WHERE EXISTS (SELECT 1 
+FROM regalias.treempresa, regalias.tremedfiscal 
+WHERE regalias.treempresa.reempid = regalias.tremedfiscal.reempid) ORDER BY regalias.treempresa.reempnom
+17/11/21 14:29 INFO     {}
+17/11/21 14:35 INFO     Proceso de lecturas del Sistema de Telemedición
+17/11/21 14:35 INFO     SELECT USER FROM DUAL
+17/11/21 14:35 INFO     {}
+17/11/21 14:35 DEBUG    Col ('USER',)
+17/11/21 14:35 DEBUG    Row ('REGALIAS',)
+17/11/21 14:35 INFO     SELECT CAST('test plain returns' AS VARCHAR(60 CHAR)) AS anon_1 FROM DUAL
+17/11/21 14:35 INFO     {}
+17/11/21 14:35 INFO     SELECT CAST('test unicode returns' AS VARCHAR2(60 CHAR)) AS anon_1 FROM DUAL
+17/11/21 14:35 INFO     {}
+17/11/21 14:35 INFO     SELECT CAST('test nvarchar2 returns' AS NVARCHAR2(60)) AS anon_1 FROM DUAL
+17/11/21 14:35 INFO     {}
+17/11/21 14:35 INFO     SELECT value FROM v$parameter WHERE name = 'compatible'
+17/11/21 14:35 INFO     {}
+17/11/21 14:35 INFO     select value from nls_session_parameters where parameter = 'NLS_NUMERIC_CHARACTERS'
+17/11/21 14:35 INFO     {}
+17/11/21 14:35 DEBUG    Col ('VALUE',)
+17/11/21 14:35 DEBUG    Row ('.,',)
+17/11/21 14:35 INFO     BEGIN (implicit)
+17/11/21 14:35 INFO     SELECT sum(regalias.tremedfiscal.remedfiscntramal) AS sum_1 
+FROM regalias.tremedfiscal 
+WHERE regalias.tremedfiscal.remedfisfecbaj IS NULL
+17/11/21 14:35 INFO     {}
+17/11/21 14:35 DEBUG    Col ('SUM_1',)
+17/11/21 14:35 DEBUG    Row (None,)
+17/11/21 14:35 INFO     Cantidad de archivos a procesar : None del dia
+17/11/21 14:35 INFO     SELECT regalias.treempresa.reempid AS regalias_treempresa_reem_1, regalias.treempresa.reempcuit AS regalias_treempresa_reem_2, regalias.treempresa.reempcod AS regalias_treempresa_reem_3, regalias.treempresa.reempnom AS regalias_treempresa_reem_4, regalias.treempresa.reemptel AS regalias_treempresa_reem_5, regalias.treempresa.reempmai AS regalias_treempresa_reem_6, regalias.treempresa.reempsit AS regalias_treempresa_reem_7, regalias.treempresa.reempobs AS regalias_treempresa_reem_8, regalias.treempresa.reempfchalt AS regalias_treempresa_reem_9, regalias.treempresa.reempusualt AS regalias_treempresa_reem_a, regalias.treempresa.reempfchmod AS regalias_treempresa_reem_b, regalias.treempresa.reempusumod AS regalias_treempresa_reem_c, regalias.treempresa.reempfchbaj AS regalias_treempresa_reem_d, regalias.treempresa.reempusubaj AS regalias_treempresa_reem_e, regalias.treempresa.retipempid AS regalias_treempresa_reti_f, regalias.treempresa.reempcartel AS regalias_treempresa_reem_10, regalias.treempresa.reempultlin AS regalias_treempresa_reem_11, regalias.treempresa.reempvighas AS regalias_treempresa_reem_12, regalias.treempresa.reempvigdes AS regalias_treempresa_reem_13, regalias.treempresa.reempdespag AS regalias_treempresa_reem_14 
+FROM regalias.treempresa 
+WHERE EXISTS (SELECT 1 
+FROM regalias.tremedfiscal 
+WHERE regalias.treempresa.reempid = regalias.tremedfiscal.reempid) ORDER BY regalias.treempresa.reempnom
+17/11/21 14:35 INFO     {}
+17/11/21 14:36 INFO     Proceso de lecturas del Sistema de Telemedición
+17/11/21 14:36 INFO     SELECT USER FROM DUAL
+17/11/21 14:36 INFO     {}
+17/11/21 14:36 DEBUG    Col ('USER',)
+17/11/21 14:36 DEBUG    Row ('REGALIAS',)
+17/11/21 14:36 INFO     SELECT CAST('test plain returns' AS VARCHAR(60 CHAR)) AS anon_1 FROM DUAL
+17/11/21 14:36 INFO     {}
+17/11/21 14:36 INFO     SELECT CAST('test unicode returns' AS VARCHAR2(60 CHAR)) AS anon_1 FROM DUAL
+17/11/21 14:36 INFO     {}
+17/11/21 14:36 INFO     SELECT CAST('test nvarchar2 returns' AS NVARCHAR2(60)) AS anon_1 FROM DUAL
+17/11/21 14:36 INFO     {}
+17/11/21 14:36 INFO     SELECT value FROM v$parameter WHERE name = 'compatible'
+17/11/21 14:36 INFO     {}
+17/11/21 14:36 INFO     select value from nls_session_parameters where parameter = 'NLS_NUMERIC_CHARACTERS'
+17/11/21 14:36 INFO     {}
+17/11/21 14:36 DEBUG    Col ('VALUE',)
+17/11/21 14:36 DEBUG    Row ('.,',)
+17/11/21 14:36 INFO     BEGIN (implicit)
+17/11/21 14:36 INFO     SELECT sum(regalias.tremedfiscal.remedfiscntramal) AS sum_1 
+FROM regalias.tremedfiscal 
+WHERE regalias.tremedfiscal.remedfisfecbaj IS NULL
+17/11/21 14:36 INFO     {}
+17/11/21 14:36 DEBUG    Col ('SUM_1',)
+17/11/21 14:36 DEBUG    Row (None,)
+17/11/21 14:36 INFO     Cantidad de archivos a procesar : None del dia
+17/11/21 14:36 INFO     SELECT regalias.treempresa.reempid AS regalias_treempresa_reem_1, regalias.treempresa.reempcuit AS regalias_treempresa_reem_2, regalias.treempresa.reempcod AS regalias_treempresa_reem_3, regalias.treempresa.reempnom AS regalias_treempresa_reem_4, regalias.treempresa.reemptel AS regalias_treempresa_reem_5, regalias.treempresa.reempmai AS regalias_treempresa_reem_6, regalias.treempresa.reempsit AS regalias_treempresa_reem_7, regalias.treempresa.reempobs AS regalias_treempresa_reem_8, regalias.treempresa.reempfchalt AS regalias_treempresa_reem_9, regalias.treempresa.reempusualt AS regalias_treempresa_reem_a, regalias.treempresa.reempfchmod AS regalias_treempresa_reem_b, regalias.treempresa.reempusumod AS regalias_treempresa_reem_c, regalias.treempresa.reempfchbaj AS regalias_treempresa_reem_d, regalias.treempresa.reempusubaj AS regalias_treempresa_reem_e, regalias.treempresa.retipempid AS regalias_treempresa_reti_f, regalias.treempresa.reempcartel AS regalias_treempresa_reem_10, regalias.treempresa.reempultlin AS regalias_treempresa_reem_11, regalias.treempresa.reempvighas AS regalias_treempresa_reem_12, regalias.treempresa.reempvigdes AS regalias_treempresa_reem_13, regalias.treempresa.reempdespag AS regalias_treempresa_reem_14 
+FROM regalias.treempresa 
+WHERE EXISTS (SELECT 1 
+FROM regalias.tremedfiscal 
+WHERE regalias.treempresa.reempid = regalias.tremedfiscal.reempresaid) ORDER BY regalias.treempresa.reempnom
+17/11/21 14:36 INFO     {}
+17/11/21 14:36 DEBUG    Col ('REGALIAS_TREEMPRESA_REEM_1', 'REGALIAS_TREEMPRESA_REEM_2', 'REGALIAS_TREEMPRESA_REEM_3', 'REGALIAS_TREEMPRESA_REEM_4', 'REGALIAS_TREEMPRESA_REEM_5', 'REGALIAS_TREEMPRESA_REEM_6', 'REGALIAS_TREEMPRESA_REEM_7', 'REGALIAS_TREEMPRESA_REEM_8', 'REGALIAS_TREEMPRESA_REEM_9', 'REGALIAS_TREEMPRESA_REEM_A', 'REGALIAS_TREEMPRESA_REEM_B', 'REGALIAS_TREEMPRESA_REEM_C', 'REGALIAS_TREEMPRESA_REEM_D', 'REGALIAS_TREEMPRESA_REEM_E', 'REGALIAS_TREEMPRESA_RETI_F', 'REGALIAS_TREEMPRESA_REEM_10', 'REGALIAS_TREEMPRESA_REEM_11', 'REGALIAS_TREEMPRESA_REEM_12', 'REGALIAS_TREEMPRESA_REEM_13', 'REGALIAS_TREEMPRESA_REEM_14')
+17/11/21 14:48 INFO     Proceso de lecturas del Sistema de Telemedición
+17/11/21 14:48 INFO     SELECT USER FROM DUAL
+17/11/21 14:48 INFO     {}
+17/11/21 14:48 DEBUG    Col ('USER',)
+17/11/21 14:48 DEBUG    Row ('REGALIAS',)
+17/11/21 14:48 INFO     SELECT CAST('test plain returns' AS VARCHAR(60 CHAR)) AS anon_1 FROM DUAL
+17/11/21 14:48 INFO     {}
+17/11/21 14:48 INFO     SELECT CAST('test unicode returns' AS VARCHAR2(60 CHAR)) AS anon_1 FROM DUAL
+17/11/21 14:48 INFO     {}
+17/11/21 14:48 INFO     SELECT CAST('test nvarchar2 returns' AS NVARCHAR2(60)) AS anon_1 FROM DUAL
+17/11/21 14:48 INFO     {}
+17/11/21 14:48 INFO     SELECT value FROM v$parameter WHERE name = 'compatible'
+17/11/21 14:48 INFO     {}
+17/11/21 14:48 INFO     select value from nls_session_parameters where parameter = 'NLS_NUMERIC_CHARACTERS'
+17/11/21 14:48 INFO     {}
+17/11/21 14:48 DEBUG    Col ('VALUE',)
+17/11/21 14:48 DEBUG    Row ('.,',)
+17/11/21 14:48 INFO     BEGIN (implicit)
+17/11/21 14:48 INFO     SELECT sum(regalias.tremedfiscal.remedfiscntramal) AS sum_1 
+FROM regalias.tremedfiscal 
+WHERE regalias.tremedfiscal.remedfisfecbaj IS NULL
+17/11/21 14:48 INFO     {}
+17/11/21 14:48 DEBUG    Col ('SUM_1',)
+17/11/21 14:48 DEBUG    Row (None,)
+17/11/21 14:48 INFO     Cantidad de archivos a procesar : None del dia
+17/11/21 14:48 INFO     SELECT regalias.treempresa.reempid AS regalias_treempresa_reem_1, regalias.treempresa.reempcuit AS regalias_treempresa_reem_2, regalias.treempresa.reempcod AS regalias_treempresa_reem_3, regalias.treempresa.reempnom AS regalias_treempresa_reem_4, regalias.treempresa.reemptel AS regalias_treempresa_reem_5, regalias.treempresa.reempmai AS regalias_treempresa_reem_6, regalias.treempresa.reempsit AS regalias_treempresa_reem_7, regalias.treempresa.reempobs AS regalias_treempresa_reem_8, regalias.treempresa.reempfchalt AS regalias_treempresa_reem_9, regalias.treempresa.reempusualt AS regalias_treempresa_reem_a, regalias.treempresa.reempfchmod AS regalias_treempresa_reem_b, regalias.treempresa.reempusumod AS regalias_treempresa_reem_c, regalias.treempresa.reempfchbaj AS regalias_treempresa_reem_d, regalias.treempresa.reempusubaj AS regalias_treempresa_reem_e, regalias.treempresa.retipempid AS regalias_treempresa_reti_f, regalias.treempresa.reempcartel AS regalias_treempresa_reem_10, regalias.treempresa.reempultlin AS regalias_treempresa_reem_11, regalias.treempresa.reempvighas AS regalias_treempresa_reem_12, regalias.treempresa.reempvigdes AS regalias_treempresa_reem_13, regalias.treempresa.reempdespag AS regalias_treempresa_reem_14 
+FROM regalias.treempresa 
+WHERE EXISTS (SELECT 1 
+FROM regalias.tremedfiscal 
+WHERE regalias.treempresa.reempid = regalias.tremedfiscal.reempresaid) ORDER BY regalias.treempresa.reempnom
+17/11/21 14:48 INFO     {}
+17/11/21 14:48 DEBUG    Col ('REGALIAS_TREEMPRESA_REEM_1', 'REGALIAS_TREEMPRESA_REEM_2', 'REGALIAS_TREEMPRESA_REEM_3', 'REGALIAS_TREEMPRESA_REEM_4', 'REGALIAS_TREEMPRESA_REEM_5', 'REGALIAS_TREEMPRESA_REEM_6', 'REGALIAS_TREEMPRESA_REEM_7', 'REGALIAS_TREEMPRESA_REEM_8', 'REGALIAS_TREEMPRESA_REEM_9', 'REGALIAS_TREEMPRESA_REEM_A', 'REGALIAS_TREEMPRESA_REEM_B', 'REGALIAS_TREEMPRESA_REEM_C', 'REGALIAS_TREEMPRESA_REEM_D', 'REGALIAS_TREEMPRESA_REEM_E', 'REGALIAS_TREEMPRESA_RETI_F', 'REGALIAS_TREEMPRESA_REEM_10', 'REGALIAS_TREEMPRESA_REEM_11', 'REGALIAS_TREEMPRESA_REEM_12', 'REGALIAS_TREEMPRESA_REEM_13', 'REGALIAS_TREEMPRESA_REEM_14')
+17/11/21 14:48 INFO     Proceso de lecturas del Sistema de Telemedición
+17/11/21 14:48 INFO     SELECT USER FROM DUAL
+17/11/21 14:48 INFO     {}
+17/11/21 14:48 DEBUG    Col ('USER',)
+17/11/21 14:48 DEBUG    Row ('REGALIAS',)
+17/11/21 14:48 INFO     SELECT CAST('test plain returns' AS VARCHAR(60 CHAR)) AS anon_1 FROM DUAL
+17/11/21 14:48 INFO     {}
+17/11/21 14:48 INFO     SELECT CAST('test unicode returns' AS VARCHAR2(60 CHAR)) AS anon_1 FROM DUAL
+17/11/21 14:48 INFO     {}
+17/11/21 14:48 INFO     SELECT CAST('test nvarchar2 returns' AS NVARCHAR2(60)) AS anon_1 FROM DUAL
+17/11/21 14:48 INFO     {}
+17/11/21 14:48 INFO     SELECT value FROM v$parameter WHERE name = 'compatible'
+17/11/21 14:48 INFO     {}
+17/11/21 14:48 INFO     select value from nls_session_parameters where parameter = 'NLS_NUMERIC_CHARACTERS'
+17/11/21 14:48 INFO     {}
+17/11/21 14:48 DEBUG    Col ('VALUE',)
+17/11/21 14:48 DEBUG    Row ('.,',)
+17/11/21 14:48 INFO     BEGIN (implicit)
+17/11/21 14:48 INFO     SELECT sum(regalias.tremedfiscal.remedfiscntramal) AS sum_1 
+FROM regalias.tremedfiscal 
+WHERE regalias.tremedfiscal.remedfisfecbaj IS NULL
+17/11/21 14:48 INFO     {}
+17/11/21 14:48 DEBUG    Col ('SUM_1',)
+17/11/21 14:48 DEBUG    Row (None,)
+17/11/21 14:48 INFO     Cantidad de archivos a procesar : None del dia
+17/11/21 14:48 INFO     SELECT regalias.treempresa.reempid AS regalias_treempresa_reem_1, regalias.treempresa.reempcuit AS regalias_treempresa_reem_2, regalias.treempresa.reempcod AS regalias_treempresa_reem_3, regalias.treempresa.reempnom AS regalias_treempresa_reem_4, regalias.treempresa.reemptel AS regalias_treempresa_reem_5, regalias.treempresa.reempmai AS regalias_treempresa_reem_6, regalias.treempresa.reempsit AS regalias_treempresa_reem_7, regalias.treempresa.reempobs AS regalias_treempresa_reem_8, regalias.treempresa.reempfchalt AS regalias_treempresa_reem_9, regalias.treempresa.reempusualt AS regalias_treempresa_reem_a, regalias.treempresa.reempfchmod AS regalias_treempresa_reem_b, regalias.treempresa.reempusumod AS regalias_treempresa_reem_c, regalias.treempresa.reempfchbaj AS regalias_treempresa_reem_d, regalias.treempresa.reempusubaj AS regalias_treempresa_reem_e, regalias.treempresa.retipempid AS regalias_treempresa_reti_f, regalias.treempresa.reempcartel AS regalias_treempresa_reem_10, regalias.treempresa.reempultlin AS regalias_treempresa_reem_11, regalias.treempresa.reempvighas AS regalias_treempresa_reem_12, regalias.treempresa.reempvigdes AS regalias_treempresa_reem_13, regalias.treempresa.reempdespag AS regalias_treempresa_reem_14 
+FROM regalias.treempresa 
+WHERE EXISTS (SELECT 1 
+FROM regalias.tremedfiscal 
+WHERE regalias.treempresa.reempid = regalias.tremedfiscal.reempresaid) ORDER BY regalias.treempresa.reempnom
+17/11/21 14:48 INFO     {}
+17/11/21 14:48 DEBUG    Col ('REGALIAS_TREEMPRESA_REEM_1', 'REGALIAS_TREEMPRESA_REEM_2', 'REGALIAS_TREEMPRESA_REEM_3', 'REGALIAS_TREEMPRESA_REEM_4', 'REGALIAS_TREEMPRESA_REEM_5', 'REGALIAS_TREEMPRESA_REEM_6', 'REGALIAS_TREEMPRESA_REEM_7', 'REGALIAS_TREEMPRESA_REEM_8', 'REGALIAS_TREEMPRESA_REEM_9', 'REGALIAS_TREEMPRESA_REEM_A', 'REGALIAS_TREEMPRESA_REEM_B', 'REGALIAS_TREEMPRESA_REEM_C', 'REGALIAS_TREEMPRESA_REEM_D', 'REGALIAS_TREEMPRESA_REEM_E', 'REGALIAS_TREEMPRESA_RETI_F', 'REGALIAS_TREEMPRESA_REEM_10', 'REGALIAS_TREEMPRESA_REEM_11', 'REGALIAS_TREEMPRESA_REEM_12', 'REGALIAS_TREEMPRESA_REEM_13', 'REGALIAS_TREEMPRESA_REEM_14')
+17/11/21 14:48 INFO     Proceso de lecturas del Sistema de Telemedición
+17/11/21 14:48 INFO     SELECT USER FROM DUAL
+17/11/21 14:48 INFO     {}
+17/11/21 14:48 DEBUG    Col ('USER',)
+17/11/21 14:48 DEBUG    Row ('REGALIAS',)
+17/11/21 14:48 INFO     SELECT CAST('test plain returns' AS VARCHAR(60 CHAR)) AS anon_1 FROM DUAL
+17/11/21 14:48 INFO     {}
+17/11/21 14:48 INFO     SELECT CAST('test unicode returns' AS VARCHAR2(60 CHAR)) AS anon_1 FROM DUAL
+17/11/21 14:48 INFO     {}
+17/11/21 14:48 INFO     SELECT CAST('test nvarchar2 returns' AS NVARCHAR2(60)) AS anon_1 FROM DUAL
+17/11/21 14:48 INFO     {}
+17/11/21 14:48 INFO     SELECT value FROM v$parameter WHERE name = 'compatible'
+17/11/21 14:48 INFO     {}
+17/11/21 14:48 INFO     select value from nls_session_parameters where parameter = 'NLS_NUMERIC_CHARACTERS'
+17/11/21 14:48 INFO     {}
+17/11/21 14:48 DEBUG    Col ('VALUE',)
+17/11/21 14:48 DEBUG    Row ('.,',)
+17/11/21 14:48 INFO     BEGIN (implicit)
+17/11/21 14:48 INFO     SELECT sum(regalias.tremedfiscal.remedfiscntramal) AS sum_1 
+FROM regalias.tremedfiscal 
+WHERE regalias.tremedfiscal.remedfisfecbaj IS NULL
+17/11/21 14:48 INFO     {}
+17/11/21 14:48 DEBUG    Col ('SUM_1',)
+17/11/21 14:48 DEBUG    Row (None,)
+17/11/21 14:48 INFO     Cantidad de archivos a procesar : None del dia
+17/11/21 14:48 INFO     SELECT regalias.treempresa.reempid AS regalias_treempresa_reem_1, regalias.treempresa.reempcuit AS regalias_treempresa_reem_2, regalias.treempresa.reempcod AS regalias_treempresa_reem_3, regalias.treempresa.reempnom AS regalias_treempresa_reem_4, regalias.treempresa.reemptel AS regalias_treempresa_reem_5, regalias.treempresa.reempmai AS regalias_treempresa_reem_6, regalias.treempresa.reempsit AS regalias_treempresa_reem_7, regalias.treempresa.reempobs AS regalias_treempresa_reem_8, regalias.treempresa.reempfchalt AS regalias_treempresa_reem_9, regalias.treempresa.reempusualt AS regalias_treempresa_reem_a, regalias.treempresa.reempfchmod AS regalias_treempresa_reem_b, regalias.treempresa.reempusumod AS regalias_treempresa_reem_c, regalias.treempresa.reempfchbaj AS regalias_treempresa_reem_d, regalias.treempresa.reempusubaj AS regalias_treempresa_reem_e, regalias.treempresa.retipempid AS regalias_treempresa_reti_f, regalias.treempresa.reempcartel AS regalias_treempresa_reem_10, regalias.treempresa.reempultlin AS regalias_treempresa_reem_11, regalias.treempresa.reempvighas AS regalias_treempresa_reem_12, regalias.treempresa.reempvigdes AS regalias_treempresa_reem_13, regalias.treempresa.reempdespag AS regalias_treempresa_reem_14 
+FROM regalias.treempresa 
+WHERE EXISTS (SELECT 1 
+FROM regalias.tremedfiscal 
+WHERE regalias.treempresa.reempid = regalias.tremedfiscal.reempresaid) ORDER BY regalias.treempresa.reempnom
+17/11/21 14:48 INFO     {}
+17/11/21 14:48 DEBUG    Col ('REGALIAS_TREEMPRESA_REEM_1', 'REGALIAS_TREEMPRESA_REEM_2', 'REGALIAS_TREEMPRESA_REEM_3', 'REGALIAS_TREEMPRESA_REEM_4', 'REGALIAS_TREEMPRESA_REEM_5', 'REGALIAS_TREEMPRESA_REEM_6', 'REGALIAS_TREEMPRESA_REEM_7', 'REGALIAS_TREEMPRESA_REEM_8', 'REGALIAS_TREEMPRESA_REEM_9', 'REGALIAS_TREEMPRESA_REEM_A', 'REGALIAS_TREEMPRESA_REEM_B', 'REGALIAS_TREEMPRESA_REEM_C', 'REGALIAS_TREEMPRESA_REEM_D', 'REGALIAS_TREEMPRESA_REEM_E', 'REGALIAS_TREEMPRESA_RETI_F', 'REGALIAS_TREEMPRESA_REEM_10', 'REGALIAS_TREEMPRESA_REEM_11', 'REGALIAS_TREEMPRESA_REEM_12', 'REGALIAS_TREEMPRESA_REEM_13', 'REGALIAS_TREEMPRESA_REEM_14')
+17/11/21 14:48 INFO     Proceso de lecturas del Sistema de Telemedición
+17/11/21 14:49 INFO     SELECT USER FROM DUAL
+17/11/21 14:49 INFO     {}
+17/11/21 14:49 DEBUG    Col ('USER',)
+17/11/21 14:49 DEBUG    Row ('REGALIAS',)
+17/11/21 14:49 INFO     SELECT CAST('test plain returns' AS VARCHAR(60 CHAR)) AS anon_1 FROM DUAL
+17/11/21 14:49 INFO     {}
+17/11/21 14:49 INFO     SELECT CAST('test unicode returns' AS VARCHAR2(60 CHAR)) AS anon_1 FROM DUAL
+17/11/21 14:49 INFO     {}
+17/11/21 14:49 INFO     SELECT CAST('test nvarchar2 returns' AS NVARCHAR2(60)) AS anon_1 FROM DUAL
+17/11/21 14:49 INFO     {}
+17/11/21 14:49 INFO     SELECT value FROM v$parameter WHERE name = 'compatible'
+17/11/21 14:49 INFO     {}
+17/11/21 14:49 INFO     select value from nls_session_parameters where parameter = 'NLS_NUMERIC_CHARACTERS'
+17/11/21 14:49 INFO     {}
+17/11/21 14:49 DEBUG    Col ('VALUE',)
+17/11/21 14:49 DEBUG    Row ('.,',)
+17/11/21 14:49 INFO     BEGIN (implicit)
+17/11/21 14:49 INFO     SELECT sum(regalias.tremedfiscal.remedfiscntramal) AS sum_1 
+FROM regalias.tremedfiscal 
+WHERE regalias.tremedfiscal.remedfisfecbaj IS NULL
+17/11/21 14:49 INFO     {}
+17/11/21 14:49 DEBUG    Col ('SUM_1',)
+17/11/21 14:49 DEBUG    Row (None,)
+17/11/21 14:50 INFO     Cantidad de archivos a procesar : None del dia
+17/11/21 14:50 INFO     SELECT regalias.treempresa.reempid AS regalias_treempresa_reem_1, regalias.treempresa.reempcuit AS regalias_treempresa_reem_2, regalias.treempresa.reempcod AS regalias_treempresa_reem_3, regalias.treempresa.reempnom AS regalias_treempresa_reem_4, regalias.treempresa.reemptel AS regalias_treempresa_reem_5, regalias.treempresa.reempmai AS regalias_treempresa_reem_6, regalias.treempresa.reempsit AS regalias_treempresa_reem_7, regalias.treempresa.reempobs AS regalias_treempresa_reem_8, regalias.treempresa.reempfchalt AS regalias_treempresa_reem_9, regalias.treempresa.reempusualt AS regalias_treempresa_reem_a, regalias.treempresa.reempfchmod AS regalias_treempresa_reem_b, regalias.treempresa.reempusumod AS regalias_treempresa_reem_c, regalias.treempresa.reempfchbaj AS regalias_treempresa_reem_d, regalias.treempresa.reempusubaj AS regalias_treempresa_reem_e, regalias.treempresa.retipempid AS regalias_treempresa_reti_f, regalias.treempresa.reempcartel AS regalias_treempresa_reem_10, regalias.treempresa.reempultlin AS regalias_treempresa_reem_11, regalias.treempresa.reempvighas AS regalias_treempresa_reem_12, regalias.treempresa.reempvigdes AS regalias_treempresa_reem_13, regalias.treempresa.reempdespag AS regalias_treempresa_reem_14 
+FROM regalias.treempresa 
+WHERE EXISTS (SELECT 1 
+FROM regalias.tremedfiscal 
+WHERE regalias.treempresa.reempid = regalias.tremedfiscal.reempresaid) ORDER BY regalias.treempresa.reempnom
+17/11/21 14:50 INFO     {}
+17/11/21 14:50 DEBUG    Col ('REGALIAS_TREEMPRESA_REEM_1', 'REGALIAS_TREEMPRESA_REEM_2', 'REGALIAS_TREEMPRESA_REEM_3', 'REGALIAS_TREEMPRESA_REEM_4', 'REGALIAS_TREEMPRESA_REEM_5', 'REGALIAS_TREEMPRESA_REEM_6', 'REGALIAS_TREEMPRESA_REEM_7', 'REGALIAS_TREEMPRESA_REEM_8', 'REGALIAS_TREEMPRESA_REEM_9', 'REGALIAS_TREEMPRESA_REEM_A', 'REGALIAS_TREEMPRESA_REEM_B', 'REGALIAS_TREEMPRESA_REEM_C', 'REGALIAS_TREEMPRESA_REEM_D', 'REGALIAS_TREEMPRESA_REEM_E', 'REGALIAS_TREEMPRESA_RETI_F', 'REGALIAS_TREEMPRESA_REEM_10', 'REGALIAS_TREEMPRESA_REEM_11', 'REGALIAS_TREEMPRESA_REEM_12', 'REGALIAS_TREEMPRESA_REEM_13', 'REGALIAS_TREEMPRESA_REEM_14')
+17/11/21 14:53 INFO     Proceso de lecturas del Sistema de Telemedición
+17/11/21 14:54 INFO     Cantidad de archivos a procesar : SELECT sum(regalias.tremedfiscal.remedfiscntramal) AS sum_1 
+FROM regalias.tremedfiscal 
+WHERE regalias.tremedfiscal.remedfisfecbaj IS NULL del dia
+17/11/21 14:55 INFO     SELECT USER FROM DUAL
+17/11/21 14:55 INFO     {}
+17/11/21 14:55 DEBUG    Col ('USER',)
+17/11/21 14:55 DEBUG    Row ('REGALIAS',)
+17/11/21 14:55 INFO     SELECT CAST('test plain returns' AS VARCHAR(60 CHAR)) AS anon_1 FROM DUAL
+17/11/21 14:55 INFO     {}
+17/11/21 14:55 INFO     SELECT CAST('test unicode returns' AS VARCHAR2(60 CHAR)) AS anon_1 FROM DUAL
+17/11/21 14:55 INFO     {}
+17/11/21 14:55 INFO     SELECT CAST('test nvarchar2 returns' AS NVARCHAR2(60)) AS anon_1 FROM DUAL
+17/11/21 14:55 INFO     {}
+17/11/21 14:55 INFO     SELECT value FROM v$parameter WHERE name = 'compatible'
+17/11/21 14:55 INFO     {}
+17/11/21 14:55 INFO     select value from nls_session_parameters where parameter = 'NLS_NUMERIC_CHARACTERS'
+17/11/21 14:55 INFO     {}
+17/11/21 14:55 DEBUG    Col ('VALUE',)
+17/11/21 14:55 DEBUG    Row ('.,',)
+17/11/21 14:55 INFO     BEGIN (implicit)
+17/11/21 14:55 INFO     SELECT regalias.treempresa.reempid AS regalias_treempresa_reem_1, regalias.treempresa.reempcuit AS regalias_treempresa_reem_2, regalias.treempresa.reempcod AS regalias_treempresa_reem_3, regalias.treempresa.reempnom AS regalias_treempresa_reem_4, regalias.treempresa.reemptel AS regalias_treempresa_reem_5, regalias.treempresa.reempmai AS regalias_treempresa_reem_6, regalias.treempresa.reempsit AS regalias_treempresa_reem_7, regalias.treempresa.reempobs AS regalias_treempresa_reem_8, regalias.treempresa.reempfchalt AS regalias_treempresa_reem_9, regalias.treempresa.reempusualt AS regalias_treempresa_reem_a, regalias.treempresa.reempfchmod AS regalias_treempresa_reem_b, regalias.treempresa.reempusumod AS regalias_treempresa_reem_c, regalias.treempresa.reempfchbaj AS regalias_treempresa_reem_d, regalias.treempresa.reempusubaj AS regalias_treempresa_reem_e, regalias.treempresa.retipempid AS regalias_treempresa_reti_f, regalias.treempresa.reempcartel AS regalias_treempresa_reem_10, regalias.treempresa.reempultlin AS regalias_treempresa_reem_11, regalias.treempresa.reempvighas AS regalias_treempresa_reem_12, regalias.treempresa.reempvigdes AS regalias_treempresa_reem_13, regalias.treempresa.reempdespag AS regalias_treempresa_reem_14 
+FROM regalias.treempresa 
+WHERE EXISTS (SELECT 1 
+FROM regalias.tremedfiscal 
+WHERE regalias.treempresa.reempid = regalias.tremedfiscal.reempresaid) ORDER BY regalias.treempresa.reempnom
+17/11/21 14:55 INFO     {}
+17/11/21 14:55 DEBUG    Col ('REGALIAS_TREEMPRESA_REEM_1', 'REGALIAS_TREEMPRESA_REEM_2', 'REGALIAS_TREEMPRESA_REEM_3', 'REGALIAS_TREEMPRESA_REEM_4', 'REGALIAS_TREEMPRESA_REEM_5', 'REGALIAS_TREEMPRESA_REEM_6', 'REGALIAS_TREEMPRESA_REEM_7', 'REGALIAS_TREEMPRESA_REEM_8', 'REGALIAS_TREEMPRESA_REEM_9', 'REGALIAS_TREEMPRESA_REEM_A', 'REGALIAS_TREEMPRESA_REEM_B', 'REGALIAS_TREEMPRESA_REEM_C', 'REGALIAS_TREEMPRESA_REEM_D', 'REGALIAS_TREEMPRESA_REEM_E', 'REGALIAS_TREEMPRESA_RETI_F', 'REGALIAS_TREEMPRESA_REEM_10', 'REGALIAS_TREEMPRESA_REEM_11', 'REGALIAS_TREEMPRESA_REEM_12', 'REGALIAS_TREEMPRESA_REEM_13', 'REGALIAS_TREEMPRESA_REEM_14')
+17/11/21 14:55 INFO     Proceso de lecturas del Sistema de Telemedición
+17/11/21 14:55 INFO     SELECT USER FROM DUAL
+17/11/21 14:55 INFO     {}
+17/11/21 14:55 DEBUG    Col ('USER',)
+17/11/21 14:55 DEBUG    Row ('REGALIAS',)
+17/11/21 14:55 INFO     SELECT CAST('test plain returns' AS VARCHAR(60 CHAR)) AS anon_1 FROM DUAL
+17/11/21 14:55 INFO     {}
+17/11/21 14:55 INFO     SELECT CAST('test unicode returns' AS VARCHAR2(60 CHAR)) AS anon_1 FROM DUAL
+17/11/21 14:55 INFO     {}
+17/11/21 14:55 INFO     SELECT CAST('test nvarchar2 returns' AS NVARCHAR2(60)) AS anon_1 FROM DUAL
+17/11/21 14:55 INFO     {}
+17/11/21 14:55 INFO     SELECT value FROM v$parameter WHERE name = 'compatible'
+17/11/21 14:55 INFO     {}
+17/11/21 14:55 INFO     select value from nls_session_parameters where parameter = 'NLS_NUMERIC_CHARACTERS'
+17/11/21 14:55 INFO     {}
+17/11/21 14:55 DEBUG    Col ('VALUE',)
+17/11/21 14:55 DEBUG    Row ('.,',)
+17/11/21 14:55 INFO     BEGIN (implicit)
+17/11/21 14:55 INFO     SELECT sum(regalias.tremedfiscal.remedfiscntramal) AS sum_1 
+FROM regalias.tremedfiscal 
+WHERE regalias.tremedfiscal.remedfisfecbaj IS NULL
+17/11/21 14:55 INFO     {}
+17/11/21 14:55 DEBUG    Col ('SUM_1',)
+17/11/21 14:55 DEBUG    Row (None,)
+17/11/21 14:55 INFO     Cantidad de archivos a procesar : (None,) del dia
+17/11/21 14:55 INFO     SELECT regalias.treempresa.reempid AS regalias_treempresa_reem_1, regalias.treempresa.reempcuit AS regalias_treempresa_reem_2, regalias.treempresa.reempcod AS regalias_treempresa_reem_3, regalias.treempresa.reempnom AS regalias_treempresa_reem_4, regalias.treempresa.reemptel AS regalias_treempresa_reem_5, regalias.treempresa.reempmai AS regalias_treempresa_reem_6, regalias.treempresa.reempsit AS regalias_treempresa_reem_7, regalias.treempresa.reempobs AS regalias_treempresa_reem_8, regalias.treempresa.reempfchalt AS regalias_treempresa_reem_9, regalias.treempresa.reempusualt AS regalias_treempresa_reem_a, regalias.treempresa.reempfchmod AS regalias_treempresa_reem_b, regalias.treempresa.reempusumod AS regalias_treempresa_reem_c, regalias.treempresa.reempfchbaj AS regalias_treempresa_reem_d, regalias.treempresa.reempusubaj AS regalias_treempresa_reem_e, regalias.treempresa.retipempid AS regalias_treempresa_reti_f, regalias.treempresa.reempcartel AS regalias_treempresa_reem_10, regalias.treempresa.reempultlin AS regalias_treempresa_reem_11, regalias.treempresa.reempvighas AS regalias_treempresa_reem_12, regalias.treempresa.reempvigdes AS regalias_treempresa_reem_13, regalias.treempresa.reempdespag AS regalias_treempresa_reem_14 
+FROM regalias.treempresa 
+WHERE EXISTS (SELECT 1 
+FROM regalias.tremedfiscal 
+WHERE regalias.treempresa.reempid = regalias.tremedfiscal.reempresaid) ORDER BY regalias.treempresa.reempnom
+17/11/21 14:55 INFO     {}
+17/11/21 14:55 DEBUG    Col ('REGALIAS_TREEMPRESA_REEM_1', 'REGALIAS_TREEMPRESA_REEM_2', 'REGALIAS_TREEMPRESA_REEM_3', 'REGALIAS_TREEMPRESA_REEM_4', 'REGALIAS_TREEMPRESA_REEM_5', 'REGALIAS_TREEMPRESA_REEM_6', 'REGALIAS_TREEMPRESA_REEM_7', 'REGALIAS_TREEMPRESA_REEM_8', 'REGALIAS_TREEMPRESA_REEM_9', 'REGALIAS_TREEMPRESA_REEM_A', 'REGALIAS_TREEMPRESA_REEM_B', 'REGALIAS_TREEMPRESA_REEM_C', 'REGALIAS_TREEMPRESA_REEM_D', 'REGALIAS_TREEMPRESA_REEM_E', 'REGALIAS_TREEMPRESA_RETI_F', 'REGALIAS_TREEMPRESA_REEM_10', 'REGALIAS_TREEMPRESA_REEM_11', 'REGALIAS_TREEMPRESA_REEM_12', 'REGALIAS_TREEMPRESA_REEM_13', 'REGALIAS_TREEMPRESA_REEM_14')
+17/11/21 14:56 INFO     Proceso de lecturas del Sistema de Telemedición
+17/11/21 14:56 INFO     SELECT USER FROM DUAL
+17/11/21 14:56 INFO     {}
+17/11/21 14:56 DEBUG    Col ('USER',)
+17/11/21 14:56 DEBUG    Row ('REGALIAS',)
+17/11/21 14:56 INFO     SELECT CAST('test plain returns' AS VARCHAR(60 CHAR)) AS anon_1 FROM DUAL
+17/11/21 14:56 INFO     {}
+17/11/21 14:56 INFO     SELECT CAST('test unicode returns' AS VARCHAR2(60 CHAR)) AS anon_1 FROM DUAL
+17/11/21 14:56 INFO     {}
+17/11/21 14:56 INFO     SELECT CAST('test nvarchar2 returns' AS NVARCHAR2(60)) AS anon_1 FROM DUAL
+17/11/21 14:56 INFO     {}
+17/11/21 14:56 INFO     SELECT value FROM v$parameter WHERE name = 'compatible'
+17/11/21 14:56 INFO     {}
+17/11/21 14:56 INFO     select value from nls_session_parameters where parameter = 'NLS_NUMERIC_CHARACTERS'
+17/11/21 14:56 INFO     {}
+17/11/21 14:56 DEBUG    Col ('VALUE',)
+17/11/21 14:56 DEBUG    Row ('.,',)
+17/11/21 14:56 INFO     BEGIN (implicit)
+17/11/21 14:56 INFO     SELECT sum(regalias.tremedfiscal.remedfiscntramal) AS sum_1 
+FROM regalias.tremedfiscal 
+WHERE regalias.tremedfiscal.remedfisfecbaj IS NULL
+17/11/21 14:56 INFO     {}
+17/11/21 14:56 DEBUG    Col ('SUM_1',)
+17/11/21 14:56 DEBUG    Row (None,)
+17/11/21 14:56 INFO     Cantidad de archivos a procesar : (None,) del dia
+17/11/21 14:56 INFO     Proceso de lecturas del Sistema de Telemedición
+17/11/21 14:56 INFO     SELECT USER FROM DUAL
+17/11/21 14:56 INFO     {}
+17/11/21 14:56 DEBUG    Col ('USER',)
+17/11/21 14:56 DEBUG    Row ('REGALIAS',)
+17/11/21 14:56 INFO     SELECT CAST('test plain returns' AS VARCHAR(60 CHAR)) AS anon_1 FROM DUAL
+17/11/21 14:56 INFO     {}
+17/11/21 14:56 INFO     SELECT CAST('test unicode returns' AS VARCHAR2(60 CHAR)) AS anon_1 FROM DUAL
+17/11/21 14:56 INFO     {}
+17/11/21 14:56 INFO     SELECT CAST('test nvarchar2 returns' AS NVARCHAR2(60)) AS anon_1 FROM DUAL
+17/11/21 14:56 INFO     {}
+17/11/21 14:56 INFO     SELECT value FROM v$parameter WHERE name = 'compatible'
+17/11/21 14:56 INFO     {}
+17/11/21 14:56 INFO     select value from nls_session_parameters where parameter = 'NLS_NUMERIC_CHARACTERS'
+17/11/21 14:56 INFO     {}
+17/11/21 14:56 DEBUG    Col ('VALUE',)
+17/11/21 14:56 DEBUG    Row ('.,',)
+17/11/21 14:56 INFO     BEGIN (implicit)
+17/11/21 14:56 INFO     SELECT sum(regalias.tremedfiscal.remedfiscntramal) AS sum_1 
+FROM regalias.tremedfiscal 
+WHERE regalias.tremedfiscal.remedfisfecbaj IS NULL
+17/11/21 14:56 INFO     {}
+17/11/21 14:56 DEBUG    Col ('SUM_1',)
+17/11/21 14:56 DEBUG    Row (None,)
+17/11/21 14:56 INFO     Cantidad de archivos a procesar : (None,) del dia
+17/11/21 14:56 INFO     SELECT regalias.treempresa.reempid AS regalias_treempresa_reem_1, regalias.treempresa.reempcuit AS regalias_treempresa_reem_2, regalias.treempresa.reempcod AS regalias_treempresa_reem_3, regalias.treempresa.reempnom AS regalias_treempresa_reem_4, regalias.treempresa.reemptel AS regalias_treempresa_reem_5, regalias.treempresa.reempmai AS regalias_treempresa_reem_6, regalias.treempresa.reempsit AS regalias_treempresa_reem_7, regalias.treempresa.reempobs AS regalias_treempresa_reem_8, regalias.treempresa.reempfchalt AS regalias_treempresa_reem_9, regalias.treempresa.reempusualt AS regalias_treempresa_reem_a, regalias.treempresa.reempfchmod AS regalias_treempresa_reem_b, regalias.treempresa.reempusumod AS regalias_treempresa_reem_c, regalias.treempresa.reempfchbaj AS regalias_treempresa_reem_d, regalias.treempresa.reempusubaj AS regalias_treempresa_reem_e, regalias.treempresa.retipempid AS regalias_treempresa_reti_f, regalias.treempresa.reempcartel AS regalias_treempresa_reem_10, regalias.treempresa.reempultlin AS regalias_treempresa_reem_11, regalias.treempresa.reempvighas AS regalias_treempresa_reem_12, regalias.treempresa.reempvigdes AS regalias_treempresa_reem_13, regalias.treempresa.reempdespag AS regalias_treempresa_reem_14 
+FROM regalias.treempresa 
+WHERE EXISTS (SELECT 1 
+FROM regalias.tremedfiscal 
+WHERE regalias.treempresa.reempid = regalias.tremedfiscal.reempresaid) ORDER BY regalias.treempresa.reempnom
+17/11/21 14:56 INFO     {}
+17/11/21 14:56 DEBUG    Col ('REGALIAS_TREEMPRESA_REEM_1', 'REGALIAS_TREEMPRESA_REEM_2', 'REGALIAS_TREEMPRESA_REEM_3', 'REGALIAS_TREEMPRESA_REEM_4', 'REGALIAS_TREEMPRESA_REEM_5', 'REGALIAS_TREEMPRESA_REEM_6', 'REGALIAS_TREEMPRESA_REEM_7', 'REGALIAS_TREEMPRESA_REEM_8', 'REGALIAS_TREEMPRESA_REEM_9', 'REGALIAS_TREEMPRESA_REEM_A', 'REGALIAS_TREEMPRESA_REEM_B', 'REGALIAS_TREEMPRESA_REEM_C', 'REGALIAS_TREEMPRESA_REEM_D', 'REGALIAS_TREEMPRESA_REEM_E', 'REGALIAS_TREEMPRESA_RETI_F', 'REGALIAS_TREEMPRESA_REEM_10', 'REGALIAS_TREEMPRESA_REEM_11', 'REGALIAS_TREEMPRESA_REEM_12', 'REGALIAS_TREEMPRESA_REEM_13', 'REGALIAS_TREEMPRESA_REEM_14')
+17/11/21 15:01 INFO     Proceso de lecturas del Sistema de Telemedición
+17/11/21 15:01 INFO     SELECT USER FROM DUAL
+17/11/21 15:01 INFO     {}
+17/11/21 15:01 DEBUG    Col ('USER',)
+17/11/21 15:01 DEBUG    Row ('REGALIAS',)
+17/11/21 15:01 INFO     SELECT CAST('test plain returns' AS VARCHAR(60 CHAR)) AS anon_1 FROM DUAL
+17/11/21 15:01 INFO     {}
+17/11/21 15:01 INFO     SELECT CAST('test unicode returns' AS VARCHAR2(60 CHAR)) AS anon_1 FROM DUAL
+17/11/21 15:01 INFO     {}
+17/11/21 15:01 INFO     SELECT CAST('test nvarchar2 returns' AS NVARCHAR2(60)) AS anon_1 FROM DUAL
+17/11/21 15:01 INFO     {}
+17/11/21 15:01 INFO     SELECT value FROM v$parameter WHERE name = 'compatible'
+17/11/21 15:01 INFO     {}
+17/11/21 15:01 INFO     select value from nls_session_parameters where parameter = 'NLS_NUMERIC_CHARACTERS'
+17/11/21 15:01 INFO     {}
+17/11/21 15:01 DEBUG    Col ('VALUE',)
+17/11/21 15:01 DEBUG    Row ('.,',)
+17/11/21 15:01 INFO     BEGIN (implicit)
+17/11/21 15:01 INFO     SELECT sum(regalias.tremedfiscal.remedfiscntramal) AS sum_1 
+FROM regalias.tremedfiscal 
+WHERE regalias.tremedfiscal.remedfisfecbaj IS NULL
+17/11/21 15:01 INFO     {}
+17/11/21 15:01 DEBUG    Col ('SUM_1',)
+17/11/21 15:01 DEBUG    Row (None,)
+17/11/21 15:01 INFO     Cantidad de archivos a procesar : (None,) del dia
+17/11/21 15:01 INFO     SELECT regalias.treempresa.reempid AS regalias_treempresa_reem_1, regalias.treempresa.reempcuit AS regalias_treempresa_reem_2, regalias.treempresa.reempcod AS regalias_treempresa_reem_3, regalias.treempresa.reempnom AS regalias_treempresa_reem_4, regalias.treempresa.reemptel AS regalias_treempresa_reem_5, regalias.treempresa.reempmai AS regalias_treempresa_reem_6, regalias.treempresa.reempsit AS regalias_treempresa_reem_7, regalias.treempresa.reempobs AS regalias_treempresa_reem_8, regalias.treempresa.reempfchalt AS regalias_treempresa_reem_9, regalias.treempresa.reempusualt AS regalias_treempresa_reem_a, regalias.treempresa.reempfchmod AS regalias_treempresa_reem_b, regalias.treempresa.reempusumod AS regalias_treempresa_reem_c, regalias.treempresa.reempfchbaj AS regalias_treempresa_reem_d, regalias.treempresa.reempusubaj AS regalias_treempresa_reem_e, regalias.treempresa.retipempid AS regalias_treempresa_reti_f, regalias.treempresa.reempcartel AS regalias_treempresa_reem_10, regalias.treempresa.reempultlin AS regalias_treempresa_reem_11, regalias.treempresa.reempvighas AS regalias_treempresa_reem_12, regalias.treempresa.reempvigdes AS regalias_treempresa_reem_13, regalias.treempresa.reempdespag AS regalias_treempresa_reem_14 
+FROM regalias.treempresa 
+WHERE EXISTS (SELECT 1 
+FROM regalias.tremedfiscal 
+WHERE regalias.treempresa.reempid = regalias.tremedfiscal.reempresaid) ORDER BY regalias.treempresa.reempnom
+17/11/21 15:01 INFO     {}
+17/11/21 15:01 DEBUG    Col ('REGALIAS_TREEMPRESA_REEM_1', 'REGALIAS_TREEMPRESA_REEM_2', 'REGALIAS_TREEMPRESA_REEM_3', 'REGALIAS_TREEMPRESA_REEM_4', 'REGALIAS_TREEMPRESA_REEM_5', 'REGALIAS_TREEMPRESA_REEM_6', 'REGALIAS_TREEMPRESA_REEM_7', 'REGALIAS_TREEMPRESA_REEM_8', 'REGALIAS_TREEMPRESA_REEM_9', 'REGALIAS_TREEMPRESA_REEM_A', 'REGALIAS_TREEMPRESA_REEM_B', 'REGALIAS_TREEMPRESA_REEM_C', 'REGALIAS_TREEMPRESA_REEM_D', 'REGALIAS_TREEMPRESA_REEM_E', 'REGALIAS_TREEMPRESA_RETI_F', 'REGALIAS_TREEMPRESA_REEM_10', 'REGALIAS_TREEMPRESA_REEM_11', 'REGALIAS_TREEMPRESA_REEM_12', 'REGALIAS_TREEMPRESA_REEM_13', 'REGALIAS_TREEMPRESA_REEM_14')
+17/11/21 15:15 INFO     Proceso de lecturas del Sistema de Telemedición
+17/11/21 15:15 INFO     SELECT USER FROM DUAL
+17/11/21 15:15 INFO     {}
+17/11/21 15:15 DEBUG    Col ('USER',)
+17/11/21 15:15 DEBUG    Row ('REGALIAS',)
+17/11/21 15:15 INFO     SELECT CAST('test plain returns' AS VARCHAR(60 CHAR)) AS anon_1 FROM DUAL
+17/11/21 15:15 INFO     {}
+17/11/21 15:15 INFO     SELECT CAST('test unicode returns' AS VARCHAR2(60 CHAR)) AS anon_1 FROM DUAL
+17/11/21 15:15 INFO     {}
+17/11/21 15:15 INFO     SELECT CAST('test nvarchar2 returns' AS NVARCHAR2(60)) AS anon_1 FROM DUAL
+17/11/21 15:15 INFO     {}
+17/11/21 15:15 INFO     SELECT value FROM v$parameter WHERE name = 'compatible'
+17/11/21 15:15 INFO     {}
+17/11/21 15:15 INFO     select value from nls_session_parameters where parameter = 'NLS_NUMERIC_CHARACTERS'
+17/11/21 15:15 INFO     {}
+17/11/21 15:15 DEBUG    Col ('VALUE',)
+17/11/21 15:15 DEBUG    Row ('.,',)
+17/11/21 15:15 INFO     BEGIN (implicit)
+17/11/21 15:15 INFO     SELECT sum(regalias.tremedfiscal.remedfiscntramal) AS sum_1 
+FROM regalias.tremedfiscal 
+WHERE regalias.tremedfiscal.remedfisfecbaj IS NULL
+17/11/21 15:15 INFO     {}
+17/11/21 15:15 DEBUG    Col ('SUM_1',)
+17/11/21 15:15 DEBUG    Row (None,)
+17/11/21 15:15 INFO     Proceso de lecturas del Sistema de Telemedición
+17/11/21 15:15 INFO     SELECT USER FROM DUAL
+17/11/21 15:15 INFO     {}
+17/11/21 15:15 DEBUG    Col ('USER',)
+17/11/21 15:15 DEBUG    Row ('REGALIAS',)
+17/11/21 15:15 INFO     SELECT CAST('test plain returns' AS VARCHAR(60 CHAR)) AS anon_1 FROM DUAL
+17/11/21 15:15 INFO     {}
+17/11/21 15:15 INFO     SELECT CAST('test unicode returns' AS VARCHAR2(60 CHAR)) AS anon_1 FROM DUAL
+17/11/21 15:15 INFO     {}
+17/11/21 15:15 INFO     SELECT CAST('test nvarchar2 returns' AS NVARCHAR2(60)) AS anon_1 FROM DUAL
+17/11/21 15:15 INFO     {}
+17/11/21 15:15 INFO     SELECT value FROM v$parameter WHERE name = 'compatible'
+17/11/21 15:15 INFO     {}
+17/11/21 15:15 INFO     select value from nls_session_parameters where parameter = 'NLS_NUMERIC_CHARACTERS'
+17/11/21 15:15 INFO     {}
+17/11/21 15:15 DEBUG    Col ('VALUE',)
+17/11/21 15:15 DEBUG    Row ('.,',)
+17/11/21 15:15 INFO     BEGIN (implicit)
+17/11/21 15:15 INFO     SELECT sum(regalias.tremedfiscal.remedfiscntramal) AS sum_1 
+FROM regalias.tremedfiscal 
+WHERE regalias.tremedfiscal.remedfisfecbaj IS NULL
+17/11/21 15:15 INFO     {}
+17/11/21 15:15 DEBUG    Col ('SUM_1',)
+17/11/21 15:15 DEBUG    Row (None,)
+17/11/21 15:15 INFO     SELECT regalias.treempresa.reempid AS regalias_treempresa_reem_1, regalias.treempresa.reempcuit AS regalias_treempresa_reem_2, regalias.treempresa.reempcod AS regalias_treempresa_reem_3, regalias.treempresa.reempnom AS regalias_treempresa_reem_4, regalias.treempresa.reemptel AS regalias_treempresa_reem_5, regalias.treempresa.reempmai AS regalias_treempresa_reem_6, regalias.treempresa.reempsit AS regalias_treempresa_reem_7, regalias.treempresa.reempobs AS regalias_treempresa_reem_8, regalias.treempresa.reempfchalt AS regalias_treempresa_reem_9, regalias.treempresa.reempusualt AS regalias_treempresa_reem_a, regalias.treempresa.reempfchmod AS regalias_treempresa_reem_b, regalias.treempresa.reempusumod AS regalias_treempresa_reem_c, regalias.treempresa.reempfchbaj AS regalias_treempresa_reem_d, regalias.treempresa.reempusubaj AS regalias_treempresa_reem_e, regalias.treempresa.retipempid AS regalias_treempresa_reti_f, regalias.treempresa.reempcartel AS regalias_treempresa_reem_10, regalias.treempresa.reempultlin AS regalias_treempresa_reem_11, regalias.treempresa.reempvighas AS regalias_treempresa_reem_12, regalias.treempresa.reempvigdes AS regalias_treempresa_reem_13, regalias.treempresa.reempdespag AS regalias_treempresa_reem_14 
+FROM regalias.treempresa 
+WHERE 0 = 1
+17/11/21 15:15 INFO     {}
+17/11/21 15:15 DEBUG    Col ('REGALIAS_TREEMPRESA_REEM_1', 'REGALIAS_TREEMPRESA_REEM_2', 'REGALIAS_TREEMPRESA_REEM_3', 'REGALIAS_TREEMPRESA_REEM_4', 'REGALIAS_TREEMPRESA_REEM_5', 'REGALIAS_TREEMPRESA_REEM_6', 'REGALIAS_TREEMPRESA_REEM_7', 'REGALIAS_TREEMPRESA_REEM_8', 'REGALIAS_TREEMPRESA_REEM_9', 'REGALIAS_TREEMPRESA_REEM_A', 'REGALIAS_TREEMPRESA_REEM_B', 'REGALIAS_TREEMPRESA_REEM_C', 'REGALIAS_TREEMPRESA_REEM_D', 'REGALIAS_TREEMPRESA_REEM_E', 'REGALIAS_TREEMPRESA_RETI_F', 'REGALIAS_TREEMPRESA_REEM_10', 'REGALIAS_TREEMPRESA_REEM_11', 'REGALIAS_TREEMPRESA_REEM_12', 'REGALIAS_TREEMPRESA_REEM_13', 'REGALIAS_TREEMPRESA_REEM_14')
+17/11/21 15:16 INFO     Proceso de lecturas del Sistema de Telemedición
+17/11/21 15:16 INFO     Proceso de lecturas del Sistema de Telemedición
+17/11/21 15:16 INFO     SELECT USER FROM DUAL
+17/11/21 15:16 INFO     {}
+17/11/21 15:16 DEBUG    Col ('USER',)
+17/11/21 15:16 DEBUG    Row ('REGALIAS',)
+17/11/21 15:16 INFO     SELECT CAST('test plain returns' AS VARCHAR(60 CHAR)) AS anon_1 FROM DUAL
+17/11/21 15:16 INFO     {}
+17/11/21 15:16 INFO     SELECT CAST('test unicode returns' AS VARCHAR2(60 CHAR)) AS anon_1 FROM DUAL
+17/11/21 15:16 INFO     {}
+17/11/21 15:16 INFO     SELECT CAST('test nvarchar2 returns' AS NVARCHAR2(60)) AS anon_1 FROM DUAL
+17/11/21 15:16 INFO     {}
+17/11/21 15:16 INFO     SELECT value FROM v$parameter WHERE name = 'compatible'
+17/11/21 15:16 INFO     {}
+17/11/21 15:16 INFO     select value from nls_session_parameters where parameter = 'NLS_NUMERIC_CHARACTERS'
+17/11/21 15:16 INFO     {}
+17/11/21 15:16 DEBUG    Col ('VALUE',)
+17/11/21 15:16 DEBUG    Row ('.,',)
+17/11/21 15:16 INFO     BEGIN (implicit)
+17/11/21 15:16 INFO     SELECT sum(regalias.tremedfiscal.remedfiscntramal) AS sum_1 
+FROM regalias.tremedfiscal 
+WHERE regalias.tremedfiscal.remedfisfecbaj IS NULL
+17/11/21 15:16 INFO     {}
+17/11/21 15:16 DEBUG    Col ('SUM_1',)
+17/11/21 15:16 DEBUG    Row (None,)
+17/11/21 15:16 INFO     SELECT regalias.treempresa.reempid AS regalias_treempresa_reem_1, regalias.treempresa.reempcuit AS regalias_treempresa_reem_2, regalias.treempresa.reempcod AS regalias_treempresa_reem_3, regalias.treempresa.reempnom AS regalias_treempresa_reem_4, regalias.treempresa.reemptel AS regalias_treempresa_reem_5, regalias.treempresa.reempmai AS regalias_treempresa_reem_6, regalias.treempresa.reempsit AS regalias_treempresa_reem_7, regalias.treempresa.reempobs AS regalias_treempresa_reem_8, regalias.treempresa.reempfchalt AS regalias_treempresa_reem_9, regalias.treempresa.reempusualt AS regalias_treempresa_reem_a, regalias.treempresa.reempfchmod AS regalias_treempresa_reem_b, regalias.treempresa.reempusumod AS regalias_treempresa_reem_c, regalias.treempresa.reempfchbaj AS regalias_treempresa_reem_d, regalias.treempresa.reempusubaj AS regalias_treempresa_reem_e, regalias.treempresa.retipempid AS regalias_treempresa_reti_f, regalias.treempresa.reempcartel AS regalias_treempresa_reem_10, regalias.treempresa.reempultlin AS regalias_treempresa_reem_11, regalias.treempresa.reempvighas AS regalias_treempresa_reem_12, regalias.treempresa.reempvigdes AS regalias_treempresa_reem_13, regalias.treempresa.reempdespag AS regalias_treempresa_reem_14 
+FROM regalias.treempresa 
+WHERE 0 = 1
+17/11/21 15:16 INFO     {}
+17/11/21 15:16 DEBUG    Col ('REGALIAS_TREEMPRESA_REEM_1', 'REGALIAS_TREEMPRESA_REEM_2', 'REGALIAS_TREEMPRESA_REEM_3', 'REGALIAS_TREEMPRESA_REEM_4', 'REGALIAS_TREEMPRESA_REEM_5', 'REGALIAS_TREEMPRESA_REEM_6', 'REGALIAS_TREEMPRESA_REEM_7', 'REGALIAS_TREEMPRESA_REEM_8', 'REGALIAS_TREEMPRESA_REEM_9', 'REGALIAS_TREEMPRESA_REEM_A', 'REGALIAS_TREEMPRESA_REEM_B', 'REGALIAS_TREEMPRESA_REEM_C', 'REGALIAS_TREEMPRESA_REEM_D', 'REGALIAS_TREEMPRESA_REEM_E', 'REGALIAS_TREEMPRESA_RETI_F', 'REGALIAS_TREEMPRESA_REEM_10', 'REGALIAS_TREEMPRESA_REEM_11', 'REGALIAS_TREEMPRESA_REEM_12', 'REGALIAS_TREEMPRESA_REEM_13', 'REGALIAS_TREEMPRESA_REEM_14')
+17/11/21 15:17 INFO     Proceso de lecturas del Sistema de Telemedición
+17/11/21 15:17 INFO     SELECT USER FROM DUAL
+17/11/21 15:17 INFO     {}
+17/11/21 15:17 DEBUG    Col ('USER',)
+17/11/21 15:17 DEBUG    Row ('REGALIAS',)
+17/11/21 15:17 INFO     SELECT CAST('test plain returns' AS VARCHAR(60 CHAR)) AS anon_1 FROM DUAL
+17/11/21 15:17 INFO     {}
+17/11/21 15:17 INFO     SELECT CAST('test unicode returns' AS VARCHAR2(60 CHAR)) AS anon_1 FROM DUAL
+17/11/21 15:17 INFO     {}
+17/11/21 15:17 INFO     SELECT CAST('test nvarchar2 returns' AS NVARCHAR2(60)) AS anon_1 FROM DUAL
+17/11/21 15:17 INFO     {}
+17/11/21 15:17 INFO     SELECT value FROM v$parameter WHERE name = 'compatible'
+17/11/21 15:17 INFO     {}
+17/11/21 15:17 INFO     select value from nls_session_parameters where parameter = 'NLS_NUMERIC_CHARACTERS'
+17/11/21 15:17 INFO     {}
+17/11/21 15:17 DEBUG    Col ('VALUE',)
+17/11/21 15:17 DEBUG    Row ('.,',)
+17/11/21 15:17 INFO     BEGIN (implicit)
+17/11/21 15:17 INFO     SELECT sum(regalias.tremedfiscal.remedfiscntramal) AS sum_1 
+FROM regalias.tremedfiscal 
+WHERE regalias.tremedfiscal.remedfisfecbaj IS NULL
+17/11/21 15:17 INFO     {}
+17/11/21 15:17 DEBUG    Col ('SUM_1',)
+17/11/21 15:17 DEBUG    Row (None,)
+17/11/21 15:17 INFO     SELECT regalias.treempresa.reempid AS regalias_treempresa_reem_1, regalias.treempresa.reempcuit AS regalias_treempresa_reem_2, regalias.treempresa.reempcod AS regalias_treempresa_reem_3, regalias.treempresa.reempnom AS regalias_treempresa_reem_4, regalias.treempresa.reemptel AS regalias_treempresa_reem_5, regalias.treempresa.reempmai AS regalias_treempresa_reem_6, regalias.treempresa.reempsit AS regalias_treempresa_reem_7, regalias.treempresa.reempobs AS regalias_treempresa_reem_8, regalias.treempresa.reempfchalt AS regalias_treempresa_reem_9, regalias.treempresa.reempusualt AS regalias_treempresa_reem_a, regalias.treempresa.reempfchmod AS regalias_treempresa_reem_b, regalias.treempresa.reempusumod AS regalias_treempresa_reem_c, regalias.treempresa.reempfchbaj AS regalias_treempresa_reem_d, regalias.treempresa.reempusubaj AS regalias_treempresa_reem_e, regalias.treempresa.retipempid AS regalias_treempresa_reti_f, regalias.treempresa.reempcartel AS regalias_treempresa_reem_10, regalias.treempresa.reempultlin AS regalias_treempresa_reem_11, regalias.treempresa.reempvighas AS regalias_treempresa_reem_12, regalias.treempresa.reempvigdes AS regalias_treempresa_reem_13, regalias.treempresa.reempdespag AS regalias_treempresa_reem_14 
+FROM regalias.treempresa 
+WHERE regalias.treempresa.reempid = :reempid_1
+17/11/21 15:17 INFO     {'reempid_1': 1}
+17/11/21 15:17 DEBUG    Col ('REGALIAS_TREEMPRESA_REEM_1', 'REGALIAS_TREEMPRESA_REEM_2', 'REGALIAS_TREEMPRESA_REEM_3', 'REGALIAS_TREEMPRESA_REEM_4', 'REGALIAS_TREEMPRESA_REEM_5', 'REGALIAS_TREEMPRESA_REEM_6', 'REGALIAS_TREEMPRESA_REEM_7', 'REGALIAS_TREEMPRESA_REEM_8', 'REGALIAS_TREEMPRESA_REEM_9', 'REGALIAS_TREEMPRESA_REEM_A', 'REGALIAS_TREEMPRESA_REEM_B', 'REGALIAS_TREEMPRESA_REEM_C', 'REGALIAS_TREEMPRESA_REEM_D', 'REGALIAS_TREEMPRESA_REEM_E', 'REGALIAS_TREEMPRESA_RETI_F', 'REGALIAS_TREEMPRESA_REEM_10', 'REGALIAS_TREEMPRESA_REEM_11', 'REGALIAS_TREEMPRESA_REEM_12', 'REGALIAS_TREEMPRESA_REEM_13', 'REGALIAS_TREEMPRESA_REEM_14')
+17/11/21 15:17 DEBUG    Row (1, ' ', 'PTRE    ', 'PETROLERA EL TREBOL SA                                                          ', 48145556, 'lpazos@petrebol.com.ar', None, 'CONTACTO AUDITORIA: Luciana Paso\t5411 5258-7508, Gonzalo Medina\t0261 4290598/588/61 gmedina@petrebol.com.ar,   Manuel Tejada 154858703/154180872/156298111, Gabriela Luconi (Mendoza)0261 - 4290588\n\n\n\n', datetime.datetime(2012, 10, 12, 15, 48, 7), 'EGIUNTA', datetime.datetime(2014, 7, 11, 11, 52, 40), 'PRUEBA', None, None, 1, 5411, 2, None, None, None)
+17/11/21 15:17 INFO     Cantidad de archivos a procesar : <telemedicion_regalias.empresa.Empresa object at 0x7f8edaee0af0> del dia
+17/11/21 15:17 INFO     SELECT regalias.treempresa.reempid AS regalias_treempresa_reem_1, regalias.treempresa.reempcuit AS regalias_treempresa_reem_2, regalias.treempresa.reempcod AS regalias_treempresa_reem_3, regalias.treempresa.reempnom AS regalias_treempresa_reem_4, regalias.treempresa.reemptel AS regalias_treempresa_reem_5, regalias.treempresa.reempmai AS regalias_treempresa_reem_6, regalias.treempresa.reempsit AS regalias_treempresa_reem_7, regalias.treempresa.reempobs AS regalias_treempresa_reem_8, regalias.treempresa.reempfchalt AS regalias_treempresa_reem_9, regalias.treempresa.reempusualt AS regalias_treempresa_reem_a, regalias.treempresa.reempfchmod AS regalias_treempresa_reem_b, regalias.treempresa.reempusumod AS regalias_treempresa_reem_c, regalias.treempresa.reempfchbaj AS regalias_treempresa_reem_d, regalias.treempresa.reempusubaj AS regalias_treempresa_reem_e, regalias.treempresa.retipempid AS regalias_treempresa_reti_f, regalias.treempresa.reempcartel AS regalias_treempresa_reem_10, regalias.treempresa.reempultlin AS regalias_treempresa_reem_11, regalias.treempresa.reempvighas AS regalias_treempresa_reem_12, regalias.treempresa.reempvigdes AS regalias_treempresa_reem_13, regalias.treempresa.reempdespag AS regalias_treempresa_reem_14 
+FROM regalias.treempresa 
+WHERE EXISTS (SELECT 1 
+FROM regalias.tremedfiscal 
+WHERE regalias.treempresa.reempid = regalias.tremedfiscal.reempresaid) ORDER BY regalias.treempresa.reempnom
+17/11/21 15:17 INFO     {}
+17/11/21 15:17 DEBUG    Col ('REGALIAS_TREEMPRESA_REEM_1', 'REGALIAS_TREEMPRESA_REEM_2', 'REGALIAS_TREEMPRESA_REEM_3', 'REGALIAS_TREEMPRESA_REEM_4', 'REGALIAS_TREEMPRESA_REEM_5', 'REGALIAS_TREEMPRESA_REEM_6', 'REGALIAS_TREEMPRESA_REEM_7', 'REGALIAS_TREEMPRESA_REEM_8', 'REGALIAS_TREEMPRESA_REEM_9', 'REGALIAS_TREEMPRESA_REEM_A', 'REGALIAS_TREEMPRESA_REEM_B', 'REGALIAS_TREEMPRESA_REEM_C', 'REGALIAS_TREEMPRESA_REEM_D', 'REGALIAS_TREEMPRESA_REEM_E', 'REGALIAS_TREEMPRESA_RETI_F', 'REGALIAS_TREEMPRESA_REEM_10', 'REGALIAS_TREEMPRESA_REEM_11', 'REGALIAS_TREEMPRESA_REEM_12', 'REGALIAS_TREEMPRESA_REEM_13', 'REGALIAS_TREEMPRESA_REEM_14')
+17/11/21 15:21 INFO     Proceso de lecturas del Sistema de Telemedición
+17/11/21 15:21 INFO     SELECT USER FROM DUAL
+17/11/21 15:21 INFO     {}
+17/11/21 15:21 DEBUG    Col ('USER',)
+17/11/21 15:21 DEBUG    Row ('REGALIAS',)
+17/11/21 15:21 INFO     SELECT CAST('test plain returns' AS VARCHAR(60 CHAR)) AS anon_1 FROM DUAL
+17/11/21 15:21 INFO     {}
+17/11/21 15:21 INFO     SELECT CAST('test unicode returns' AS VARCHAR2(60 CHAR)) AS anon_1 FROM DUAL
+17/11/21 15:21 INFO     {}
+17/11/21 15:21 INFO     SELECT CAST('test nvarchar2 returns' AS NVARCHAR2(60)) AS anon_1 FROM DUAL
+17/11/21 15:21 INFO     {}
+17/11/21 15:21 INFO     SELECT value FROM v$parameter WHERE name = 'compatible'
+17/11/21 15:21 INFO     {}
+17/11/21 15:21 INFO     select value from nls_session_parameters where parameter = 'NLS_NUMERIC_CHARACTERS'
+17/11/21 15:21 INFO     {}
+17/11/21 15:21 DEBUG    Col ('VALUE',)
+17/11/21 15:21 DEBUG    Row ('.,',)
+17/11/21 15:21 INFO     BEGIN (implicit)
+17/11/21 15:21 INFO     SELECT sum(regalias.tremedfiscal.remedfiscntramal) AS sum_1 
+FROM regalias.tremedfiscal 
+WHERE regalias.tremedfiscal.remedfisfecbaj IS NULL
+17/11/21 15:21 INFO     {}
+17/11/21 15:21 DEBUG    Col ('SUM_1',)
+17/11/21 15:21 DEBUG    Row (None,)
+17/11/21 15:21 INFO     SELECT regalias.treempresa.reempid AS regalias_treempresa_reem_1, regalias.treempresa.reempcuit AS regalias_treempresa_reem_2, regalias.treempresa.reempcod AS regalias_treempresa_reem_3, regalias.treempresa.reempnom AS regalias_treempresa_reem_4, regalias.treempresa.reemptel AS regalias_treempresa_reem_5, regalias.treempresa.reempmai AS regalias_treempresa_reem_6, regalias.treempresa.reempsit AS regalias_treempresa_reem_7, regalias.treempresa.reempobs AS regalias_treempresa_reem_8, regalias.treempresa.reempfchalt AS regalias_treempresa_reem_9, regalias.treempresa.reempusualt AS regalias_treempresa_reem_a, regalias.treempresa.reempfchmod AS regalias_treempresa_reem_b, regalias.treempresa.reempusumod AS regalias_treempresa_reem_c, regalias.treempresa.reempfchbaj AS regalias_treempresa_reem_d, regalias.treempresa.reempusubaj AS regalias_treempresa_reem_e, regalias.treempresa.retipempid AS regalias_treempresa_reti_f, regalias.treempresa.reempcartel AS regalias_treempresa_reem_10, regalias.treempresa.reempultlin AS regalias_treempresa_reem_11, regalias.treempresa.reempvighas AS regalias_treempresa_reem_12, regalias.treempresa.reempvigdes AS regalias_treempresa_reem_13, regalias.treempresa.reempdespag AS regalias_treempresa_reem_14 
+FROM regalias.treempresa 
+WHERE regalias.treempresa.reempid = :reempid_1
+17/11/21 15:21 INFO     {'reempid_1': 1}
+17/11/21 15:21 DEBUG    Col ('REGALIAS_TREEMPRESA_REEM_1', 'REGALIAS_TREEMPRESA_REEM_2', 'REGALIAS_TREEMPRESA_REEM_3', 'REGALIAS_TREEMPRESA_REEM_4', 'REGALIAS_TREEMPRESA_REEM_5', 'REGALIAS_TREEMPRESA_REEM_6', 'REGALIAS_TREEMPRESA_REEM_7', 'REGALIAS_TREEMPRESA_REEM_8', 'REGALIAS_TREEMPRESA_REEM_9', 'REGALIAS_TREEMPRESA_REEM_A', 'REGALIAS_TREEMPRESA_REEM_B', 'REGALIAS_TREEMPRESA_REEM_C', 'REGALIAS_TREEMPRESA_REEM_D', 'REGALIAS_TREEMPRESA_REEM_E', 'REGALIAS_TREEMPRESA_RETI_F', 'REGALIAS_TREEMPRESA_REEM_10', 'REGALIAS_TREEMPRESA_REEM_11', 'REGALIAS_TREEMPRESA_REEM_12', 'REGALIAS_TREEMPRESA_REEM_13', 'REGALIAS_TREEMPRESA_REEM_14')
+17/11/21 15:21 DEBUG    Row (1, ' ', 'PTRE    ', 'PETROLERA EL TREBOL SA                                                          ', 48145556, 'lpazos@petrebol.com.ar', None, 'CONTACTO AUDITORIA: Luciana Paso\t5411 5258-7508, Gonzalo Medina\t0261 4290598/588/61 gmedina@petrebol.com.ar,   Manuel Tejada 154858703/154180872/156298111, Gabriela Luconi (Mendoza)0261 - 4290588\n\n\n\n', datetime.datetime(2012, 10, 12, 15, 48, 7), 'EGIUNTA', datetime.datetime(2014, 7, 11, 11, 52, 40), 'PRUEBA', None, None, 1, 5411, 2, None, None, None)
+17/11/21 15:21 INFO     SELECT regalias.tremedfiscal.remedfisid AS regalias_tremedfiscal_re_1, regalias.tremedfiscal.reempresaid AS regalias_tremedfiscal_re_2, regalias.tremedfiscal.retipmedid AS regalias_tremedfiscal_re_3, regalias.tremedfiscal.remedfiscod AS regalias_tremedfiscal_re_4, regalias.tremedfiscal.remedfisdesc AS regalias_tremedfiscal_re_5, regalias.tremedfiscal.remedfiscntramal AS regalias_tremedfiscal_re_6, regalias.tremedfiscal.remedfisusualt AS regalias_tremedfiscal_re_7, regalias.tremedfiscal.remedfisfecalt AS regalias_tremedfiscal_re_8, regalias.tremedfiscal.remedfisusumod AS regalias_tremedfiscal_re_9, regalias.tremedfiscal.remedfisfecmod AS regalias_tremedfiscal_re_a, regalias.tremedfiscal.remedfisusubaj AS regalias_tremedfiscal_re_b, regalias.tremedfiscal.remedfisfecbaj AS regalias_tremedfiscal_re_c 
+FROM regalias.tremedfiscal 
+WHERE :param_1 = regalias.tremedfiscal.reempresaid
+17/11/21 15:21 INFO     {'param_1': 1}
+17/11/21 15:22 INFO     Proceso de lecturas del Sistema de Telemedición
+17/11/21 15:22 INFO     SELECT USER FROM DUAL
+17/11/21 15:22 INFO     {}
+17/11/21 15:22 DEBUG    Col ('USER',)
+17/11/21 15:22 DEBUG    Row ('REGALIAS',)
+17/11/21 15:22 INFO     SELECT CAST('test plain returns' AS VARCHAR(60 CHAR)) AS anon_1 FROM DUAL
+17/11/21 15:22 INFO     {}
+17/11/21 15:22 INFO     SELECT CAST('test unicode returns' AS VARCHAR2(60 CHAR)) AS anon_1 FROM DUAL
+17/11/21 15:22 INFO     {}
+17/11/21 15:22 INFO     SELECT CAST('test nvarchar2 returns' AS NVARCHAR2(60)) AS anon_1 FROM DUAL
+17/11/21 15:22 INFO     {}
+17/11/21 15:22 INFO     SELECT value FROM v$parameter WHERE name = 'compatible'
+17/11/21 15:22 INFO     {}
+17/11/21 15:22 INFO     select value from nls_session_parameters where parameter = 'NLS_NUMERIC_CHARACTERS'
+17/11/21 15:22 INFO     {}
+17/11/21 15:22 DEBUG    Col ('VALUE',)
+17/11/21 15:22 DEBUG    Row ('.,',)
+17/11/21 15:22 INFO     BEGIN (implicit)
+17/11/21 15:22 INFO     SELECT sum(regalias.tremedfiscal.remedfiscntramal) AS sum_1 
+FROM regalias.tremedfiscal 
+WHERE regalias.tremedfiscal.remedfisfecbaj IS NULL
+17/11/21 15:22 INFO     {}
+17/11/21 15:22 DEBUG    Col ('SUM_1',)
+17/11/21 15:22 DEBUG    Row (None,)
+17/11/21 15:22 INFO     SELECT regalias.treempresa.reempid AS regalias_treempresa_reem_1, regalias.treempresa.reempcuit AS regalias_treempresa_reem_2, regalias.treempresa.reempcod AS regalias_treempresa_reem_3, regalias.treempresa.reempnom AS regalias_treempresa_reem_4, regalias.treempresa.reemptel AS regalias_treempresa_reem_5, regalias.treempresa.reempmai AS regalias_treempresa_reem_6, regalias.treempresa.reempsit AS regalias_treempresa_reem_7, regalias.treempresa.reempobs AS regalias_treempresa_reem_8, regalias.treempresa.reempfchalt AS regalias_treempresa_reem_9, regalias.treempresa.reempusualt AS regalias_treempresa_reem_a, regalias.treempresa.reempfchmod AS regalias_treempresa_reem_b, regalias.treempresa.reempusumod AS regalias_treempresa_reem_c, regalias.treempresa.reempfchbaj AS regalias_treempresa_reem_d, regalias.treempresa.reempusubaj AS regalias_treempresa_reem_e, regalias.treempresa.retipempid AS regalias_treempresa_reti_f, regalias.treempresa.reempcartel AS regalias_treempresa_reem_10, regalias.treempresa.reempultlin AS regalias_treempresa_reem_11, regalias.treempresa.reempvighas AS regalias_treempresa_reem_12, regalias.treempresa.reempvigdes AS regalias_treempresa_reem_13, regalias.treempresa.reempdespag AS regalias_treempresa_reem_14 
+FROM regalias.treempresa 
+WHERE regalias.treempresa.reempid = :reempid_1
+17/11/21 15:22 INFO     {'reempid_1': 1}
+17/11/21 15:22 DEBUG    Col ('REGALIAS_TREEMPRESA_REEM_1', 'REGALIAS_TREEMPRESA_REEM_2', 'REGALIAS_TREEMPRESA_REEM_3', 'REGALIAS_TREEMPRESA_REEM_4', 'REGALIAS_TREEMPRESA_REEM_5', 'REGALIAS_TREEMPRESA_REEM_6', 'REGALIAS_TREEMPRESA_REEM_7', 'REGALIAS_TREEMPRESA_REEM_8', 'REGALIAS_TREEMPRESA_REEM_9', 'REGALIAS_TREEMPRESA_REEM_A', 'REGALIAS_TREEMPRESA_REEM_B', 'REGALIAS_TREEMPRESA_REEM_C', 'REGALIAS_TREEMPRESA_REEM_D', 'REGALIAS_TREEMPRESA_REEM_E', 'REGALIAS_TREEMPRESA_RETI_F', 'REGALIAS_TREEMPRESA_REEM_10', 'REGALIAS_TREEMPRESA_REEM_11', 'REGALIAS_TREEMPRESA_REEM_12', 'REGALIAS_TREEMPRESA_REEM_13', 'REGALIAS_TREEMPRESA_REEM_14')
+17/11/21 15:22 DEBUG    Row (1, ' ', 'PTRE    ', 'PETROLERA EL TREBOL SA                                                          ', 48145556, 'lpazos@petrebol.com.ar', None, 'CONTACTO AUDITORIA: Luciana Paso\t5411 5258-7508, Gonzalo Medina\t0261 4290598/588/61 gmedina@petrebol.com.ar,   Manuel Tejada 154858703/154180872/156298111, Gabriela Luconi (Mendoza)0261 - 4290588\n\n\n\n', datetime.datetime(2012, 10, 12, 15, 48, 7), 'EGIUNTA', datetime.datetime(2014, 7, 11, 11, 52, 40), 'PRUEBA', None, None, 1, 5411, 2, None, None, None)
+17/11/21 15:22 INFO     SELECT regalias.tremedfiscal.remedfisid AS regalias_tremedfiscal_re_1, regalias.tremedfiscal.reempresaid AS regalias_tremedfiscal_re_2, regalias.tremedfiscal.retipmedid AS regalias_tremedfiscal_re_3, regalias.tremedfiscal.remedfiscod AS regalias_tremedfiscal_re_4, regalias.tremedfiscal.remedfisdes AS regalias_tremedfiscal_re_5, regalias.tremedfiscal.remedfiscntramal AS regalias_tremedfiscal_re_6, regalias.tremedfiscal.remedfisusualt AS regalias_tremedfiscal_re_7, regalias.tremedfiscal.remedfisfecalt AS regalias_tremedfiscal_re_8, regalias.tremedfiscal.remedfisusumod AS regalias_tremedfiscal_re_9, regalias.tremedfiscal.remedfisfecmod AS regalias_tremedfiscal_re_a, regalias.tremedfiscal.remedfisusubaj AS regalias_tremedfiscal_re_b, regalias.tremedfiscal.remedfisfecbaj AS regalias_tremedfiscal_re_c 
+FROM regalias.tremedfiscal 
+WHERE :param_1 = regalias.tremedfiscal.reempresaid
+17/11/21 15:22 INFO     {'param_1': 1}
+17/11/21 15:22 DEBUG    Col ('REGALIAS_TREMEDFISCAL_RE_1', 'REGALIAS_TREMEDFISCAL_RE_2', 'REGALIAS_TREMEDFISCAL_RE_3', 'REGALIAS_TREMEDFISCAL_RE_4', 'REGALIAS_TREMEDFISCAL_RE_5', 'REGALIAS_TREMEDFISCAL_RE_6', 'REGALIAS_TREMEDFISCAL_RE_7', 'REGALIAS_TREMEDFISCAL_RE_8', 'REGALIAS_TREMEDFISCAL_RE_9', 'REGALIAS_TREMEDFISCAL_RE_A', 'REGALIAS_TREMEDFISCAL_RE_B', 'REGALIAS_TREMEDFISCAL_RE_C')
+17/11/21 15:22 INFO     Cantidad de archivos a procesar : <telemedicion_regalias.empresa.Empresa object at 0x7fcc298c2970> del dia
+17/11/21 15:22 INFO     SELECT regalias.treempresa.reempid AS regalias_treempresa_reem_1, regalias.treempresa.reempcuit AS regalias_treempresa_reem_2, regalias.treempresa.reempcod AS regalias_treempresa_reem_3, regalias.treempresa.reempnom AS regalias_treempresa_reem_4, regalias.treempresa.reemptel AS regalias_treempresa_reem_5, regalias.treempresa.reempmai AS regalias_treempresa_reem_6, regalias.treempresa.reempsit AS regalias_treempresa_reem_7, regalias.treempresa.reempobs AS regalias_treempresa_reem_8, regalias.treempresa.reempfchalt AS regalias_treempresa_reem_9, regalias.treempresa.reempusualt AS regalias_treempresa_reem_a, regalias.treempresa.reempfchmod AS regalias_treempresa_reem_b, regalias.treempresa.reempusumod AS regalias_treempresa_reem_c, regalias.treempresa.reempfchbaj AS regalias_treempresa_reem_d, regalias.treempresa.reempusubaj AS regalias_treempresa_reem_e, regalias.treempresa.retipempid AS regalias_treempresa_reti_f, regalias.treempresa.reempcartel AS regalias_treempresa_reem_10, regalias.treempresa.reempultlin AS regalias_treempresa_reem_11, regalias.treempresa.reempvighas AS regalias_treempresa_reem_12, regalias.treempresa.reempvigdes AS regalias_treempresa_reem_13, regalias.treempresa.reempdespag AS regalias_treempresa_reem_14 
+FROM regalias.treempresa 
+WHERE EXISTS (SELECT 1 
+FROM regalias.tremedfiscal 
+WHERE regalias.treempresa.reempid = regalias.tremedfiscal.reempresaid) ORDER BY regalias.treempresa.reempnom
+17/11/21 15:22 INFO     {}
+17/11/21 15:22 DEBUG    Col ('REGALIAS_TREEMPRESA_REEM_1', 'REGALIAS_TREEMPRESA_REEM_2', 'REGALIAS_TREEMPRESA_REEM_3', 'REGALIAS_TREEMPRESA_REEM_4', 'REGALIAS_TREEMPRESA_REEM_5', 'REGALIAS_TREEMPRESA_REEM_6', 'REGALIAS_TREEMPRESA_REEM_7', 'REGALIAS_TREEMPRESA_REEM_8', 'REGALIAS_TREEMPRESA_REEM_9', 'REGALIAS_TREEMPRESA_REEM_A', 'REGALIAS_TREEMPRESA_REEM_B', 'REGALIAS_TREEMPRESA_REEM_C', 'REGALIAS_TREEMPRESA_REEM_D', 'REGALIAS_TREEMPRESA_REEM_E', 'REGALIAS_TREEMPRESA_RETI_F', 'REGALIAS_TREEMPRESA_REEM_10', 'REGALIAS_TREEMPRESA_REEM_11', 'REGALIAS_TREEMPRESA_REEM_12', 'REGALIAS_TREEMPRESA_REEM_13', 'REGALIAS_TREEMPRESA_REEM_14')
+17/11/21 15:23 INFO     Proceso de lecturas del Sistema de Telemedición
+17/11/21 15:23 INFO     Cantidad de archivos a procesar : <telemedicion_regalias.empresa.Empresa object at 0x7fde9de4eeb0> del dia
+17/11/21 15:26 INFO     Proceso de lecturas del Sistema de Telemedición
+17/11/21 15:26 INFO     Cantidad de archivos a procesar : <telemedicion_regalias.empresa.Empresa object at 0x7f0f8659cd60> del dia
+17/11/21 15:27 INFO     Proceso de lecturas del Sistema de Telemedición
+17/11/21 15:28 INFO     Proceso de lecturas del Sistema de Telemedición
+17/11/21 15:28 INFO     Cantidad de archivos a procesar : <telemedicion_regalias.empresa.Empresa object at 0x7ff85633dd30> del dia
+17/11/21 15:29 INFO     Proceso de lecturas del Sistema de Telemedición
+17/11/21 15:29 INFO     Proceso de lecturas del Sistema de Telemedición
+17/11/21 15:29 INFO     Cantidad de archivos a procesar : <telemedicion_regalias.empresa.Empresa object at 0x7f29364cad90> del dia
+17/11/21 15:30 INFO     Proceso de lecturas del Sistema de Telemedición
+17/11/21 15:30 INFO     Cantidad de archivos a procesar : (None,) del dia
+17/11/21 15:30 INFO     Proceso de lecturas del Sistema de Telemedición
+17/11/21 15:30 INFO     Encontro la  Empresa PETROLERA EL TREBOL SA                                                          
+17/11/21 15:30 INFO     Cantidad de archivos a procesar : (None,) del dia
+17/11/21 15:32 INFO     Proceso de lecturas del Sistema de Telemedición
+17/11/21 15:32 INFO     Encontro la  Empresa PETROLERA EL TREBOL SA                                                          
+17/11/21 15:32 INFO     Cantidad de archivos a procesar : (None,) del dia
+17/11/21 15:33 INFO     Proceso de lecturas del Sistema de Telemedición
+17/11/21 15:33 INFO     Encontro la  Empresa PETROLERA EL TREBOL SA                                                          
+17/11/21 15:33 INFO     Cantidad de archivos a procesar : (None,) del dia
+17/11/21 15:45 INFO     Proceso de lecturas del Sistema de Telemedición
+17/11/21 15:45 INFO     Encontro la  Empresa PETROLERA EL TREBOL SA                                                          
+17/11/21 15:45 DEBUG    Medidor PDTTUP-PTCTUP       
+17/11/21 15:45 INFO     Cantidad de archivos a procesar : (49,) del dia
+17/11/21 15:45 INFO     ------------------------------------------------------------------------------------------
+17/11/21 15:45 INFO     Procesando Empresa CHAÑARES HERRADOS SA                                                            
+17/11/21 15:45 DEBUG    Empresa con conexion
+17/11/21 15:45 DEBUG    Estableciendo conexión FTP (host:167.114.150.232, port:21, user:reg11_17@chasa.com.ar, pass:********)
+17/11/21 15:45 ERROR    530 Login authentication failed
+17/11/21 15:47 INFO     Proceso de lecturas del Sistema de Telemedición
+17/11/21 15:47 INFO     Cantidad de archivos a procesar : 49 del dia
+17/11/21 15:47 INFO     ------------------------------------------------------------------------------------------
+17/11/21 15:47 INFO     Procesando Empresa CHAÑARES HERRADOS SA                                                            
+17/11/21 15:47 DEBUG    Empresa con conexion
+17/11/21 15:47 DEBUG    Estableciendo conexión FTP (host:167.114.150.232, port:21, user:reg11_17@chasa.com.ar, pass:********)
+17/11/21 15:47 ERROR    530 Login authentication failed
+17/11/21 15:48 INFO     Proceso de lecturas del Sistema de Telemedición
+17/11/21 15:48 INFO     Cantidad de archivos a procesar : 49 del dia
+17/11/21 15:48 INFO     ------------------------------------------------------------------------------------------
+17/11/21 15:48 INFO     Procesando Empresa 29-CHAÑARES HERRADOS SA                                                            
+17/11/21 15:48 DEBUG    Empresa con conexion
+17/11/21 15:48 DEBUG    Estableciendo conexión FTP (host:167.114.150.232, port:21, user:reg11_17@chasa.com.ar, pass:********)
+17/11/21 15:48 ERROR    530 Login authentication failed
+17/11/21 15:51 INFO     Proceso de lecturas del Sistema de Telemedición
+17/11/21 15:51 INFO     Cantidad de archivos a procesar : 49 del dia
+17/11/21 15:51 INFO     ------------------------------------------------------------------------------------------
+17/11/21 15:51 INFO     Procesando Empresa 29-CHAÑARES HERRADOS SA                                                            
+17/11/21 15:51 DEBUG    Empresa con conexion
+17/11/21 15:51 DEBUG    Estableciendo conexión FTP (host:167.114.150.232, port:21, user:reg11_17@chasa.com.ar, pass:********)
+17/11/21 15:51 ERROR    530 Login authentication failed
+17/11/21 15:51 INFO     Proceso de lecturas del Sistema de Telemedición
+17/11/21 15:51 INFO     Cantidad de archivos a procesar : 49 del dia
+17/11/21 15:51 INFO     Proceso de lecturas del Sistema de Telemedición
+17/11/21 15:51 INFO     Cantidad de archivos a procesar : 49 del dia
+17/11/21 15:53 INFO     Proceso de lecturas del Sistema de Telemedición
+17/11/21 15:53 INFO     Cantidad de archivos a procesar : 49 del dia
+17/11/21 15:53 INFO     Proceso de lecturas del Sistema de Telemedición
+17/11/21 15:53 INFO     Cantidad de archivos a procesar : 49 del dia
+17/11/21 15:53 INFO     ------------------------------------------------------------------------------------------
+17/11/21 15:53 INFO     Procesando Empresa 29-CHAÑARES HERRADOS SA                                                            
+17/11/21 15:53 DEBUG    Empresa con conexion
+17/11/21 15:53 DEBUG    Estableciendo conexión FTP (host:167.114.150.232, port:21, user:reg11_17@chasa.com.ar, pass:********)
+17/11/21 15:53 ERROR    530 Login authentication failed
+17/11/21 15:54 INFO     Proceso de lecturas del Sistema de Telemedición
+17/11/21 15:54 INFO     Cantidad de archivos a procesar : 49 del dia
+17/11/21 15:54 INFO     ------------------------------------------------------------------------------------------
+17/11/21 15:54 INFO     Procesando Empresa 29-CHAÑARES HERRADOS SA                                                            
+17/11/21 15:54 DEBUG    Empresa con conexion
+17/11/21 15:54 DEBUG    Estableciendo conexión FTP (host:167.114.150.232, port:21, user:reg11_17@chasa.com.ar, pass:********)
+17/11/21 15:54 ERROR    530 Login authentication failed
+17/11/21 15:55 INFO     Proceso de lecturas del Sistema de Telemedición
+17/11/21 15:55 INFO     Cantidad de archivos a procesar : 49 del dia
+17/11/21 15:55 INFO     ------------------------------------------------------------------------------------------
+17/11/21 15:55 INFO     Procesando Empresa 29-CHAÑARES HERRADOS SA                                                            
+17/11/21 15:55 DEBUG    Empresa con conexion
+17/11/21 15:55 DEBUG    FEcha de baja None
+17/11/21 15:55 DEBUG    Se descarta ya que la conexion esta dada de baja el dia None
+17/11/21 15:55 INFO     ------------------------------------------------------------------------------------------
+17/11/21 15:55 INFO     Procesando Empresa 400-G Y G INGENIERÍA Y MEDIO AMBIENTE S.A.                                          
+17/11/21 15:55 WARNING  No existe conexión definida
+17/11/21 15:55 INFO     ------------------------------------------------------------------------------------------
+17/11/21 15:55 INFO     Procesando Empresa 31-GRECOIL Y CIA SRL                                                               
+17/11/21 15:55 WARNING  No existe conexión definida
+17/11/21 15:55 INFO     ------------------------------------------------------------------------------------------
+17/11/21 15:55 INFO     Procesando Empresa 1-PETROLERA EL TREBOL SA                                                          
+17/11/21 15:55 DEBUG    Empresa con conexion
+17/11/21 15:55 DEBUG    FEcha de baja None
+17/11/21 15:55 DEBUG    Se descarta ya que la conexion esta dada de baja el dia None
+17/11/21 15:55 INFO     ------------------------------------------------------------------------------------------
+17/11/21 15:55 INFO     Procesando Empresa 385-ROCH S.A                                                                        
+17/11/21 15:55 DEBUG    Empresa con conexion
+17/11/21 15:55 DEBUG    FEcha de baja None
+17/11/21 15:55 DEBUG    Se descarta ya que la conexion esta dada de baja el dia None
+17/11/21 15:56 INFO     Proceso de lecturas del Sistema de Telemedición
+17/11/21 15:56 INFO     Cantidad de archivos a procesar : 49 del dia
+17/11/21 15:56 INFO     ------------------------------------------------------------------------------------------
+17/11/21 15:56 INFO     Procesando Empresa 29-CHAÑARES HERRADOS SA                                                            
+17/11/21 15:56 DEBUG    Empresa con conexion
+17/11/21 15:56 DEBUG    FEcha de baja None
+17/11/21 15:56 DEBUG    Estableciendo conexión FTP (host:167.114.150.232, port:21, user:reg11_17@chasa.com.ar, pass:********)
+17/11/21 15:56 ERROR    530 Login authentication failed
+17/11/21 15:57 INFO     Proceso de lecturas del Sistema de Telemedición
+17/11/21 15:57 INFO     Cantidad de archivos a procesar : 49 del dia
+17/11/21 15:57 INFO     ------------------------------------------------------------------------------------------
+17/11/21 15:57 INFO     Procesando Empresa 29-CHAÑARES HERRADOS SA                                                            
+17/11/21 15:57 DEBUG    Empresa con conexion
+17/11/21 15:57 DEBUG    skipping
+17/11/21 15:57 INFO     ------------------------------------------------------------------------------------------
+17/11/21 15:57 INFO     Procesando Empresa 400-G Y G INGENIERÍA Y MEDIO AMBIENTE S.A.                                          
+17/11/21 15:57 WARNING  No existe conexión definida
+17/11/21 15:57 INFO     ------------------------------------------------------------------------------------------
+17/11/21 15:57 INFO     Procesando Empresa 31-GRECOIL Y CIA SRL                                                               
+17/11/21 15:57 WARNING  No existe conexión definida
+17/11/21 15:57 INFO     ------------------------------------------------------------------------------------------
+17/11/21 15:57 INFO     Procesando Empresa 1-PETROLERA EL TREBOL SA                                                          
+17/11/21 15:57 DEBUG    Empresa con conexion
+17/11/21 15:57 DEBUG    Se descarta ya que el protocolo es: SFTP
+17/11/21 15:57 INFO     ------------------------------------------------------------------------------------------
+17/11/21 15:57 INFO     Procesando Empresa 385-ROCH S.A                                                                        
+17/11/21 15:57 DEBUG    Empresa con conexion
+17/11/21 15:57 DEBUG    Se descarta ya que el protocolo es: SFTP
+17/11/21 15:58 INFO     Proceso de lecturas del Sistema de Telemedición
+17/11/21 15:58 INFO     Cantidad de archivos a procesar : 49 del dia
+17/11/21 15:58 INFO     ------------------------------------------------------------------------------------------
+17/11/21 15:58 INFO     Procesando Empresa 29-CHAÑARES HERRADOS SA                                                            
+17/11/21 15:58 DEBUG    Empresa con conexion
+17/11/21 15:58 DEBUG    skipping
+17/11/21 15:58 INFO     ------------------------------------------------------------------------------------------
+17/11/21 15:58 INFO     Procesando Empresa 400-G Y G INGENIERÍA Y MEDIO AMBIENTE S.A.                                          
+17/11/21 15:58 WARNING  No existe conexión definida
+17/11/21 15:58 INFO     ------------------------------------------------------------------------------------------
+17/11/21 15:58 INFO     Procesando Empresa 31-GRECOIL Y CIA SRL                                                               
+17/11/21 15:58 WARNING  No existe conexión definida
+17/11/21 15:58 INFO     ------------------------------------------------------------------------------------------
+17/11/21 15:58 INFO     Procesando Empresa 1-PETROLERA EL TREBOL SA                                                          
+17/11/21 15:58 DEBUG    Empresa con conexion
+17/11/21 15:58 DEBUG    Estableciendo conexión SFTP (host:201.234.99.146, port:22, user:regalias, pass:********)
+17/11/21 16:00 ERROR    Error al establecer la conexión SFTP (error: Unable to connect to 201.234.99.146: [Errno 110] Connection timed out)
+17/11/21 16:00 INFO     Proceso de lecturas del Sistema de Telemedición
+17/11/21 16:00 INFO     Cantidad de archivos a procesar : 49 del dia
+17/11/21 16:00 INFO     ------------------------------------------------------------------------------------------
+17/11/21 16:00 INFO     Procesando Empresa 29-CHAÑARES HERRADOS SA                                                            
+17/11/21 16:00 DEBUG    Empresa con conexion
+17/11/21 16:00 DEBUG    skipping
+17/11/21 16:00 INFO     ------------------------------------------------------------------------------------------
+17/11/21 16:00 INFO     Procesando Empresa 400-G Y G INGENIERÍA Y MEDIO AMBIENTE S.A.                                          
+17/11/21 16:00 WARNING  No existe conexión definida
+17/11/21 16:00 INFO     ------------------------------------------------------------------------------------------
+17/11/21 16:00 INFO     Procesando Empresa 31-GRECOIL Y CIA SRL                                                               
+17/11/21 16:00 WARNING  No existe conexión definida
+17/11/21 16:00 INFO     ------------------------------------------------------------------------------------------
+17/11/21 16:00 INFO     Procesando Empresa 1-PETROLERA EL TREBOL SA                                                          
+17/11/21 16:00 DEBUG    Empresa con conexion
+17/11/21 16:00 DEBUG    Estableciendo conexión SFTP (host:201.234.99.146, port:22, user:regalias, pass:********)
+17/11/21 16:01 INFO     Proceso de lecturas del Sistema de Telemedición
+17/11/21 16:01 INFO     Cantidad de archivos a procesar : 49 del dia
+17/11/21 16:01 INFO     ------------------------------------------------------------------------------------------
+17/11/21 16:01 INFO     Procesando Empresa 29-CHAÑARES HERRADOS SA                                                            
+17/11/21 16:01 DEBUG    Empresa con conexion
+17/11/21 16:01 DEBUG    skipping
+17/11/21 16:01 INFO     ------------------------------------------------------------------------------------------
+17/11/21 16:01 INFO     Procesando Empresa 400-G Y G INGENIERÍA Y MEDIO AMBIENTE S.A.                                          
+17/11/21 16:01 WARNING  No existe conexión definida
+17/11/21 16:01 INFO     ------------------------------------------------------------------------------------------
+17/11/21 16:01 INFO     Procesando Empresa 31-GRECOIL Y CIA SRL                                                               
+17/11/21 16:01 WARNING  No existe conexión definida
+17/11/21 16:01 INFO     ------------------------------------------------------------------------------------------
+17/11/21 16:01 INFO     Procesando Empresa 1-PETROLERA EL TREBOL SA                                                          
+17/11/21 16:01 DEBUG    Empresa con conexion
+17/11/21 16:01 DEBUG    Estableciendo conexión SFTP (host:209.13.86.50, port:22, user:regalias, pass:********)
+17/11/21 16:01 DEBUG    Conexión SFTP establecida
+17/11/21 16:01 INFO     Conectado al servidor de la empresa
+17/11/21 16:01 ERROR    Error al procesar el medidor (error='MedidorFiscal' object has no attribute '_descripcion_instalacion')
+17/11/21 16:01 DEBUG    Conexión SFTP cerrada
+17/11/21 16:01 ERROR    'MedidorFiscal' object has no attribute '_descripcion_instalacion'
+17/11/21 16:01 INFO     Proceso de lecturas del Sistema de Telemedición
+17/11/21 16:01 INFO     Cantidad de archivos a procesar : 49 del dia
+17/11/21 16:01 INFO     ------------------------------------------------------------------------------------------
+17/11/21 16:01 INFO     Procesando Empresa 29-CHAÑARES HERRADOS SA                                                            
+17/11/21 16:01 DEBUG    Empresa con conexion
+17/11/21 16:01 DEBUG    skipping
+17/11/21 16:01 INFO     ------------------------------------------------------------------------------------------
+17/11/21 16:01 INFO     Procesando Empresa 400-G Y G INGENIERÍA Y MEDIO AMBIENTE S.A.                                          
+17/11/21 16:01 WARNING  No existe conexión definida
+17/11/21 16:01 INFO     ------------------------------------------------------------------------------------------
+17/11/21 16:01 INFO     Procesando Empresa 31-GRECOIL Y CIA SRL                                                               
+17/11/21 16:01 WARNING  No existe conexión definida
+17/11/21 16:01 INFO     ------------------------------------------------------------------------------------------
+17/11/21 16:01 INFO     Procesando Empresa 1-PETROLERA EL TREBOL SA                                                          
+17/11/21 16:01 DEBUG    Empresa con conexion
+17/11/21 16:01 DEBUG    Estableciendo conexión SFTP (host:209.13.86.50, port:22, user:regalias, pass:********)
+17/11/21 16:01 DEBUG    Conexión SFTP establecida
+17/11/21 16:01 INFO     Conectado al servidor de la empresa
+17/11/21 16:01 INFO     Procesando medidor: PDT TUPUNGATO DE PTC TUPUNGATO                    
+17/11/21 16:01 INFO     Procesando Ramal #1
+17/11/21 16:01 ERROR    Error al procesar el medidor (error='MedidorFiscal' object has no attribute '_instalacion')
+17/11/21 16:01 DEBUG    Conexión SFTP cerrada
+17/11/21 16:01 ERROR    'MedidorFiscal' object has no attribute '_instalacion'
+17/11/21 16:04 INFO     Proceso de lecturas del Sistema de Telemedición
+17/11/21 16:04 INFO     Cantidad de archivos a procesar : 49 del dia
+17/11/21 16:04 INFO     ------------------------------------------------------------------------------------------
+17/11/21 16:04 INFO     Procesando Empresa 29-CHAÑARES HERRADOS SA                                                            
+17/11/21 16:04 DEBUG    Empresa con conexion
+17/11/21 16:04 DEBUG    skipping
+17/11/21 16:04 INFO     ------------------------------------------------------------------------------------------
+17/11/21 16:04 INFO     Procesando Empresa 400-G Y G INGENIERÍA Y MEDIO AMBIENTE S.A.                                          
+17/11/21 16:04 WARNING  No existe conexión definida
+17/11/21 16:04 INFO     ------------------------------------------------------------------------------------------
+17/11/21 16:04 INFO     Procesando Empresa 31-GRECOIL Y CIA SRL                                                               
+17/11/21 16:04 WARNING  No existe conexión definida
+17/11/21 16:04 INFO     ------------------------------------------------------------------------------------------
+17/11/21 16:04 INFO     Procesando Empresa 1-PETROLERA EL TREBOL SA                                                          
+17/11/21 16:04 DEBUG    Empresa con conexion
+17/11/21 16:04 DEBUG    Estableciendo conexión SFTP (host:209.13.86.50, port:22, user:regalias, pass:********)
+17/11/21 16:04 DEBUG    Conexión SFTP establecida
+17/11/21 16:04 INFO     Conectado al servidor de la empresa
+17/11/21 16:04 INFO     Procesando medidor: PDT TUPUNGATO DE PTC TUPUNGATO                    
+17/11/21 16:04 INFO     Procesando Ramal #1
+17/11/21 16:04 DEBUG    El archivo no existe en la DB, insertando un nuevo registro
+17/11/21 16:04 DEBUG    Descargando archivo PETSA_PDTTUP-PTCTUP       _1_06112014_RES11_DIR_REGALIAS.TXT en /home/dbattezzati/eclipse-workspace/lectura_telemedicion_sqlalchemy/data/descargas/PETSA_PDTTUP-PTCTUP       _1_06112014_RES11_DIR_REGALIAS.TXT
+17/11/21 16:04 ERROR    Error al descargar el archivo PETSA_PDTTUP-PTCTUP       _1_06112014_RES11_DIR_REGALIAS.TXT (error: [Errno 2] No such file)
+17/11/21 16:04 INFO     ------------------------------------------------------------------------------------------
+17/11/21 16:04 INFO     Procesando Empresa 385-ROCH S.A                                                                        
+17/11/21 16:04 DEBUG    Empresa con conexion
+17/11/21 16:04 DEBUG    Estableciendo conexión SFTP (host:www.silex-it.com, port:5247, user:rochSftp, pass:********)
+17/11/21 16:05 INFO     Proceso de lecturas del Sistema de Telemedición
+17/11/21 16:05 INFO     Cantidad de archivos a procesar : 49 del dia
+17/11/21 16:05 INFO     ------------------------------------------------------------------------------------------
+17/11/21 16:05 INFO     Procesando Empresa 29-CHAÑARES HERRADOS SA                                                            
+17/11/21 16:05 DEBUG    Empresa con conexion
+17/11/21 16:05 DEBUG    skipping
+17/11/21 16:05 INFO     ------------------------------------------------------------------------------------------
+17/11/21 16:05 INFO     Procesando Empresa 400-G Y G INGENIERÍA Y MEDIO AMBIENTE S.A.                                          
+17/11/21 16:05 WARNING  No existe conexión definida
+17/11/21 16:05 INFO     ------------------------------------------------------------------------------------------
+17/11/21 16:05 INFO     Procesando Empresa 31-GRECOIL Y CIA SRL                                                               
+17/11/21 16:05 WARNING  No existe conexión definida
+17/11/21 16:05 INFO     ------------------------------------------------------------------------------------------
+17/11/21 16:05 INFO     Procesando Empresa 1-PETROLERA EL TREBOL SA                                                          
+17/11/21 16:05 DEBUG    Empresa con conexion
+17/11/21 16:05 DEBUG    Estableciendo conexión SFTP (host:209.13.86.50, port:22, user:regalias, pass:********)
+17/11/21 16:05 DEBUG    Conexión SFTP establecida
+17/11/21 16:05 INFO     Conectado al servidor de la empresa
+17/11/21 16:05 INFO     Procesando medidor: PDT TUPUNGATO DE PTC TUPUNGATO                    
+17/11/21 16:05 INFO     Procesando Ramal #1
+17/11/21 16:05 ERROR    Error al procesar el medidor (error='str' object has no attribute 'trim')
+17/11/21 16:05 DEBUG    Conexión SFTP cerrada
+17/11/21 16:05 ERROR    'str' object has no attribute 'trim'
+17/11/21 16:06 INFO     Proceso de lecturas del Sistema de Telemedición
+17/11/21 16:06 INFO     Cantidad de archivos a procesar : 49 del dia
+17/11/21 16:06 INFO     ------------------------------------------------------------------------------------------
+17/11/21 16:06 INFO     Procesando Empresa 29-CHAÑARES HERRADOS SA                                                            
+17/11/21 16:06 DEBUG    Empresa con conexion
+17/11/21 16:06 DEBUG    skipping
+17/11/21 16:06 INFO     ------------------------------------------------------------------------------------------
+17/11/21 16:06 INFO     Procesando Empresa 400-G Y G INGENIERÍA Y MEDIO AMBIENTE S.A.                                          
+17/11/21 16:06 WARNING  No existe conexión definida
+17/11/21 16:06 INFO     ------------------------------------------------------------------------------------------
+17/11/21 16:06 INFO     Procesando Empresa 31-GRECOIL Y CIA SRL                                                               
+17/11/21 16:06 WARNING  No existe conexión definida
+17/11/21 16:06 INFO     ------------------------------------------------------------------------------------------
+17/11/21 16:06 INFO     Procesando Empresa 1-PETROLERA EL TREBOL SA                                                          
+17/11/21 16:06 DEBUG    Empresa con conexion
+17/11/21 16:06 DEBUG    Estableciendo conexión SFTP (host:209.13.86.50, port:22, user:regalias, pass:********)
+17/11/21 16:06 DEBUG    Conexión SFTP establecida
+17/11/21 16:06 INFO     Conectado al servidor de la empresa
+17/11/21 16:06 INFO     Procesando medidor: PDT TUPUNGATO DE PTC TUPUNGATO                    
+17/11/21 16:06 INFO     Procesando Ramal #1
+17/11/21 16:06 DEBUG    El archivo no existe en la DB, insertando un nuevo registro
+17/11/21 16:06 DEBUG    Descargando archivo PETSA_PDTTUP-PTCTUP_1_06112014_RES11_DIR_REGALIAS.TXT en /home/dbattezzati/eclipse-workspace/lectura_telemedicion_sqlalchemy/data/descargas/PETSA_PDTTUP-PTCTUP_1_06112014_RES11_DIR_REGALIAS.TXT
+17/11/21 16:06 ERROR    Error al descargar el archivo PETSA_PDTTUP-PTCTUP_1_06112014_RES11_DIR_REGALIAS.TXT (error: [Errno 2] No such file)
+17/11/21 16:06 INFO     ------------------------------------------------------------------------------------------
+17/11/21 16:06 INFO     Procesando Empresa 385-ROCH S.A                                                                        
+17/11/21 16:06 DEBUG    Empresa con conexion
+17/11/21 16:06 DEBUG    Estableciendo conexión SFTP (host:www.silex-it.com, port:5247, user:rochSftp, pass:********)
+17/11/21 16:08 INFO     Proceso de lecturas del Sistema de Telemedición
+17/11/21 16:08 INFO     Cantidad de archivos a procesar : 49 del dia
+17/11/21 16:08 INFO     ------------------------------------------------------------------------------------------
+17/11/21 16:08 INFO     Procesando Empresa 29-CHAÑARES HERRADOS SA                                                            
+17/11/21 16:08 DEBUG    Empresa con conexion
+17/11/21 16:08 DEBUG    skipping
+17/11/21 16:08 INFO     ------------------------------------------------------------------------------------------
+17/11/21 16:08 INFO     Procesando Empresa 400-G Y G INGENIERÍA Y MEDIO AMBIENTE S.A.                                          
+17/11/21 16:08 WARNING  No existe conexión definida
+17/11/21 16:08 INFO     ------------------------------------------------------------------------------------------
+17/11/21 16:08 INFO     Procesando Empresa 31-GRECOIL Y CIA SRL                                                               
+17/11/21 16:08 WARNING  No existe conexión definida
+17/11/21 16:08 INFO     ------------------------------------------------------------------------------------------
+17/11/21 16:08 INFO     Procesando Empresa 1-PETROLERA EL TREBOL SA                                                          
+17/11/21 16:08 DEBUG    Empresa con conexion
+17/11/21 16:08 DEBUG    Estableciendo conexión SFTP (host:209.13.86.50, port:22, user:regalias, pass:********)
+17/11/21 16:08 DEBUG    Conexión SFTP establecida
+17/11/21 16:08 INFO     Conectado al servidor de la empresa
+17/11/21 16:08 INFO     Procesando medidor: PDT TUPUNGATO DE PTC TUPUNGATO                    
+17/11/21 16:08 INFO     Procesando Ramal #1
+17/11/21 16:08 DEBUG    El archivo no existe en la DB, insertando un nuevo registro
+17/11/21 16:08 DEBUG    Descargando archivo PETSA_PDTTUP-PTCTUP_1_06112014_RES11_DIR_REGALIAS.txt en /home/dbattezzati/eclipse-workspace/lectura_telemedicion_sqlalchemy/data/descargas/PETSA_PDTTUP-PTCTUP_1_06112014_RES11_DIR_REGALIAS.txt
+17/11/21 16:08 ERROR    Error al descargar el archivo PETSA_PDTTUP-PTCTUP_1_06112014_RES11_DIR_REGALIAS.txt (error: [Errno 2] No such file)
+17/11/21 16:08 INFO     ------------------------------------------------------------------------------------------
+17/11/21 16:08 INFO     Procesando Empresa 385-ROCH S.A                                                                        
+17/11/21 16:08 DEBUG    Empresa con conexion
+17/11/21 16:08 DEBUG    Estableciendo conexión SFTP (host:www.silex-it.com, port:5247, user:rochSftp, pass:********)
+19/11/21 09:09 INFO     Proceso de lecturas del Sistema de Telemedición
+19/11/21 09:09 INFO     Cantidad de archivos a procesar : 49 del dia
+19/11/21 09:09 INFO     ------------------------------------------------------------------------------------------
+19/11/21 09:09 INFO     Procesando Empresa 29-CHAÑARES HERRADOS SA                                                            
+19/11/21 09:09 DEBUG    Empresa con conexion
+19/11/21 09:09 DEBUG    skipping
+19/11/21 09:09 INFO     ------------------------------------------------------------------------------------------
+19/11/21 09:09 INFO     Procesando Empresa 400-G Y G INGENIERÍA Y MEDIO AMBIENTE S.A.                                          
+19/11/21 09:09 WARNING  No existe conexión definida
+19/11/21 09:09 INFO     ------------------------------------------------------------------------------------------
+19/11/21 09:09 INFO     Procesando Empresa 31-GRECOIL Y CIA SRL                                                               
+19/11/21 09:09 WARNING  No existe conexión definida
+19/11/21 09:09 INFO     ------------------------------------------------------------------------------------------
+19/11/21 09:09 INFO     Procesando Empresa 1-PETROLERA EL TREBOL SA                                                          
+19/11/21 09:09 DEBUG    Empresa con conexion
+19/11/21 09:09 DEBUG    Estableciendo conexión SFTP (host:209.13.86.50, port:22, user:regalias, pass:********)
+19/11/21 09:09 DEBUG    Conexión SFTP establecida
+19/11/21 09:09 INFO     Conectado al servidor de la empresa
+19/11/21 09:09 INFO     Procesando medidor: PDT TUPUNGATO DE PTC TUPUNGATO                    
+19/11/21 09:09 INFO     Procesando Ramal #1
+19/11/21 09:09 ERROR    Error al procesar el medidor (error=descriptor 'date' for 'datetime.datetime' objects doesn't apply to a 'int' object)
+19/11/21 09:09 DEBUG    Conexión SFTP cerrada
+19/11/21 09:09 ERROR    descriptor 'date' for 'datetime.datetime' objects doesn't apply to a 'int' object
+19/11/21 09:11 INFO     Proceso de lecturas del Sistema de Telemedición
+19/11/21 09:11 INFO     Cantidad de archivos a procesar : 49 del dia
+19/11/21 09:11 INFO     ------------------------------------------------------------------------------------------
+19/11/21 09:11 INFO     Procesando Empresa 29-CHAÑARES HERRADOS SA                                                            
+19/11/21 09:11 DEBUG    Empresa con conexion
+19/11/21 09:11 DEBUG    skipping
+19/11/21 09:11 INFO     ------------------------------------------------------------------------------------------
+19/11/21 09:11 INFO     Procesando Empresa 400-G Y G INGENIERÍA Y MEDIO AMBIENTE S.A.                                          
+19/11/21 09:11 WARNING  No existe conexión definida
+19/11/21 09:11 INFO     ------------------------------------------------------------------------------------------
+19/11/21 09:11 INFO     Procesando Empresa 31-GRECOIL Y CIA SRL                                                               
+19/11/21 09:11 WARNING  No existe conexión definida
+19/11/21 09:11 INFO     ------------------------------------------------------------------------------------------
+19/11/21 09:11 INFO     Procesando Empresa 1-PETROLERA EL TREBOL SA                                                          
+19/11/21 09:11 DEBUG    Empresa con conexion
+19/11/21 09:11 DEBUG    Estableciendo conexión SFTP (host:209.13.86.50, port:22, user:regalias, pass:********)
+19/11/21 09:11 DEBUG    Conexión SFTP establecida
+19/11/21 09:11 INFO     Conectado al servidor de la empresa
+19/11/21 09:11 INFO     Procesando medidor: PDT TUPUNGATO DE PTC TUPUNGATO                    
+19/11/21 09:11 INFO     Procesando Ramal #1
+19/11/21 09:11 ERROR    Error al procesar el medidor (error=type object 'datetime.datetime' has no attribute 'datetime')
+19/11/21 09:11 DEBUG    Conexión SFTP cerrada
+19/11/21 09:11 ERROR    type object 'datetime.datetime' has no attribute 'datetime'
+19/11/21 09:14 INFO     Proceso de lecturas del Sistema de Telemedición
+19/11/21 09:14 INFO     Cantidad de archivos a procesar : 49 del dia
+19/11/21 09:14 INFO     ------------------------------------------------------------------------------------------
+19/11/21 09:14 INFO     Procesando Empresa 29-CHAÑARES HERRADOS SA                                                            
+19/11/21 09:14 DEBUG    Empresa con conexion
+19/11/21 09:14 DEBUG    skipping
+19/11/21 09:14 INFO     ------------------------------------------------------------------------------------------
+19/11/21 09:14 INFO     Procesando Empresa 400-G Y G INGENIERÍA Y MEDIO AMBIENTE S.A.                                          
+19/11/21 09:14 WARNING  No existe conexión definida
+19/11/21 09:14 INFO     ------------------------------------------------------------------------------------------
+19/11/21 09:14 INFO     Procesando Empresa 31-GRECOIL Y CIA SRL                                                               
+19/11/21 09:14 WARNING  No existe conexión definida
+19/11/21 09:14 INFO     ------------------------------------------------------------------------------------------
+19/11/21 09:14 INFO     Procesando Empresa 1-PETROLERA EL TREBOL SA                                                          
+19/11/21 09:14 DEBUG    Empresa con conexion
+19/11/21 09:14 DEBUG    Estableciendo conexión SFTP (host:209.13.86.50, port:22, user:regalias, pass:********)
+19/11/21 09:14 DEBUG    Conexión SFTP establecida
+19/11/21 09:14 INFO     Conectado al servidor de la empresa
+19/11/21 09:14 INFO     Procesando medidor: PDT TUPUNGATO DE PTC TUPUNGATO                    
+19/11/21 09:14 INFO     Procesando Ramal #1
+19/11/21 09:14 ERROR    Error al procesar el medidor (error='>' not supported between instances of 'datetime.date' and 'NoneType')
+19/11/21 09:14 DEBUG    Conexión SFTP cerrada
+19/11/21 09:14 ERROR    '>' not supported between instances of 'datetime.date' and 'NoneType'
+19/11/21 09:15 INFO     Proceso de lecturas del Sistema de Telemedición
+19/11/21 09:15 INFO     Cantidad de archivos a procesar : 49 del dia
+19/11/21 09:15 INFO     ------------------------------------------------------------------------------------------
+19/11/21 09:15 INFO     Procesando Empresa 29-CHAÑARES HERRADOS SA                                                            
+19/11/21 09:15 DEBUG    Empresa con conexion
+19/11/21 09:15 DEBUG    skipping
+19/11/21 09:15 INFO     ------------------------------------------------------------------------------------------
+19/11/21 09:15 INFO     Procesando Empresa 400-G Y G INGENIERÍA Y MEDIO AMBIENTE S.A.                                          
+19/11/21 09:15 WARNING  No existe conexión definida
+19/11/21 09:15 INFO     ------------------------------------------------------------------------------------------
+19/11/21 09:15 INFO     Procesando Empresa 31-GRECOIL Y CIA SRL                                                               
+19/11/21 09:15 WARNING  No existe conexión definida
+19/11/21 09:15 INFO     ------------------------------------------------------------------------------------------
+19/11/21 09:15 INFO     Procesando Empresa 1-PETROLERA EL TREBOL SA                                                          
+19/11/21 09:15 DEBUG    Empresa con conexion
+19/11/21 09:15 DEBUG    Estableciendo conexión SFTP (host:209.13.86.50, port:22, user:regalias, pass:********)
+19/11/21 09:15 DEBUG    Conexión SFTP establecida
+19/11/21 09:15 INFO     Conectado al servidor de la empresa
+19/11/21 09:15 INFO     Procesando medidor: PDT TUPUNGATO DE PTC TUPUNGATO                    
+19/11/21 09:15 INFO     Procesando Ramal #1
+19/11/21 09:15 DEBUG    El archivo no existe en la DB, insertando un nuevo registro
+19/11/21 09:15 DEBUG    Descargando archivo PETSA_PDTTUP-PTCTUP_1_01062021_RES11_DIR_REGALIAS.txt en /home/dbattezzati/eclipse-workspace/lectura_telemedicion_sqlalchemy/data/descargas/PETSA_PDTTUP-PTCTUP_1_01062021_RES11_DIR_REGALIAS.txt
+19/11/21 09:15 DEBUG    Procesando el archivo /home/dbattezzati/eclipse-workspace/lectura_telemedicion_sqlalchemy/data/descargas/PETSA_PDTTUP-PTCTUP_1_01062021_RES11_DIR_REGALIAS.txt
+19/11/21 09:15 ERROR    (raised as a result of Query-invoked autoflush; consider using a session.no_autoflush block if this flush is occurring prematurely)
+(cx_Oracle.DatabaseError) ORA-02289: sequence does not exist
+[SQL: INSERT INTO regalias.tlm_archivos_lectura_res11_cab (alc_id, alc_mds_id, alc_nombre, alc_tamanio, alc_fecha_creacion, alc_cantidad_registros, alc_cantidad_registros_ok, alc_cantidad_registros_err, alc_hash, alc_usuario_baja, alc_fecha_baja) VALUES (regalias.seq_tlm_archivos_cab.nextval, :alc_mds_id, :alc_nombre, :alc_tamanio, :alc_fecha_creacion, :alc_cantidad_registros, :alc_cantidad_registros_ok, :alc_cantidad_registros_err, :alc_hash, :alc_usuario_baja, :alc_fecha_baja) RETURNING regalias.tlm_archivos_lectura_res11_cab.alc_id INTO :ret_0]
+[parameters: {'alc_mds_id': 469, 'alc_nombre': 'PETSA_PDTTUP-PTCTUP_1_01062021_RES11_DIR_REGALIAS.txt', 'alc_tamanio': Decimal('0.00'), 'alc_fecha_creacion': datetime.date(2021, 6, 1), 'alc_cantidad_registros': 0, 'alc_cantidad_registros_ok': 0, 'alc_cantidad_registros_err': 0, 'alc_hash': None, 'alc_usuario_baja': None, 'alc_fecha_baja': None, 'ret_0': <cx_Oracle.Var of type DB_TYPE_VARCHAR with value [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]>}]
+(Background on this error at: http://sqlalche.me/e/4xp6)
+19/11/21 09:15 INFO     ------------------------------------------------------------------------------------------
+19/11/21 09:15 INFO     Procesando Empresa 385-ROCH S.A                                                                        
+19/11/21 09:15 DEBUG    Empresa con conexion
+19/11/21 09:15 DEBUG    Estableciendo conexión SFTP (host:www.silex-it.com, port:5247, user:rochSftp, pass:********)
+19/11/21 09:19 INFO     Proceso de lecturas del Sistema de Telemedición
+19/11/21 09:19 INFO     Cantidad de archivos a procesar : 49 del dia
+19/11/21 09:19 INFO     ------------------------------------------------------------------------------------------
+19/11/21 09:19 INFO     Procesando Empresa 29-CHAÑARES HERRADOS SA                                                            
+19/11/21 09:19 DEBUG    Empresa con conexion
+19/11/21 09:19 DEBUG    skipping
+19/11/21 09:19 INFO     ------------------------------------------------------------------------------------------
+19/11/21 09:19 INFO     Procesando Empresa 400-G Y G INGENIERÍA Y MEDIO AMBIENTE S.A.                                          
+19/11/21 09:19 WARNING  No existe conexión definida
+19/11/21 09:19 INFO     ------------------------------------------------------------------------------------------
+19/11/21 09:19 INFO     Procesando Empresa 31-GRECOIL Y CIA SRL                                                               
+19/11/21 09:19 WARNING  No existe conexión definida
+19/11/21 09:19 INFO     ------------------------------------------------------------------------------------------
+19/11/21 09:19 INFO     Procesando Empresa 1-PETROLERA EL TREBOL SA                                                          
+19/11/21 09:19 DEBUG    Empresa con conexion
+19/11/21 09:19 DEBUG    Estableciendo conexión SFTP (host:209.13.86.50, port:22, user:regalias, pass:********)
+19/11/21 09:19 DEBUG    Conexión SFTP establecida
+19/11/21 09:19 INFO     Conectado al servidor de la empresa
+19/11/21 09:19 INFO     Procesando medidor: PDT TUPUNGATO DE PTC TUPUNGATO                    
+19/11/21 09:19 INFO     Procesando Ramal #1
+19/11/21 09:19 DEBUG    El archivo no existe en la DB, insertando un nuevo registro
+19/11/21 09:19 DEBUG    Descargando archivo PETSA_PDTTUP-PTCTUP_1_01062021_RES11_DIR_REGALIAS.txt en /home/dbattezzati/eclipse-workspace/lectura_telemedicion_sqlalchemy/data/descargas/PETSA_PDTTUP-PTCTUP_1_01062021_RES11_DIR_REGALIAS.txt
+19/11/21 09:19 DEBUG    Procesando el archivo /home/dbattezzati/eclipse-workspace/lectura_telemedicion_sqlalchemy/data/descargas/PETSA_PDTTUP-PTCTUP_1_01062021_RES11_DIR_REGALIAS.txt
+19/11/21 09:19 ERROR    (raised as a result of Query-invoked autoflush; consider using a session.no_autoflush block if this flush is occurring prematurely)
+(cx_Oracle.DatabaseError) ORA-02289: sequence does not exist
+[SQL: INSERT INTO regalias.tlm_archivos_lectura_res11_cab (alc_id, alc_mds_id, alc_nombre, alc_tamanio, alc_fecha_creacion, alc_cantidad_registros, alc_cantidad_registros_ok, alc_cantidad_registros_err, alc_hash, alc_usuario_baja, alc_fecha_baja) VALUES (regalias.seq_tlm_archivos_cab.nextval, :alc_mds_id, :alc_nombre, :alc_tamanio, :alc_fecha_creacion, :alc_cantidad_registros, :alc_cantidad_registros_ok, :alc_cantidad_registros_err, :alc_hash, :alc_usuario_baja, :alc_fecha_baja) RETURNING regalias.tlm_archivos_lectura_res11_cab.alc_id INTO :ret_0]
+[parameters: {'alc_mds_id': 469, 'alc_nombre': 'PETSA_PDTTUP-PTCTUP_1_01062021_RES11_DIR_REGALIAS.txt', 'alc_tamanio': Decimal('0.00'), 'alc_fecha_creacion': datetime.date(2021, 6, 1), 'alc_cantidad_registros': 0, 'alc_cantidad_registros_ok': 0, 'alc_cantidad_registros_err': 0, 'alc_hash': None, 'alc_usuario_baja': None, 'alc_fecha_baja': None, 'ret_0': <cx_Oracle.Var of type DB_TYPE_VARCHAR with value [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]>}]
+(Background on this error at: http://sqlalche.me/e/4xp6)
+19/11/21 09:19 INFO     ------------------------------------------------------------------------------------------
+19/11/21 09:19 INFO     Procesando Empresa 385-ROCH S.A                                                                        
+19/11/21 09:19 DEBUG    Empresa con conexion
+19/11/21 09:19 DEBUG    Estableciendo conexión SFTP (host:www.silex-it.com, port:5247, user:rochSftp, pass:********)
+19/11/21 09:28 INFO     Proceso de lecturas del Sistema de Telemedición
+19/11/21 09:28 INFO     Cantidad de archivos a procesar : 49 del dia
+19/11/21 09:28 INFO     ------------------------------------------------------------------------------------------
+19/11/21 09:28 INFO     Procesando Empresa 29-CHAÑARES HERRADOS SA                                                            
+19/11/21 09:28 DEBUG    Empresa con conexion
+19/11/21 09:28 DEBUG    skipping
+19/11/21 09:28 INFO     ------------------------------------------------------------------------------------------
+19/11/21 09:28 INFO     Procesando Empresa 400-G Y G INGENIERÍA Y MEDIO AMBIENTE S.A.                                          
+19/11/21 09:28 WARNING  No existe conexión definida
+19/11/21 09:28 INFO     ------------------------------------------------------------------------------------------
+19/11/21 09:28 INFO     Procesando Empresa 31-GRECOIL Y CIA SRL                                                               
+19/11/21 09:28 WARNING  No existe conexión definida
+19/11/21 09:28 INFO     ------------------------------------------------------------------------------------------
+19/11/21 09:28 INFO     Procesando Empresa 1-PETROLERA EL TREBOL SA                                                          
+19/11/21 09:28 DEBUG    Empresa con conexion
+19/11/21 09:28 DEBUG    Estableciendo conexión SFTP (host:209.13.86.50, port:22, user:regalias, pass:********)
+19/11/21 09:28 DEBUG    Conexión SFTP establecida
+19/11/21 09:28 INFO     Conectado al servidor de la empresa
+19/11/21 09:28 INFO     Procesando medidor: PDT TUPUNGATO DE PTC TUPUNGATO                    
+19/11/21 09:28 INFO     Procesando Ramal #1
+19/11/21 09:28 DEBUG    El archivo no existe en la DB, insertando un nuevo registro
+19/11/21 09:28 DEBUG    Descargando archivo PETSA_PDTTUP-PTCTUP_1_01062021_RES11_DIR_REGALIAS.txt en /home/dbattezzati/eclipse-workspace/lectura_telemedicion_sqlalchemy/data/descargas/PETSA_PDTTUP-PTCTUP_1_01062021_RES11_DIR_REGALIAS.txt
+19/11/21 09:28 DEBUG    Procesando el archivo /home/dbattezzati/eclipse-workspace/lectura_telemedicion_sqlalchemy/data/descargas/PETSA_PDTTUP-PTCTUP_1_01062021_RES11_DIR_REGALIAS.txt
+19/11/21 09:28 ERROR    (raised as a result of Query-invoked autoflush; consider using a session.no_autoflush block if this flush is occurring prematurely)
+(cx_Oracle.IntegrityError) ORA-02291: integrity constraint (REGALIAS.FK_CAB_MDS) violated - parent key not found
+[SQL: INSERT INTO regalias.tlm_archivos_lectura_res11_cab (alc_id, alc_mds_id, alc_nombre, alc_tamanio, alc_fecha_creacion, alc_cantidad_registros, alc_cantidad_registros_ok, alc_cantidad_registros_err, alc_hash, alc_usuario_baja, alc_fecha_baja) VALUES (regalias.seq_tlm_archivos_cab.nextval, :alc_mds_id, :alc_nombre, :alc_tamanio, :alc_fecha_creacion, :alc_cantidad_registros, :alc_cantidad_registros_ok, :alc_cantidad_registros_err, :alc_hash, :alc_usuario_baja, :alc_fecha_baja) RETURNING regalias.tlm_archivos_lectura_res11_cab.alc_id INTO :ret_0]
+[parameters: {'alc_mds_id': 469, 'alc_nombre': 'PETSA_PDTTUP-PTCTUP_1_01062021_RES11_DIR_REGALIAS.txt', 'alc_tamanio': Decimal('0.00'), 'alc_fecha_creacion': datetime.date(2021, 6, 1), 'alc_cantidad_registros': 0, 'alc_cantidad_registros_ok': 0, 'alc_cantidad_registros_err': 0, 'alc_hash': None, 'alc_usuario_baja': None, 'alc_fecha_baja': None, 'ret_0': <cx_Oracle.Var of type DB_TYPE_VARCHAR with value [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]>}]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+19/11/21 09:28 INFO     ------------------------------------------------------------------------------------------
+19/11/21 09:28 INFO     Procesando Empresa 385-ROCH S.A                                                                        
+19/11/21 09:28 DEBUG    Empresa con conexion
+19/11/21 09:28 DEBUG    Estableciendo conexión SFTP (host:www.silex-it.com, port:5247, user:rochSftp, pass:********)
+19/11/21 09:33 INFO     Proceso de lecturas del Sistema de Telemedición
+19/11/21 09:33 INFO     Cantidad de archivos a procesar : 49 del dia
+19/11/21 09:33 INFO     ------------------------------------------------------------------------------------------
+19/11/21 09:33 INFO     Procesando Empresa 29-CHAÑARES HERRADOS SA                                                            
+19/11/21 09:33 DEBUG    Empresa con conexion
+19/11/21 09:33 DEBUG    skipping
+19/11/21 09:33 INFO     ------------------------------------------------------------------------------------------
+19/11/21 09:33 INFO     Procesando Empresa 400-G Y G INGENIERÍA Y MEDIO AMBIENTE S.A.                                          
+19/11/21 09:33 WARNING  No existe conexión definida
+19/11/21 09:33 INFO     ------------------------------------------------------------------------------------------
+19/11/21 09:33 INFO     Procesando Empresa 31-GRECOIL Y CIA SRL                                                               
+19/11/21 09:33 WARNING  No existe conexión definida
+19/11/21 09:33 INFO     ------------------------------------------------------------------------------------------
+19/11/21 09:33 INFO     Procesando Empresa 1-PETROLERA EL TREBOL SA                                                          
+19/11/21 09:33 DEBUG    Empresa con conexion
+19/11/21 09:33 DEBUG    Estableciendo conexión SFTP (host:209.13.86.50, port:22, user:regalias, pass:********)
+19/11/21 09:33 DEBUG    Conexión SFTP establecida
+19/11/21 09:33 INFO     Conectado al servidor de la empresa
+19/11/21 09:33 INFO     Procesando medidor: PDT TUPUNGATO DE PTC TUPUNGATO                    
+19/11/21 09:33 INFO     Procesando Ramal #1
+19/11/21 09:33 DEBUG    El archivo no existe en la DB, insertando un nuevo registro
+19/11/21 09:33 DEBUG    Descargando archivo PETSA_PDTTUP-PTCTUP_1_01062021_RES11_DIR_REGALIAS.txt en /home/dbattezzati/eclipse-workspace/lectura_telemedicion_sqlalchemy/data/descargas/PETSA_PDTTUP-PTCTUP_1_01062021_RES11_DIR_REGALIAS.txt
+19/11/21 09:33 DEBUG    Procesando el archivo /home/dbattezzati/eclipse-workspace/lectura_telemedicion_sqlalchemy/data/descargas/PETSA_PDTTUP-PTCTUP_1_01062021_RES11_DIR_REGALIAS.txt
+19/11/21 09:33 ERROR    'NoneType' object has no attribute 'validateCamposLectura'
+19/11/21 09:33 INFO     ------------------------------------------------------------------------------------------
+19/11/21 09:33 INFO     Procesando Empresa 385-ROCH S.A                                                                        
+19/11/21 09:33 DEBUG    Empresa con conexion
+19/11/21 09:33 DEBUG    Estableciendo conexión SFTP (host:www.silex-it.com, port:5247, user:rochSftp, pass:********)
+19/11/21 09:36 INFO     Proceso de lecturas del Sistema de Telemedición
+19/11/21 09:36 INFO     Cantidad de archivos a procesar : 49 del dia
+19/11/21 09:36 INFO     ------------------------------------------------------------------------------------------
+19/11/21 09:36 INFO     Procesando Empresa 29-CHAÑARES HERRADOS SA                                                            
+19/11/21 09:36 DEBUG    Empresa con conexion
+19/11/21 09:36 DEBUG    skipping
+19/11/21 09:36 INFO     ------------------------------------------------------------------------------------------
+19/11/21 09:36 INFO     Procesando Empresa 400-G Y G INGENIERÍA Y MEDIO AMBIENTE S.A.                                          
+19/11/21 09:36 WARNING  No existe conexión definida
+19/11/21 09:36 INFO     ------------------------------------------------------------------------------------------
+19/11/21 09:36 INFO     Procesando Empresa 31-GRECOIL Y CIA SRL                                                               
+19/11/21 09:36 WARNING  No existe conexión definida
+19/11/21 09:36 INFO     ------------------------------------------------------------------------------------------
+19/11/21 09:36 INFO     Procesando Empresa 1-PETROLERA EL TREBOL SA                                                          
+19/11/21 09:36 DEBUG    Empresa con conexion
+19/11/21 09:36 DEBUG    Estableciendo conexión SFTP (host:209.13.86.50, port:22, user:regalias, pass:********)
+19/11/21 09:36 DEBUG    Conexión SFTP establecida
+19/11/21 09:36 INFO     Conectado al servidor de la empresa
+19/11/21 09:36 INFO     Procesando medidor: PDT TUPUNGATO DE PTC TUPUNGATO                    
+19/11/21 09:36 INFO     Procesando Ramal #1
+19/11/21 09:36 DEBUG    El archivo no existe en la DB, insertando un nuevo registro
+19/11/21 09:36 DEBUG    Descargando archivo PETSA_PDTTUP-PTCTUP_1_01062021_RES11_DIR_REGALIAS.txt en /home/dbattezzati/eclipse-workspace/lectura_telemedicion_sqlalchemy/data/descargas/PETSA_PDTTUP-PTCTUP_1_01062021_RES11_DIR_REGALIAS.txt
+19/11/21 09:36 DEBUG    Procesando el archivo /home/dbattezzati/eclipse-workspace/lectura_telemedicion_sqlalchemy/data/descargas/PETSA_PDTTUP-PTCTUP_1_01062021_RES11_DIR_REGALIAS.txt
+19/11/21 09:36 ERROR    'NoneType' object has no attribute 'validateCamposLectura'
+19/11/21 09:36 INFO     ------------------------------------------------------------------------------------------
+19/11/21 09:36 INFO     Procesando Empresa 385-ROCH S.A                                                                        
+19/11/21 09:36 DEBUG    Empresa con conexion
+19/11/21 09:36 DEBUG    Estableciendo conexión SFTP (host:www.silex-it.com, port:5247, user:rochSftp, pass:********)
+19/11/21 09:38 ERROR    Error al establecer la conexión SFTP (error: Unable to connect to www.silex-it.com: [Errno 110] Connection timed out)
+23/11/21 08:24 INFO     Proceso de lecturas del Sistema de Telemedición
+23/11/21 08:24 INFO     Cantidad de archivos a procesar : 137 del dia
+23/11/21 08:24 INFO     ------------------------------------------------------------------------------------------
+23/11/21 08:24 INFO     Procesando Empresa 29-CHAÑARES HERRADOS SA                                                            
+23/11/21 08:24 DEBUG    Empresa con conexion
+23/11/21 08:24 DEBUG    skipping
+23/11/21 08:24 INFO     ------------------------------------------------------------------------------------------
+23/11/21 08:24 INFO     Procesando Empresa 382-CHEVRON ARGENTINA S.R.L                                                         
+23/11/21 08:24 WARNING  No existe conexión definida
+23/11/21 08:24 INFO     ------------------------------------------------------------------------------------------
+23/11/21 08:24 INFO     Procesando Empresa 400-G Y G INGENIERÍA Y MEDIO AMBIENTE S.A.                                          
+23/11/21 08:24 WARNING  No existe conexión definida
+23/11/21 08:24 INFO     ------------------------------------------------------------------------------------------
+23/11/21 08:24 INFO     Procesando Empresa 405-HATTRICK ENERGY S.A.S."OPERADOR AUTORIZADO POR EMESA"                           
+23/11/21 08:24 WARNING  No existe conexión definida
+23/11/21 08:24 INFO     ------------------------------------------------------------------------------------------
+23/11/21 08:24 INFO     Procesando Empresa 403-PETROLERA ACONCAGUA ENERGIA SA                                                  
+23/11/21 08:24 DEBUG    Empresa con conexion
+23/11/21 08:24 DEBUG    Se descarta ya que el protocolo es: FTPS
+23/11/21 08:24 INFO     ------------------------------------------------------------------------------------------
+23/11/21 08:24 INFO     Procesando Empresa 1-PETROLERA EL TREBOL SA                                                          
+23/11/21 08:24 DEBUG    Empresa con conexion
+23/11/21 08:24 DEBUG    Estableciendo conexión SFTP (host:209.13.86.50, port:22, user:regalias, pass:********)
+23/11/21 08:24 DEBUG    Conexión SFTP establecida
+23/11/21 08:24 INFO     Conectado al servidor de la empresa
+23/11/21 08:24 INFO     Procesando medidor: STOCK FINAL MES ATAMISQUI                         
+23/11/21 08:24 INFO     Procesando Ramal #1
+23/11/21 08:24 DEBUG    El archivo no existe en la DB, insertando un nuevo registro
+23/11/21 08:24 DEBUG    Descargando archivo PETSA_STFATA_1_01062021_RES11_DIR_REGALIAS.txt en /home/dbattezzati/eclipse-workspace/lectura_telemedicion_sqlalchemy/data/descargas/PETSA_STFATA_1_01062021_RES11_DIR_REGALIAS.txt
+23/11/21 08:24 ERROR    Error al descargar el archivo PETSA_STFATA_1_01062021_RES11_DIR_REGALIAS.txt (error: [Errno 2] No such file)
+23/11/21 08:24 INFO     Procesando medidor: STOCK FINAL  MES REFUGIO TUPUNGATO                
+23/11/21 08:24 INFO     Procesando Ramal #1
+23/11/21 08:24 DEBUG    El archivo no existe en la DB, insertando un nuevo registro
+23/11/21 08:24 DEBUG    Descargando archivo PETSA_STFTUP_1_01062021_RES11_DIR_REGALIAS.txt en /home/dbattezzati/eclipse-workspace/lectura_telemedicion_sqlalchemy/data/descargas/PETSA_STFTUP_1_01062021_RES11_DIR_REGALIAS.txt
+23/11/21 08:24 ERROR    La conexión no está activa
+23/11/21 08:24 INFO     Procesando medidor: PDT LA BREA                                       
+23/11/21 08:24 INFO     Procesando Ramal #1
+23/11/21 08:24 DEBUG    El archivo no existe en la DB, insertando un nuevo registro
+23/11/21 08:24 DEBUG    Descargando archivo PETSA_PDTLBR_1_01062021_RES11_DIR_REGALIAS.txt en /home/dbattezzati/eclipse-workspace/lectura_telemedicion_sqlalchemy/data/descargas/PETSA_PDTLBR_1_01062021_RES11_DIR_REGALIAS.txt
+23/11/21 08:24 ERROR    La conexión no está activa
+23/11/21 08:24 INFO     Procesando medidor: PDT VEGA GRANDE                                   
+23/11/21 08:24 INFO     Procesando Ramal #1
+23/11/21 08:24 DEBUG    El archivo no existe en la DB, insertando un nuevo registro
+23/11/21 08:24 DEBUG    Descargando archivo PETSA_PDTVEG_1_01062021_RES11_DIR_REGALIAS.txt en /home/dbattezzati/eclipse-workspace/lectura_telemedicion_sqlalchemy/data/descargas/PETSA_PDTVEG_1_01062021_RES11_DIR_REGALIAS.txt
+23/11/21 08:24 ERROR    La conexión no está activa
+23/11/21 08:24 INFO     Procesando medidor: PDT TUPUNGATO-PTC TUPUNGATO                       
+23/11/21 08:24 INFO     Procesando Ramal #1
+23/11/21 08:24 DEBUG    El archivo no existe en la DB, insertando un nuevo registro
+23/11/21 08:24 DEBUG    Descargando archivo PETSA_PDTTUP-PTCTUP_1_01062021_RES11_DIR_REGALIAS.txt en /home/dbattezzati/eclipse-workspace/lectura_telemedicion_sqlalchemy/data/descargas/PETSA_PDTTUP-PTCTUP_1_01062021_RES11_DIR_REGALIAS.txt
+23/11/21 08:24 ERROR    La conexión no está activa
+23/11/21 08:24 INFO     Procesando Ramal #2
+23/11/21 08:24 DEBUG    El archivo no existe en la DB, insertando un nuevo registro
+23/11/21 08:24 DEBUG    Descargando archivo PETSA_PDTTUP-PTCTUP_2_01062021_RES11_DIR_REGALIAS.txt en /home/dbattezzati/eclipse-workspace/lectura_telemedicion_sqlalchemy/data/descargas/PETSA_PDTTUP-PTCTUP_2_01062021_RES11_DIR_REGALIAS.txt
+23/11/21 08:24 ERROR    La conexión no está activa
+23/11/21 08:24 INFO     Procesando medidor: BATERIA 3PB ATAMISQUI-PTC ATAMISQUI               
+23/11/21 08:24 INFO     Procesando Ramal #1
+23/11/21 08:24 DEBUG    El archivo no existe en la DB, insertando un nuevo registro
+23/11/21 08:24 DEBUG    Descargando archivo PETSA_BAT3PB-PTCATA_1_01062021_RES11_DIR_REGALIAS.txt en /home/dbattezzati/eclipse-workspace/lectura_telemedicion_sqlalchemy/data/descargas/PETSA_BAT3PB-PTCATA_1_01062021_RES11_DIR_REGALIAS.txt
+23/11/21 08:24 ERROR    La conexión no está activa
+23/11/21 08:24 INFO     Procesando medidor: PDT ATAMISQUI                                     
+23/11/21 08:24 INFO     Procesando Ramal #1
+23/11/21 08:24 DEBUG    El archivo no existe en la DB, insertando un nuevo registro
+23/11/21 08:24 DEBUG    Descargando archivo PETSA_PDTATA3PB_1_01062021_RES11_DIR_REGALIAS.txt en /home/dbattezzati/eclipse-workspace/lectura_telemedicion_sqlalchemy/data/descargas/PETSA_PDTATA3PB_1_01062021_RES11_DIR_REGALIAS.txt
+23/11/21 08:24 ERROR    La conexión no está activa
+23/11/21 08:24 INFO     Procesando Ramal #2
+23/11/21 08:24 DEBUG    El archivo no existe en la DB, insertando un nuevo registro
+23/11/21 08:24 DEBUG    Descargando archivo PETSA_PDTATA3PB_2_01062021_RES11_DIR_REGALIAS.txt en /home/dbattezzati/eclipse-workspace/lectura_telemedicion_sqlalchemy/data/descargas/PETSA_PDTATA3PB_2_01062021_RES11_DIR_REGALIAS.txt
+23/11/21 08:24 ERROR    La conexión no está activa
+23/11/21 08:24 INFO     Procesando medidor: PDT EL MANZANO OESTE ANDES HIDROCARBUROS          
+23/11/21 08:24 INFO     Procesando Ramal #1
+23/11/21 08:24 DEBUG    El archivo no existe en la DB, insertando un nuevo registro
+23/11/21 08:24 DEBUG    Descargando archivo PETSA_PDTEMOANH_1_01062021_RES11_DIR_REGALIAS.txt en /home/dbattezzati/eclipse-workspace/lectura_telemedicion_sqlalchemy/data/descargas/PETSA_PDTEMOANH_1_01062021_RES11_DIR_REGALIAS.txt
+23/11/21 08:24 ERROR    La conexión no está activa
+23/11/21 08:24 INFO     Procesando medidor: STOCK FINAL MES ATUEL NORTE                       
+23/11/21 08:24 INFO     Procesando Ramal #1
+23/11/21 08:24 DEBUG    El archivo no existe en la DB, insertando un nuevo registro
+23/11/21 08:24 DEBUG    Descargando archivo PETSA_STFATN_1_01062021_RES11_DIR_REGALIAS.txt en /home/dbattezzati/eclipse-workspace/lectura_telemedicion_sqlalchemy/data/descargas/PETSA_STFATN_1_01062021_RES11_DIR_REGALIAS.txt
+23/11/21 08:24 ERROR    La conexión no está activa
+23/11/21 08:24 INFO     Procesando medidor: STOCK FINAL MES CERRO MOLLAR NORTE                
+23/11/21 08:24 INFO     Procesando Ramal #1
+23/11/21 08:24 DEBUG    El archivo no existe en la DB, insertando un nuevo registro
+23/11/21 08:24 DEBUG    Descargando archivo PETSA_STFCMN_1_01062021_RES11_DIR_REGALIAS.txt en /home/dbattezzati/eclipse-workspace/lectura_telemedicion_sqlalchemy/data/descargas/PETSA_STFCMN_1_01062021_RES11_DIR_REGALIAS.txt
+23/11/21 08:24 ERROR    La conexión no está activa
+23/11/21 08:24 INFO     Procesando medidor: STOCK FINAL MES CERRO MOLLAR OESTE                
+23/11/21 08:24 INFO     Procesando Ramal #1
+23/11/21 08:24 DEBUG    El archivo no existe en la DB, insertando un nuevo registro
+23/11/21 08:24 DEBUG    Descargando archivo PETSA_STFCMO_1_01062021_RES11_DIR_REGALIAS.txt en /home/dbattezzati/eclipse-workspace/lectura_telemedicion_sqlalchemy/data/descargas/PETSA_STFCMO_1_01062021_RES11_DIR_REGALIAS.txt
+23/11/21 08:24 ERROR    La conexión no está activa
+23/11/21 08:24 INFO     Procesando medidor: STOCK FINAL MES CONFLUENCIA SUR                   
+23/11/21 08:24 INFO     Procesando Ramal #1
+23/11/21 08:24 DEBUG    El archivo no existe en la DB, insertando un nuevo registro
+23/11/21 08:24 DEBUG    Descargando archivo PETSA_STFCOS_1_01062021_RES11_DIR_REGALIAS.txt en /home/dbattezzati/eclipse-workspace/lectura_telemedicion_sqlalchemy/data/descargas/PETSA_STFCOS_1_01062021_RES11_DIR_REGALIAS.txt
+23/11/21 08:24 ERROR    La conexión no está activa
+23/11/21 08:24 INFO     Procesando medidor: STOCK FINAL MES EL MANZANO                        
+23/11/21 08:24 INFO     Procesando Ramal #1
+23/11/21 08:24 DEBUG    El archivo no existe en la DB, insertando un nuevo registro
+23/11/21 08:24 DEBUG    Descargando archivo PETSA_STFEMA_1_01062021_RES11_DIR_REGALIAS.txt en /home/dbattezzati/eclipse-workspace/lectura_telemedicion_sqlalchemy/data/descargas/PETSA_STFEMA_1_01062021_RES11_DIR_REGALIAS.txt
+23/11/21 08:24 ERROR    La conexión no está activa
+23/11/21 08:24 INFO     Procesando medidor: STOCK FINAL MES LA BREA                           
+23/11/21 08:24 INFO     Procesando Ramal #1
+23/11/21 08:24 DEBUG    El archivo no existe en la DB, insertando un nuevo registro
+23/11/21 08:24 DEBUG    Descargando archivo PETSA_STFLBR_1_01062021_RES11_DIR_REGALIAS.txt en /home/dbattezzati/eclipse-workspace/lectura_telemedicion_sqlalchemy/data/descargas/PETSA_STFLBR_1_01062021_RES11_DIR_REGALIAS.txt
+23/11/21 08:24 ERROR    La conexión no está activa
+23/11/21 08:24 INFO     Procesando medidor: STOCK FINAL MES PUESTO ROJAS                      
+23/11/21 08:24 INFO     Procesando Ramal #1
+23/11/21 08:24 DEBUG    El archivo no existe en la DB, insertando un nuevo registro
+23/11/21 08:24 DEBUG    Descargando archivo PETSA_STFPRO_1_01062021_RES11_DIR_REGALIAS.txt en /home/dbattezzati/eclipse-workspace/lectura_telemedicion_sqlalchemy/data/descargas/PETSA_STFPRO_1_01062021_RES11_DIR_REGALIAS.txt
+23/11/21 08:24 ERROR    La conexión no está activa
+23/11/21 08:24 INFO     Procesando medidor: STOCK FINAL VEGA GRANDE                           
+23/11/21 08:24 INFO     Procesando Ramal #1
+23/11/21 08:24 DEBUG    El archivo no existe en la DB, insertando un nuevo registro
+23/11/21 08:24 DEBUG    Descargando archivo PETSA_STFVEG_1_01062021_RES11_DIR_REGALIAS.txt en /home/dbattezzati/eclipse-workspace/lectura_telemedicion_sqlalchemy/data/descargas/PETSA_STFVEG_1_01062021_RES11_DIR_REGALIAS.txt
+23/11/21 08:24 ERROR    La conexión no está activa
+23/11/21 08:24 INFO     Procesando medidor: STOCK INICIAL MES ATAMISQUI                       
+23/11/21 08:24 INFO     Procesando Ramal #1
+23/11/21 08:24 DEBUG    El archivo no existe en la DB, insertando un nuevo registro
+23/11/21 08:24 DEBUG    Descargando archivo PETSA_STIATA_1_01062021_RES11_DIR_REGALIAS.txt en /home/dbattezzati/eclipse-workspace/lectura_telemedicion_sqlalchemy/data/descargas/PETSA_STIATA_1_01062021_RES11_DIR_REGALIAS.txt
+23/11/21 08:24 ERROR    La conexión no está activa
+23/11/21 08:24 INFO     Procesando medidor: STOCK INICIAL MES ATUEL NORTE                     
+23/11/21 08:24 INFO     Procesando Ramal #1
+23/11/21 08:24 DEBUG    El archivo no existe en la DB, insertando un nuevo registro
+23/11/21 08:24 DEBUG    Descargando archivo PETSA_STIATN_1_01062021_RES11_DIR_REGALIAS.txt en /home/dbattezzati/eclipse-workspace/lectura_telemedicion_sqlalchemy/data/descargas/PETSA_STIATN_1_01062021_RES11_DIR_REGALIAS.txt
+23/11/21 08:24 ERROR    La conexión no está activa
+23/11/21 08:24 INFO     Procesando medidor: STOCK INCIAL MES CERRO MOLLAR NORTE               
+23/11/21 08:24 INFO     Procesando Ramal #1
+23/11/21 08:24 DEBUG    El archivo no existe en la DB, insertando un nuevo registro
+23/11/21 08:24 DEBUG    Descargando archivo PETSA_STICMN_1_01062021_RES11_DIR_REGALIAS.txt en /home/dbattezzati/eclipse-workspace/lectura_telemedicion_sqlalchemy/data/descargas/PETSA_STICMN_1_01062021_RES11_DIR_REGALIAS.txt
+23/11/21 08:24 ERROR    La conexión no está activa
+23/11/21 08:24 INFO     Procesando medidor: STOCK INICIAL MES CERRO MOLLAR OESTE              
+23/11/21 08:24 INFO     Procesando Ramal #1
+23/11/21 08:24 DEBUG    El archivo no existe en la DB, insertando un nuevo registro
+23/11/21 08:24 DEBUG    Descargando archivo PETSA_STICMO_1_01062021_RES11_DIR_REGALIAS.txt en /home/dbattezzati/eclipse-workspace/lectura_telemedicion_sqlalchemy/data/descargas/PETSA_STICMO_1_01062021_RES11_DIR_REGALIAS.txt
+23/11/21 08:24 ERROR    La conexión no está activa
+23/11/21 08:24 INFO     Procesando medidor: STOCK INICIAL MES CONFLUENCIA SUR                 
+23/11/21 08:24 INFO     Procesando Ramal #1
+23/11/21 08:24 DEBUG    El archivo no existe en la DB, insertando un nuevo registro
+23/11/21 08:24 DEBUG    Descargando archivo PETSA_STICOS_1_01062021_RES11_DIR_REGALIAS.txt en /home/dbattezzati/eclipse-workspace/lectura_telemedicion_sqlalchemy/data/descargas/PETSA_STICOS_1_01062021_RES11_DIR_REGALIAS.txt
+23/11/21 08:24 ERROR    La conexión no está activa
+23/11/21 08:24 INFO     Procesando medidor: STOCK INICIAL MES EL MANZANO                      
+23/11/21 08:24 INFO     Procesando Ramal #1
+23/11/21 08:24 DEBUG    El archivo no existe en la DB, insertando un nuevo registro
+23/11/21 08:24 DEBUG    Descargando archivo PETSA_STIEMA_1_01062021_RES11_DIR_REGALIAS.txt en /home/dbattezzati/eclipse-workspace/lectura_telemedicion_sqlalchemy/data/descargas/PETSA_STIEMA_1_01062021_RES11_DIR_REGALIAS.txt
+23/11/21 08:24 ERROR    La conexión no está activa
+23/11/21 08:24 INFO     Procesando medidor: STOCK INICAL MES LA BREA                          
+23/11/21 08:24 INFO     Procesando Ramal #1
+23/11/21 08:24 DEBUG    El archivo no existe en la DB, insertando un nuevo registro
+23/11/21 08:24 DEBUG    Descargando archivo PETSA_STILBR_1_01062021_RES11_DIR_REGALIAS.txt en /home/dbattezzati/eclipse-workspace/lectura_telemedicion_sqlalchemy/data/descargas/PETSA_STILBR_1_01062021_RES11_DIR_REGALIAS.txt
+23/11/21 08:24 ERROR    La conexión no está activa
+23/11/21 08:24 INFO     Procesando medidor: STOCK INICAL MES PUESTO ROJAS                     
+23/11/21 08:24 INFO     Procesando Ramal #1
+23/11/21 08:24 DEBUG    El archivo no existe en la DB, insertando un nuevo registro
+23/11/21 08:24 DEBUG    Descargando archivo PETSA_STIPRO_1_01062021_RES11_DIR_REGALIAS.txt en /home/dbattezzati/eclipse-workspace/lectura_telemedicion_sqlalchemy/data/descargas/PETSA_STIPRO_1_01062021_RES11_DIR_REGALIAS.txt
+23/11/21 08:24 ERROR    La conexión no está activa
+23/11/21 08:24 INFO     Procesando medidor: STOCK INICIAL MES REFUGIO TUPUNGATO               
+23/11/21 08:24 INFO     Procesando Ramal #1
+23/11/21 08:24 DEBUG    El archivo no existe en la DB, insertando un nuevo registro
+23/11/21 08:24 DEBUG    Descargando archivo PETSA_STITUP_1_01062021_RES11_DIR_REGALIAS.txt en /home/dbattezzati/eclipse-workspace/lectura_telemedicion_sqlalchemy/data/descargas/PETSA_STITUP_1_01062021_RES11_DIR_REGALIAS.txt
+23/11/21 08:24 ERROR    La conexión no está activa
+23/11/21 08:24 INFO     Procesando medidor: STOCK INICAL VEGA GRANDE                          
+23/11/21 08:24 INFO     Procesando Ramal #1
+23/11/21 08:24 DEBUG    El archivo no existe en la DB, insertando un nuevo registro
+23/11/21 08:24 DEBUG    Descargando archivo PETSA_STIVEG_1_01062021_RES11_DIR_REGALIAS.txt en /home/dbattezzati/eclipse-workspace/lectura_telemedicion_sqlalchemy/data/descargas/PETSA_STIVEG_1_01062021_RES11_DIR_REGALIAS.txt
+23/11/21 08:24 ERROR    La conexión no está activa
+23/11/21 08:24 INFO     ------------------------------------------------------------------------------------------
+23/11/21 08:24 INFO     Procesando Empresa 30-PETROQUIMICA COMODORO RIVADAVIA SA                                              
+23/11/21 08:24 DEBUG    Empresa con conexion
+23/11/21 08:24 DEBUG    Se descarta ya que el protocolo es: FTPS
+23/11/21 08:24 INFO     ------------------------------------------------------------------------------------------
+23/11/21 08:24 INFO     Procesando Empresa 384-PLUSPETROL S.A                                                                  
+23/11/21 08:24 DEBUG    Empresa con conexion
+23/11/21 08:24 DEBUG    Estableciendo conexión SFTP (host:179.27.152.8, port:5151, user:atm01117, pass:********)

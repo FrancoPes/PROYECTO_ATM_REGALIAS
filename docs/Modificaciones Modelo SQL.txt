@@ -1,0 +1,69 @@
+
+
+Tabla REGALIAS.TLM_CONEXIONES_EMPRESAS
+  - Mover el campo REEMPID a la segunda posición
+  - El campo CEM_REEMPID no puede ser null (OK)
+  - Configurar como not null los campos:
+        . CEM_PROTOCOLO     (OK)
+        . CEM_HOST          (OK)
+  - Agregar el campo 
+        . CEM_PREFIJO_ARCHIVOS - VARCHAR(20) - NOT NULL - Único (OK)
+  
+  
+Tabla REGALIAS.TLM_PAR_TIPO_MEDIDOR  
+  - Definir los campos de usuario con una longitud de 128 bytes  (OK)
+  
+  
+Tabla REGALIAS.TLM_MEDIDORES
+  - Ver cual es la mejor forma de implementar la coordenada del punto 
+       . Latitud, Longitud y Cota
+       . Punto tridimensional en coordenadas (formato geodatabase)
+  
+       
+Tablas REGALIAS.TLM_ARCHIVOS_LECTURAS_RES11_CAB
+  - Se agregó el campo ALC_MDS_ID, y se creo una FK contra la tabla medidores  (OK)
+  - Se cambió el nombre de los siguiente campos:                           
+         ALC_NOMBRE_ARCHIVO              ->  ALC_NOMBRE                     (OK)
+         ALC_TAMAÑO_ARCHIVO              ->  ALC_TAMANIO                    (OK)
+         ALC_CANTIDAD_REGISTROS_ARCH     ->  ALC_CANTIDAD_REGISTROS         (OK)
+         ALC_CANTIDAD_REGISTROS_ARCH_OK  ->  ALC_CANTIDAD_REGISTROS_OK      (OK)
+         ALC_CANTIDAD_REGISTROS_ARCH_ER  ->  ALC_CANTIDAD_REGISTROS_ERR     (OK)
+  - Se eliminó el campo ALC_PROCESADO, el estado lo puedo levantar con (ALC_CANTIDAD_REGISTROS_ERR = 0) (OK)
+  - Se cambió la longitud de todos los usuarios de auditoría a 128 Bytes  (OK)
+  - Crear una secuencia para el id  (OK)
+  
+Tablas REGALIAS.TLM_ARCHIVOS_LECTURAS_RES11_DET
+  - Se eliminó el campo ALC_MDS_ID, y se eliminó la FK contra la tabla medidores (OK)
+  - Se cambió el tipo de dato del campo ALD_HORA de TIMESTAMP a DATE   (OK)
+  - Se cambió la longitud de todos los usuarios de auditoría a 128 Bytes  (OK)
+  - So modificó el índice único de instalación para que agregue el medidor (OK)
+  - Crear una secuencia para el id  (OK)
+  - Unir las columnas ALD_FECHA y ALD_HORA y actualizar indices (OK)
+  - Modificar el nombre de la columna ALD_ACUMULADOR_PUSOS_BRUTOS_NO por ALD_ACUM_PULSOS_BRUTOS_NO_RESE 
+  - Modificar el nombre de la columna ALD_ACUMULADOR_GROSS_NO_RESETE por ALD_ACUM_GROSS_NO_RESETEABLE 
+  - Modificar el nombre de la columna ALD_ACUMULADOR_MASA_NO_RESETE por ALD_ACUM_MASA_NO_RESETEABLE 
+  
+Tablas REGALIAS.TLM_ARCHIVOS_LECTURAS_RES11_ERR
+  - Se cambió la longitud de todos los usuarios de auditoría a 128 Bytes  (OK)
+  - Crear una secuencia para el id  (OK)
+  
+  
+  
+Restaurar los triggers de borrado de las tablas TLM_ARCHIVOS_LECTURAS_RES11_xxx
+  
+  
+Permisos para el usuario que corra el sistema
+- Select sobre las secuencias
+- Select, insert, update sobre las tablas TLM_ARCHIVOS_LECTURAS_RES11_XXX
+- Select sobre Empresas, conexiones, medidores, cuencas, tipo_medidor y tipo_fluido
+- Ver que el rol adm_telemedición sea el único con permiso de lectura de la clave de la conexión
+
+
+
+
+
+Preguntas:
+ - En fecha de creación, hash y tamaño del archivo que debo guardar, el primer o último valor. Fecha de creación, consultar stat del servidor FTP
+ - Los campos de la tabla de errores deberían ser string en lugar de integer o float. 
+   Porque en el caso de que vengan mal formados (con algún char inválido) no podrán almacenarse
+ - Que hacemos cuando en una lectura venga mal la fecha. 
