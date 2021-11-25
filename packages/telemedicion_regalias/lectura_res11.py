@@ -139,11 +139,11 @@ class ArchivoLecturaRes11(Base):
                         #Insertar en la DB        
                         logging.debug(f"Insertando lectura en la DB...")
                         session.add(nuevaLecturaRes11)
-                        #FIXME: la inserción del error no debe ir aqui, esto debe ir dentro de la clase lectura
+                        #FIXME: la inserción del error no debe eir aqui, esto debe ir dentro de la clase lectura
                         if nuevaLecturaRes11._error:
                             session.add(nuevaLecturaRes11._error)
                         #FIXME: sacar este commit
-                        session.commit()
+                        #session.commit()
                         fechaHoraUltimaLectura = nuevaLecturaRes11.fecha_hora
                     else:
                         #TODO: Que se debe hacer en este caso
@@ -306,16 +306,15 @@ class LecturaMedidorRes11(Base):
                 
     def rellenarCamposFromLineaArchivo(self, dicLinea) -> None:
         for campo, obligatoriedad in self._estructuraCampos.items():
-            obligatorio = (obligatoriedad.lower() == TO_REQUERIDO)
             if (campo == 'fecha'):
                 fecha_hora = datetime.strptime(f"{dicLinea['fecha']} {dicLinea['hora']}", 
                                                f"{self.archivo.medidor.formatoFecha} {self.archivo.medidor.formatoHora}")
-                self._setValorCampo('fecha_hora', fecha_hora, obligatorio)
+                self._setValorCampo('fecha_hora', fecha_hora, obligatoriedad)
             elif (campo == 'hora'):
                 #El campo hora se ignora ya que fue procesado junto con el campo fecha
                 continue
             else:
-                self._setValorCampo(campo, dicLinea[campo], obligatorio)
+                self._setValorCampo(campo, dicLinea[campo], obligatoriedad)
                 
                     
     def _str2Float(self, strNum: str) -> Optional[float]:

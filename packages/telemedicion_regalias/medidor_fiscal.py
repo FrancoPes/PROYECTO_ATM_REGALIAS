@@ -12,7 +12,7 @@ from pathlib import Path
 import json
 from jsonschema import validate
 
-from sqlalchemy import Column, DateTime, ForeignKey, VARCHAR, func, inspect
+from sqlalchemy import Column, DateTime, ForeignKey, VARCHAR, func, inspect,BOOLEAN
 from sqlalchemy.dialects.oracle import NUMBER
 from sqlalchemy.orm import relationship
 # from sqlalchemy import orm
@@ -53,6 +53,7 @@ class TipoMedidorFiscal(Base):
         return json.loads(self._campos_lectura)
     
     def validateCamposLectura(self):
+        self.id
         validate(instance = self.campos_lectura, schema = SCHEMA_LECTURA_MEDIDOR_RES11)
 
 #Constantes de filtros de Medidor
@@ -73,18 +74,21 @@ class MedidorFiscal(Base):
 
     id = Column('remedfisid', NUMBER(9, 0, False), primary_key=True)
     empresa_id = Column('remedfisempid', ForeignKey('regalias.treempresa.reempid'), nullable=False, index=True, comment='FK A tre_empresas')
-    _tipo_medidor_id = Column('retipmedid', ForeignKey('regalias.tretiposistmed.retipsismedid'), nullable=False, index=True)
+    _tipo_medidor_id = Column('retipsismedid', ForeignKey('regalias.tretiposistmed.retipsismedid'), nullable=False, index=True)
     
     codigo = Column('remedfiscod', VARCHAR(20), nullable=False, index=True)
     descripcion = Column('remedfisdes', VARCHAR(50), nullable=False)
     
     _cant_ramales = Column('remedfiscntramal', NUMBER(9, 0, False))
+    envia_telemetria = Column('remedfisenvtel', BOOLEAN)
     usuario_alta = Column('remedfisusualt', VARCHAR(128), nullable=False)
     fecha_alta = Column('remedfisfecalt', DateTime, nullable=False)
     usuario_ult_mod = Column('remedfisusumod', VARCHAR(128), nullable=False)
     fecha_ult_mod = Column('remedfisfecmod', DateTime, nullable=False)
     usuario_baja = Column('remedfisusubaj', VARCHAR(128))
     fecha_baja = Column('remedfisfecbaj', DateTime)
+    
+    
     #Relaciones
     tipoMedidor = relationship('TipoMedidorFiscal')
     empresa = relationship('Empresa', back_populates="medidores")
@@ -262,6 +266,9 @@ class MedidorFiscal(Base):
         primera_fecha = date(2021, 6, 1)
         if (not ultimaLecturaMedidor ):
             ultimaLecturaMedidor = primera_fecha - timedelta(minutes=30)
+            #en caso de que una empresa este dada de alta desde de la fecha convenida, se tomará la fecha de alta como primera fecha a buscar
+            if (self.fecha_alta.date()> primera_fecha):
+                ultimaLecturaMedidor = self.fecha_alta - timedelta(minutes=3)
         return ultimaLecturaMedidor
 
         
@@ -279,7 +286,7 @@ class MedidorFiscal(Base):
         #el rango de fechas a descargar debe arrancar una hora después de la última lectura
         fechasParaDescargar = [date.fromordinal(i) for i in range((ultimaLectura + timedelta(hours=1)).toordinal(), 
                                                                   (date.today() + timedelta(days=1)).toordinal())]
-        print(fechasParaDescargar)
+        
         session = inspect(self).session
         for fecha in fechasParaDescargar:
             nombreArchivo = self.getNombreArchivoLecturasRes11(ramal, fecha)
@@ -293,6 +300,7 @@ class MedidorFiscal(Base):
                     logging.debug('El archivo ya existe en la DB')
                 except NoResultFound:
                     #Crear un nuevo archivo
+                    medidor = session.query(MedidorFiscal).filter_by(id=self.id).one()
                     currArchivo = ArchivoLecturaRes11(medidor_id = self.id,
                                                       nombre = nombreArchivo,
                                                       tamanio = 0,                
@@ -300,6 +308,7 @@ class MedidorFiscal(Base):
                                                       cantidad_registros = 0,    
                                                       cantidad_registros_ok = 0, 
                                                       cantidad_registros_err = 0,
+                                                      medidor=medidor,
                                                       hash = None)               
                     logging.debug('El archivo no existe en la DB, insertando un nuevo registro')
                     session.add(currArchivo)  

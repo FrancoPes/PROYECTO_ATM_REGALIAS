@@ -176,12 +176,13 @@ def main(argv=None): # IGNORE:C0111
         cantArchivos = MedidorFiscal.getCantidadArchivosAProcesar(base.session)
         logging.info(f"Cantidad de archivos a procesar : {cantArchivos} del dia")
         
-        for empresa in base.session.query(Empresa).filter(Empresa.medidores!=None).order_by(Empresa.nombre):
+        for empresa in base.session.query(Empresa).filter(Empresa.medidores!=None, Empresa.conexion != None).order_by(Empresa.nombre):
             logging.info("------------------------------------------------------------------------------------------")
             logging.info(f"Procesando Empresa {empresa.id}-{empresa.nombre}")
             if (empresa.conexion):
                 logging.debug(f"Empresa con conexion")
                 try:
+                    
                     if (empresa.conexion.protocolo in ('FTPES','FTPS')):
                         logging.debug(f"Se descarta ya que el protocolo es: {empresa.conexion.protocolo}")
                         continue
@@ -195,15 +196,24 @@ def main(argv=None): # IGNORE:C0111
                             #Procesar cada medidor
                             for medidor in empresa.medidores:
                                 try:
-                                    logging.info(f"Procesando medidor: {medidor.descripcion}")
+                                    if(not medidor.envia_telemetria):
+                                        logging.debug(f"Medidor no envia telemetria: {medidor.descripcion}")
+                                        continue
+                                    
+                                    if(medidor.fecha_baja != None):
+                                        logging.debug(f"Medidor se ha dado de baja: {medidor.descripcion} - {medidor.fecha_baja}")
+                                        continue
+                                    
+                                    logging.info(f"Procesando medidor: {medidor.codigo} - {medidor.descripcion}")
                                     medidor.dirDescargas = config.DIR_DESCARGAS
                                     #Setear los formatos de fecha, hora, etc que están definidos en la conexión
 #                                     medidor.setFormatosFromDict(empresa.conexion.filtros2Dict())
                                     medidor.cargarNuevasLecturas()
                                 except Exception as e:
                                     logging.error(f"Error al procesar el medidor (error={e})")
-                                    if (DEBUG or TESTRUN):
-                                        raise(e)
+#                                    Es necesario continuar con la conexion activa hasta que termine el bucle completo
+#                                    if (DEBUG or TESTRUN):
+#                                        raise(e)
                     finally:
                         empresa.conexion.disconnectServer()            
                 except Exception as e:

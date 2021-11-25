@@ -25,7 +25,7 @@ def initSQLAlchemy(engineURL, **Kwargs):
 #                                "nencoding": "ISO-8859-15"
 #                            })
 
-    Session = sessionmaker(bind=engine)
+    Session = sessionmaker(bind=engine, autoflush=False)
     session = Session()
 
 
