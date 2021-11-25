@@ -1,0 +1,7 @@
+data/descargas/*
+.project
+.pydevproject
+.settings/*
+*.pyc
+packages/telemedicion_regalias/__pycache__/*.pyc
+lectura_telemedicion.log
